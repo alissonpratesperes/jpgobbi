@@ -169,9 +169,7 @@ nav#sideNav {
 
 	top: 0;
 
-	background-color: rgba(239, 239, 235, .1);
-
-	backdrop-filter: blur(30px);
+	background-color: transparent;
 
 	z-index: 2;
 
@@ -231,7 +229,9 @@ nav#sideNav ul li a.menu_option i.fas {
 
 	background-color: transparent;
 
-	color: red;
+	color: #496d96;
+
+	text-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
 
 }
 
@@ -262,6 +262,14 @@ div.menu_button {
 	background-color: transparent;
 
 	z-index: 3;
+
+}
+
+div.menu_button:hover {
+
+	transform: rotate(360deg);
+
+	transition: all .7s ease-in-out;
 
 }
 
@@ -314,8 +322,6 @@ div.menu_button.open div.menu_button_burguer {
 	transform: translateX(-50px);
 
 	background-color: transparent;
-
-	box-shadow: none;
 
 }
 
