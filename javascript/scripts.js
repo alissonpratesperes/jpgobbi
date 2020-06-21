@@ -18,7 +18,7 @@ menu_btn.addEventListener('click', () => {
 
   } else {
 
-	menu_btn.classList.remove('open');
+    menu_btn.classList.remove('open');
 
     menuOpen = false;
 

@@ -171,6 +171,8 @@ nav#sideNav {
 
 	background-color: transparent;
 
+	backdrop-filter: blur(20px);
+
 	z-index: 2;
 
 	transition: .5s ease;
@@ -213,9 +215,9 @@ nav#sideNav ul li {
 
 nav#sideNav ul li:hover {
 
-	font-size: 45px;
+	font-size: 40px;
 
-	transition: all .3s ease-in-out;
+	transition: all .3s ease;
 
 }
 
@@ -231,7 +233,13 @@ nav#sideNav ul li a.menu_option i.fas {
 
 	color: #496d96;
 
-	text-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+	text-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+
+}
+
+nav#sideNav ul li a.menu_option i.fas:hover {
+
+	color: #868D97;
 
 }
 
@@ -262,14 +270,6 @@ div.menu_button {
 	background-color: transparent;
 
 	z-index: 3;
-
-}
-
-div.menu_button:hover {
-
-	transform: rotate(360deg);
-
-	transition: all .7s ease-in-out;
 
 }
 
