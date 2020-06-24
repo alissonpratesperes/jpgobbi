@@ -251,6 +251,164 @@ section#about div.about-right-col div.about-text h1.about-title {
 
 }
 
+section#services {
+
+	height: 100vh;
+
+	border: 1px solid yellow;
+
+	overflow: hidden;
+
+}
+
+section#services div.slideshow {
+
+	width: 90%;
+
+	border: 1px solid black;
+
+	margin: auto;
+
+}
+
+section#services div.slideshow div.slides div.slide {
+
+	display: flex;
+
+	align-items: center;
+
+	flex-direction: row;
+
+	width: 100%;
+
+	border: 1px solid black;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_left_col {
+
+	flex-basis: 50%;
+
+	border: 1px solid red;
+
+	margin-left: 35px;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-services {
+
+	width: 600px;
+
+	height: 600px;
+
+	background-image: url('../vectors/handshake.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 35px;
+
+	border: 1px solid blue;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_right_col {
+
+	flex-basis: 50%;
+
+	margin-right: 35px;
+
+	border: 1px solid blue;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-armed_surveillance {
+
+	width: 600px;
+
+	height: 600px;
+
+	background-image: url('../vectors/surveillance_guard.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 35px;
+
+	border: 1px solid blue;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-unarmed_surveillance {
+
+	width: 600px;
+
+	height: 600px;
+
+	background-image: url('../vectors/unarmed_surveillance.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 35px;
+
+	border: 1px solid blue;
+
+}
+
+section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-recepcionist {
+
+	width: 600px;
+
+	height: 600px;
+
+	background-image: url('../vectors/recepcionist.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 35px;
+
+	border: 1px solid blue;
+
+}
+
+section#services div.slideshow div.slides div.navigation {
+
+
+	border: 5px solid limegreen;
+
+	display: flex;
+
+	justify-content: center;
+
+}
+
+section#services div.slideshow div.navigation label.bar {
+
+	width: 50px;
+
+	height: 10px;
+
+	border: 2px solid red;
+
+
+
+
+}
+
 nav#sideNav {
 
 	width: 300px;
