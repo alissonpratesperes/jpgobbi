@@ -255,157 +255,117 @@ section#services {
 
 	height: 100vh;
 
-	border: 1px solid yellow;
-
-	overflow: hidden;
-
 }
 
-section#services div.slideshow {
+section#services div.container {
 
-	width: 90%;
-
-	border: 1px solid black;
+	width: 100%;
 
 	margin: auto;
 
 }
 
-section#services div.slideshow div.slides div.slide {
+section#services div.container div.carousel {
+
+	border: 2px solid red;
+
+	height: 100vh;
+
+	overflow: hidden;
+
+	position: relative;
+
+}
+
+section#services div.container div.carousel div.slider {
+
+	height: 100%;
 
 	display: flex;
 
-	align-items: center;
+	width: 500%;
 
-	flex-direction: row;
-
-	width: 100%;
-
-	border: 1px solid black;
+	transition: all 0.5s ease;
 
 }
 
-section#services div.slideshow div.slides div.slide div.slide_left_col {
+section#services div.container div.carousel div.slider section.subsection_slider {
 
-	flex-basis: 50%;
-
-	border: 1px solid red;
-
-	margin-left: 35px;
-
-}
-
-section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-services {
-
-	width: 600px;
-
-	height: 600px;
-
-	background-image: url('../vectors/handshake.svg');
-
-	background-size: 600px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	margin-left: 35px;
-
-	border: 1px solid blue;
-
-}
-
-section#services div.slideshow div.slides div.slide div.slide_right_col {
-
-	flex-basis: 50%;
-
-	margin-right: 35px;
-
-	border: 1px solid blue;
-
-}
-
-section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-armed_surveillance {
-
-	width: 600px;
-
-	height: 600px;
-
-	background-image: url('../vectors/surveillance_guard.svg');
-
-	background-size: 600px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	margin-left: 35px;
-
-	border: 1px solid blue;
-
-}
-
-section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-unarmed_surveillance {
-
-	width: 600px;
-
-	height: 600px;
-
-	background-image: url('../vectors/unarmed_surveillance.svg');
-
-	background-size: 600px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	margin-left: 35px;
-
-	border: 1px solid blue;
-
-}
-
-section#services div.slideshow div.slides div.slide div.slide_left_col div#left_col_image-recepcionist {
-
-	width: 600px;
-
-	height: 600px;
-
-	background-image: url('../vectors/recepcionist.svg');
-
-	background-size: 600px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	margin-left: 35px;
-
-	border: 1px solid blue;
-
-}
-
-section#services div.slideshow div.slides div.navigation {
-
-
-	border: 5px solid limegreen;
+	flex-basis: 100%;
 
 	display: flex;
 
 	justify-content: center;
 
+	align-items: center;
+
 }
 
-section#services div.slideshow div.navigation label.bar {
+section#services div.container div.carousel div.controls span.arrow {
 
-	width: 50px;
+	position: absolute;
 
-	height: 10px;
+	top: 50%;
 
-	border: 2px solid red;
+	transform: translateY(-50%);
 
+	cursor: pointer;
 
+}
 
+section#services div.container div.carousel div.controls span.left {
+
+	left: 20px;
+
+}
+
+section#services div.container div.carousel div.controls span.right {
+
+	right: 20px;
+
+}
+
+section#services div.container div.carousel div.controls ul#section_indicators {
+
+	position: absolute;
+
+	bottom: 20px;
+
+	left: 50%;
+
+	transform: translate(-50%);
+
+	list-style: none;
+
+	display: flex;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+section#services div.container div.carousel div.controls ul#section_indicators li {
+
+	width: 15px;
+
+	height: 15px;
+
+	border: 2px solid #333333;
+
+	border-radius: 50px;
+
+	margin: 10px;
+
+	background-color: #333333;
+
+	cursor: pointer;
+
+}
+
+section#services div.container div.carousel div.controls ul#section_indicators li.selected {
+
+	background-color: transparent;
 
 }
 
