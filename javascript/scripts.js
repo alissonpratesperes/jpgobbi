@@ -2,7 +2,11 @@ const menu_btn = document.querySelector('div.menu_button');
 
 const side_nav = document.querySelector('nav#sideNav');
 
-const section_header = document.querySelector('section#header')
+const section_header = document.querySelector('section#header');
+
+const section_about = document.querySelector('section#about');
+
+const section_services = document.querySelector('section#services');
 
 let menuOpen = false;
 
@@ -49,6 +53,34 @@ section_header.addEventListener('click', () => {
     	sideNav.style.right = "-300px"
 
 	}
+
+});
+
+section_about.addEventListener('click', () => {
+
+    if(menuOpen == true) {
+
+        menu_btn.classList.remove('open');
+
+        menuOpen = false;
+
+        sideNav.style.right = "-300px"
+
+    }
+
+});
+
+section_services.addEventListener('click', () => {
+
+    if(menuOpen == true) {
+
+        menu_btn.classList.remove('open');
+
+        menuOpen = false;
+
+        sideNav.style.right = "-300px"
+
+    }
 
 });
 
