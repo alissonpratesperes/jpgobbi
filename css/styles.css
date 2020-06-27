@@ -303,9 +303,7 @@ section#services div.container div.carousel div.controls span.arrow {
 
 	position: absolute;
 
-	top: 50%;
-
-	transform: translateY(-50%);
+	bottom: 20px;
 
 	cursor: pointer;
 
@@ -315,11 +313,15 @@ section#services div.container div.carousel div.controls span.left {
 
 	left: 20px;
 
+	color: #B1BECD;
+
 }
 
 section#services div.container div.carousel div.controls span.right {
 
 	right: 20px;
+
+	color: #B1BECD;
 
 }
 
@@ -349,13 +351,13 @@ section#services div.container div.carousel div.controls ul#section_indicators l
 
 	height: 15px;
 
-	border: 2px solid #333333;
+	border: 2px solid #B1BECD;
 
 	border-radius: 50px;
 
 	margin: 10px;
 
-	background-color: #333333;
+	background-color: #B1BECD;
 
 	cursor: pointer;
 
