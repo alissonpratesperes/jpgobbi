@@ -267,8 +267,6 @@ section#services div.container {
 
 section#services div.container div.carousel {
 
-	border: 2px solid red;
-
 	height: 100vh;
 
 	overflow: hidden;
@@ -387,7 +385,41 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	flex-basis: 50%;
 
-	border: 1px solid limegreen;
+	margin-left: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
+
+	font-family: 'Maven Pro';
+
+	font-weight: 900;
+
+	font-size: 30px;
+
+	color: #496D96;
+
+	text-transform: uppercase;
+
+	box-sizing: border-box;
+
+	padding-left: 50px;
+
+	margin-bottom: 20px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
+
+	font-family: 'Nunito';
+
+	font-weight: 400;
+
+	font-size: 20px;
+
+	color: #464146;
+
+	text-align: justify;
 
 }
 
@@ -399,13 +431,95 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	background-image: url('../vectors/handshake.svg');
 
-	background-size: 600px;
+	background-size: 500px;
 
 	background-repeat: no-repeat;
 
 	background-position: center;
 
-	border: 1px solid black;
+	margin-left: 50px;
+
+	margin-right: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
+
+	flex-basis: 50%;
+
+	height: 600px;
+
+	background-image: url('../vectors/armed_guard.svg');
+
+	background-size: 500px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 50px;
+
+	margin-right: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
+
+	flex-basis: 50%;
+
+	height: 600px;
+
+	background-image: url('../vectors/unarmed_guard.svg');
+
+	background-size: 500px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 50px;
+
+	margin-right: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
+
+	flex-basis: 50%;
+
+	height: 600px;
+
+	background-image: url('../vectors/recepcionist.svg');
+
+	background-size: 500px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 50px;
+
+	margin-right: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
+
+	flex-basis: 50%;
+
+	height: 600px;
+
+	background-image: url('../vectors/contact.svg');
+
+	background-size: 500px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	margin-left: 50px;
+
+	margin-right: 50px;
 
 }
 
