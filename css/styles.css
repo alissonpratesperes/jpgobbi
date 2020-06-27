@@ -369,6 +369,46 @@ section#services div.container div.carousel div.controls ul#section_indicators l
 
 }
 
+section#services div.container div.carousel div.slider section.subsection_slider {
+
+	display: flex;
+
+	align-items: center;
+
+	flex-wrap: nowrap;
+
+	padding: 50px;
+
+	box-sizing: border-box;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
+
+	flex-basis: 50%;
+
+	border: 1px solid limegreen;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
+
+	flex-basis: 50%;
+
+	height: 600px;
+
+	background-image: url('../vectors/handshake.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	border: 1px solid black;
+
+}
+
 nav#sideNav {
 
 	width: 300px;
