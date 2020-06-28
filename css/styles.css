@@ -30,7 +30,7 @@ section#header div.container div.page_turner {
 
 	background-repeat: no-repeat;
 
-	background-size: cover;
+	background-size: 400px;
 
 	transform: rotate(90deg);
 
@@ -60,11 +60,9 @@ section#header div.container img.company_logo {
 
 section#header div.container div.header_text {
 
-	max-width: 1200px;
-
 	text-align: center;
 
-	margin: 30px auto 20px auto;
+	margin: 30px auto;
 
 	background-color: transparent;
 
@@ -74,7 +72,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 	font-family: 'Maven Pro';
 
-	font-weight: 400;
+	font-weight: 600;
 
 	font-size: 40px;
 
@@ -86,7 +84,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 section#header div.container div.header_text h1.line {
 
-	width: 16em;
+	width: 20em;
 
 	margin: 0 auto;
 
@@ -104,7 +102,7 @@ section#header div.container div.header_text h1.anim-typwriter span.header_span 
 
 	font-family: 'Maven Pro';
 
-	font-weight: 600;
+	font-weight: 800;
 
 	color: #496D96;
 
@@ -112,7 +110,7 @@ section#header div.container div.header_text h1.anim-typwriter span.header_span 
 
 section#header div.container div.header_text h1.anim-typwriter {
 
-	animation: typewriter 3s steps(40) 0.1s 1 normal both,
+	animation: typewriter 4s steps(40) 0.5s 1 normal both,
 	blinkTextCursor 1100ms steps(40) infinite normal;
 
 }
@@ -121,7 +119,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 	from { width: 0px;  }
 
-	to { width: 16em;  }
+	to { width: 17em;  }
 
 }
 
@@ -135,25 +133,83 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 section#header div.container div.header_text p.header_content {
 
-	width: 100%;
-
 	justify-content: center;
 
 	font-family: 'Nunito';
 
 	font-weight: 200;
 
-	font-size: 22px;
+	font-size: 20px;
 
 	color: #02020A;
 
-	margin-top: 20px;
+	margin-top: 10px;
 
 	margin-left: auto;
 
 	margin-right: auto;
 
 	text-align: justify;
+
+}
+
+section#header div.container div#mouse-middle {
+
+	position: absolute;
+
+	left: 50%;
+
+	top: 5%;
+
+	transform: translateX(-50%);
+
+	margin: auto;
+
+}
+
+section#header div.container div#mouse-middle div#mouse {
+
+	width: 50px;
+
+	height: 90px;
+
+	border: 3px solid #B1BECD;
+
+	border-radius: 50px;
+
+}
+
+section#header div.container div#mouse-middle div#mouse::before {
+
+	content: "";
+
+	width: 20px;
+
+	height: 20px;
+
+	position: absolute;
+
+	top: 15px;
+
+	background-color: #BDCFDA;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	border-radius: 50%;
+
+	opacity: 1;
+
+	animation: mouse 2s infinite;
+
+}
+
+@keyframes mouse {
+
+	from { opacity: 1; top: 15px; }
+
+	to { opacity: 0; top: 65px; }
 
 }
 
