@@ -159,13 +159,17 @@ section#header div.container div.header_text p.header_content {
 
 section#about {
 
-	padding: 100px 0;
+	height: 100vh;
+
+	padding: 100px 0px;
 
 	display: flex;
 
 	align-items: center;
 
-	flex-wrap: wrap;
+	//flex-wrap: wrap;
+
+	border: 1px solid limegreen;
 
 }
 
@@ -189,6 +193,8 @@ section#about div.about-left-col div#left-col-image {
 
 	margin-left: 35px;
 
+	border: 1px solid black;
+
 }
 
 section#about div.about-right-col {
@@ -197,17 +203,21 @@ section#about div.about-right-col {
 
 	text-align: justify;
 
+	border: 1px solid red;
+
+	margin-right: 130px;
+
+	margin-left: 50px;
+
 }
 
-section#about div.about-right-col div.about-text {
+//section#about div.about-right-col div.about-text {
 
 	margin-right: 80px;
 
 }
 
 section#about div.about-right-col div.about-text p.about-content {
-
-	width: 90%;
 
 	font-family: 'Nunito';
 
@@ -216,6 +226,8 @@ section#about div.about-right-col div.about-text p.about-content {
 	font-size: 18px;
 
 	color: #464146;
+
+	text-align: justify;
 
 }
 
@@ -235,8 +247,6 @@ section#about div.about-right-col div.about-text h1.about-title {
 
 	font-size: 40px;
 
-	width: 90%;
-
 	color: #496D96;
 
 	text-transform: uppercase;
@@ -249,11 +259,15 @@ section#about div.about-right-col div.about-text h1.about-title {
 
 	margin-bottom: 20px;
 
+	border: 1px solid black;
+
 }
 
 section#services {
 
 	height: 100vh;
+
+	border: 1px solid yellow;
 
 }
 
@@ -389,6 +403,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	margin-left: 50px;
 
+	border: 1px solid grey;
+
 }
 
 section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
@@ -442,6 +458,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
+
+	border: 1px solid darkgrey;
 
 }
 
@@ -522,6 +540,96 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
+
+}
+
+section#team {
+
+	padding: 100px 0px;
+
+	height: 100vh;
+
+	display: flex;
+
+	align-items: center;
+
+	border: 1px solid black;
+
+}
+
+section#team div.team-left-col {
+
+	flex-basis: 50%;
+
+	margin-left: 50px;
+
+	border: 1px solid red;
+
+}
+
+section#team div.team-left-col div#left-col-image {
+
+	height: 600px;
+
+	background-image: url('../vectors/team_group.svg');
+
+	background-size: 600px;
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+section#team div.team-right-col {
+
+	flex-basis: 50%;
+
+	border: 1px solid limegreen;
+
+	margin-right: 130px;
+
+	margin-left: 50px;
+
+}
+
+section#team div.team-right-col h1.team-title {
+
+	font-family: 'Maven Pro';
+
+	font-weight: 600;
+
+	font-size: 30px;
+
+	color: #496D96;
+
+	text-transform: uppercase;
+
+	text-align: right;
+
+	box-sizing: border-box;
+
+	padding-right: 50px;
+
+	margin-bottom: 20px;
+
+	border: 1px solid black;
+
+}
+
+section#team div.team-right-col p.team-content {
+
+	font-family: 'Nunito';
+
+	font-weight: 400;
+
+	font-size: 20px;
+
+	text-align: justify;
+
+	color: #464146;
+
+	margin-bottom: 100px;
 
 }
 
