@@ -60,6 +60,8 @@ section#header div.container img.company_logo {
 
 section#header div.container div.header_text {
 
+	width: 80%;
+
 	text-align: center;
 
 	margin: 30px auto;
@@ -223,10 +225,6 @@ section#about {
 
 	align-items: center;
 
-	//flex-wrap: wrap;
-
-	border: 1px solid limegreen;
-
 }
 
 section#about div.about-left-col {
@@ -237,19 +235,17 @@ section#about div.about-left-col {
 
 section#about div.about-left-col div#left-col-image {
 
-	width: 600px;
-
 	height: 600px;
 
 	background-image: url('../vectors/security_guards.svg');
 
 	background-repeat: no-repeat;
 
+	background-position: center;
+
 	background-size: 600px;
 
-	margin-left: 35px;
-
-	border: 1px solid black;
+	margin-left: 50px;
 
 }
 
@@ -259,17 +255,9 @@ section#about div.about-right-col {
 
 	text-align: justify;
 
-	border: 1px solid red;
-
-	margin-right: 130px;
+	margin-right: 140px;
 
 	margin-left: 50px;
-
-}
-
-//section#about div.about-right-col div.about-text {
-
-	margin-right: 80px;
 
 }
 
@@ -291,7 +279,7 @@ section#about div.about-right-col div.about-text p.about-content span.content-ma
 
 	font-weight: 700;
 
-	color: #496D96;
+	color: #868D97;
 
 }
 
@@ -314,8 +302,6 @@ section#about div.about-right-col div.about-text h1.about-title {
 	padding-right: 50px;
 
 	margin-bottom: 20px;
-
-	border: 1px solid black;
 
 }
 
