@@ -8,6 +8,8 @@ const section_about = document.querySelector('section#about');
 
 const section_services = document.querySelector('section#services');
 
+const section_team = document.querySelector('section#team');
+
 let menuOpen = false;
 
     const slider = document.querySelector('div.slider');
@@ -79,6 +81,20 @@ section_services.addEventListener('click', () => {
         menuOpen = false;
 
         sideNav.style.right = "-300px"
+
+    }
+
+});
+
+section_team.addEventListener('click', () => {
+
+    if(menuOpen == true) {
+
+        menu_btn.classList.remove('open');
+
+        menuOpen = false;
+
+        sideNav.style.right = "-300px";
 
     }
 

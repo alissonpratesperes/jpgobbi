@@ -683,7 +683,7 @@ section#team div.team-left-col div#left-col-image {
 
 	background-image: url('../vectors/team_group.svg');
 
-	background-size: 600px;
+	background-size: 550px;
 
 	background-repeat: no-repeat;
 
@@ -695,9 +695,13 @@ section#team div.team-right-col {
 
 	flex-basis: 50%;
 
+	display: flex;
+
+	flex-direction: column;
+
 	border: 1px solid limegreen;
 
-	margin-right: 130px;
+	margin-right: 140px;
 
 	margin-left: 50px;
 
