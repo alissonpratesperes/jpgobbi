@@ -309,8 +309,6 @@ section#services {
 
 	height: 100vh;
 
-	border: 1px solid yellow;
-
 }
 
 section#services div.container {
@@ -367,7 +365,7 @@ section#services div.container div.carousel div.controls span.arrow {
 
 section#services div.container div.carousel div.controls span.left {
 
-	left: 50px;
+	left: 130px;
 
 	color: #B1BECD;
 
@@ -375,7 +373,7 @@ section#services div.container div.carousel div.controls span.left {
 
 section#services div.container div.carousel div.controls span.right {
 
-	right: 50px;
+	right: 130px;
 
 	color: #B1BECD;
 
@@ -385,9 +383,9 @@ section#services div.container div.carousel div.controls ul#section_indicators {
 
 	position: absolute;
 
-	bottom: 20px;
-
 	left: 50%;
+
+	top: 20px;
 
 	transform: translate(-50%);
 
@@ -398,6 +396,8 @@ section#services div.container div.carousel div.controls ul#section_indicators {
 	margin: 0px;
 
 	padding: 0px;
+
+	background-color: transparent;
 
 }
 
@@ -433,9 +433,9 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	flex-wrap: nowrap;
 
-	padding: 50px;
-
 	box-sizing: border-box;
+
+	padding: 50px;
 
 }
 
@@ -443,9 +443,11 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	flex-basis: 50%;
 
-	margin-left: 50px;
+	display: flex;
 
-	border: 1px solid grey;
+	flex-direction: column;
+
+	margin-left: 50px;
 
 }
 
@@ -473,11 +475,11 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	font-family: 'Nunito';
 
-	font-weight: 400;
+	font-weight: 200;
 
 	font-size: 20px;
 
-	color: #464146;
+	color: #656266;
 
 	text-align: justify;
 
@@ -500,8 +502,6 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
-
-	border: 1px solid darkgrey;
 
 }
 
@@ -582,6 +582,74 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link {
+
+	width: 250px;
+
+	position: relative;
+
+	display: inline-block;
+
+	text-align: center;
+
+	margin-top: 100px;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	padding: 20px;
+
+	font-size: 40px;
+
+	letter-spacing: 3px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+	border-radius: 20px;
+
+	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				-2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				2px 2px 12px rgba(70, 65, 70, 0.3);
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover {
+
+	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover span#contact_slide_button {
+
+	display: inline-block;
+
+	transform: scale(0.98);
+
+}
+
+section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col span#contact_slide_button {
+
+	font-family: 'Maven Pro';
+
+	font-weight: 600;
+
+	color: #98979A;
 
 }
 
