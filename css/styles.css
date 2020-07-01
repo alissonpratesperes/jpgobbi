@@ -20,57 +20,64 @@ section#header {
 
 }
 
-section#header div.container div.page_turner {
-
-	width: 400px;
-
-	height: 400px;
-
-	background-image: url('../vectors/page_turner.svg');
-
-	background-repeat: no-repeat;
-
-	background-size: 400px;
-
-	transform: rotate(90deg);
+section#header div.page_turner {
 
 	position: absolute;
 
 	top: 0px;
 
-	right: 0px;
+	left: 0px;
+
+	width: 650px;
+
+	height: 100vh;
+
+	background-image: url('../vectors/page_turner.svg');
+
+	background-repeat: no-repeat;
+
+	background-size: 660px;
 
 }
 
-section#header div.container {
+section#header div.company_logo {
 
-	background-color: transparent;
+	position: absolute;
 
-	margin-right: 100px;
+	left: 20px;
 
-	margin-left: 100px;
+	top: 20px;
+
+	width: 400px;
+
+	height: 400px;
+
+	background: transparent;
+
+	background-image: url('../images/jpgobbi_logo_withoutbg.png');
+
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	background-size: 600px;
 
 }
 
-section#header div.container img.company_logo {
-
-	margin-top: 50px;
-
-}
-
-section#header div.container div.header_text {
+//section#header div.header_text {
 
 	width: 80%;
 
-	text-align: center;
+	text-align: justify;
 
-	margin: 30px auto;
 
 	background-color: transparent;
 
+	border: 1px solid black;
+
 }
 
-section#header div.container div.header_text h1.anim-typwriter {
+//section#header div.header_text h1.anim-typwriter {
 
 	font-family: 'Maven Pro';
 
@@ -84,7 +91,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 }
 
-section#header div.container div.header_text h1.line {
+//section#header div.header_text h1.line {
 
 	width: 20em;
 
@@ -100,7 +107,7 @@ section#header div.container div.header_text h1.line {
 
 }
 
-section#header div.container div.header_text h1.anim-typwriter span.header_span {
+//section#header div.header_text h1.anim-typwriter span.header_span {
 
 	font-family: 'Maven Pro';
 
@@ -110,14 +117,14 @@ section#header div.container div.header_text h1.anim-typwriter span.header_span 
 
 }
 
-section#header div.container div.header_text h1.anim-typwriter {
+//section#header div.header_text h1.anim-typwriter {
 
 	animation: typewriter 4s steps(40) 0.5s 1 normal both,
 	blinkTextCursor 1100ms steps(40) infinite normal;
 
 }
 
-@keyframes typewriter {
+//@keyframes typewriter {
 
 	from { width: 0px;  }
 
@@ -125,7 +132,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 }
 
-@keyframes blinkTextCursor {
+//@keyframes blinkTextCursor {
 
 	from { border-right-color: #98979A;  }
 
@@ -133,7 +140,7 @@ section#header div.container div.header_text h1.anim-typwriter {
 
 }
 
-section#header div.container div.header_text p.header_content {
+//section#header div.header_text p.header_content {
 
 	justify-content: center;
 
@@ -147,21 +154,17 @@ section#header div.container div.header_text p.header_content {
 
 	margin-top: 10px;
 
-	margin-left: auto;
-
-	margin-right: auto;
-
 	text-align: justify;
 
 }
 
-section#header div.container div#mouse-middle {
+section#header div#mouse-middle {
 
 	position: absolute;
 
 	left: 50%;
 
-	top: 5%;
+	bottom: 5%;
 
 	transform: translateX(-50%);
 
@@ -169,7 +172,7 @@ section#header div.container div#mouse-middle {
 
 }
 
-section#header div.container div#mouse-middle div#mouse {
+section#header div#mouse-middle div#mouse {
 
 	width: 50px;
 
@@ -181,7 +184,7 @@ section#header div.container div#mouse-middle div#mouse {
 
 }
 
-section#header div.container div#mouse-middle div#mouse::before {
+section#header div#mouse-middle div#mouse::before {
 
 	content: "";
 
@@ -218,8 +221,6 @@ section#header div.container div#mouse-middle div#mouse::before {
 section#about {
 
 	height: 100vh;
-
-	padding: 100px 0px;
 
 	display: flex;
 
@@ -267,7 +268,7 @@ section#about div.about-right-col div.about-text p.about-content {
 
 	font-weight: 200;
 
-	font-size: 20px;
+	font-size: 18px;
 
 	color: #464146;
 
@@ -365,7 +366,7 @@ section#services div.container div.carousel div.controls span.arrow {
 
 section#services div.container div.carousel div.controls span.left {
 
-	left: 130px;
+	left: 200px;
 
 	color: #B1BECD;
 
@@ -373,7 +374,7 @@ section#services div.container div.carousel div.controls span.left {
 
 section#services div.container div.carousel div.controls span.right {
 
-	right: 130px;
+	right: 200px;
 
 	color: #B1BECD;
 
@@ -385,7 +386,7 @@ section#services div.container div.carousel div.controls ul#section_indicators {
 
 	left: 50%;
 
-	top: 20px;
+	bottom: 20px;
 
 	transform: translate(-50%);
 
@@ -655,8 +656,6 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 section#team {
 
-	padding: 100px 0px;
-
 	height: 100vh;
 
 	display: flex;
@@ -761,6 +760,8 @@ nav#sideNav {
 
 	background-color: transparent;
 
+	backdrop-filter: blur(30px);
+
 	z-index: 2;
 
 	transition: .5s ease;
@@ -803,7 +804,7 @@ nav#sideNav ul li {
 
 nav#sideNav ul li:hover {
 
-	font-size: 40px;
+	font-size: 50px;
 
 	transition: all .3s ease;
 
