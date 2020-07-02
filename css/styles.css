@@ -164,7 +164,7 @@ section#header div#mouse-middle {
 
 	left: 50%;
 
-	bottom: 5%;
+	bottom: 2%;
 
 	transform: translateX(-50%);
 
@@ -834,9 +834,9 @@ nav#sideNav ul li a.menu_option i.fas:hover {
 
 div.menu_button {
 
-	width: 120px;
+	width: 100px;
 	 
-	height: 120px;
+	height: 100px;
 
 	position: fixed;
 
@@ -844,9 +844,9 @@ div.menu_button {
 
 	top: 0;
 
-	margin-right: 15px;
+	margin-right: 10px;
 
-	margin-top: 15px;
+	margin-top: 10px;
 
  	display: flex;
 
@@ -864,13 +864,13 @@ div.menu_button {
 
 div.menu_button div.menu_button_burguer {
 
-	width: 100px;
+	width: 80px;
 
- 	height: 20px;
+ 	height: 15px;
 
 	background-color: #496D96;
 
-	border-radius: 5px;
+	border-radius: 10px;
 
 	transition: all .5s ease;
 
@@ -882,13 +882,13 @@ div.menu_button div.menu_button_burguer::before, div.menu_button div.menu_button
 
 	position: absolute;
 
-	width: 100px;
+	width: 80px;
 
-	height: 20px;
+	height: 15px;
 
 	background-color: #B1BECD;
 
-	border-radius: 5px;
+	border-radius: 10px;
 
 	transition: all .5s ease;
 
