@@ -593,7 +593,7 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	background-image: url('../vectors/contact.svg');
 
-	background-size: 500px;
+	background-size: 450px;
 
 	background-repeat: no-repeat;
 
@@ -767,7 +767,7 @@ section#team div.team-right-col p.team-content {
 
 nav#sideNav {
 
-	width: 300px;
+	width: 220px;
 
 	height: 100vh;
 
@@ -823,7 +823,7 @@ nav#sideNav ul li {
 
 nav#sideNav ul li:hover {
 
-	font-size: 50px;
+	font-size: 40px;
 
 	transition: all .3s ease;
 
@@ -839,15 +839,13 @@ nav#sideNav ul li a.menu_option i.fas {
 
 	background-color: transparent;
 
-	color: #496d96;
-
-	text-shadow: 5px 2px 20px rgba(70, 65, 70, .5);
+	color: rgb(152, 151, 154);
 
 }
 
 nav#sideNav ul li a.menu_option i.fas:hover {
 
-	color: #868D97;
+	color: #496D96;
 
 }
 
@@ -887,7 +885,7 @@ div.menu_button div.menu_button_burguer {
 
  	height: 20px;
 
-	background-color: #496D96;
+	background-color: #B1BECD; 
 
 	border-radius: 5px;
 
@@ -905,7 +903,7 @@ div.menu_button div.menu_button_burguer::before, div.menu_button div.menu_button
 
 	height: 20px;
 
-	background-color: #B1BECD;
+	background-color: #496D96;
 
 	border-radius: 5px;
 
