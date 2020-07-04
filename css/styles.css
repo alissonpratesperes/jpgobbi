@@ -20,23 +20,15 @@ section#header {
 
 }
 
-section#header div.page_turner {
-
-	position: absolute;
-
-	top: 0px;
-
-	left: 0px;
-
-	width: 650px;
+section#header div.header_detail {
 
 	height: 100vh;
 
-	background-image: url('../vectors/page_turner.svg');
+	background-image: url('../vectors/wave_header.svg');
 
 	background-repeat: no-repeat;
 
-	background-size: 660px;
+	background-size: cover;
 
 }
 
@@ -44,9 +36,11 @@ section#header div.company_logo {
 
 	position: absolute;
 
-	left: 20px;
+	left: 5%;
 
-	top: 20px;
+	top: 10%;
+
+	transform: translate(-5%, -10%);
 
 	width: 400px;
 
@@ -60,24 +54,35 @@ section#header div.company_logo {
 
 	background-position: center;
 
-	background-size: 600px;
+	background-size: 650px;
 
 }
 
-//section#header div.header_text {
+section#header div.header_text {
 
-	width: 80%;
+	width: 50%;
 
-	text-align: justify;
+	position: absolute;
 
+	top: 50%;
 
-	background-color: transparent;
+	left: 61%;
 
-	border: 1px solid black;
+	transform: translate(-50%, -61%);
+
+	margin-left: 20px;
+
+	border-radius: 10px;
+
+	background-color: rgba(239, 239, 235, .5);
+
+	backdrop-filter: blur(20px);
+
+	box-shadow: 5px 2px 20px rgba(70, 65, 70, .2);
 
 }
 
-//section#header div.header_text h1.anim-typwriter {
+section#header div.header_text h1.anim-typwriter {
 
 	font-family: 'Maven Pro';
 
@@ -89,15 +94,21 @@ section#header div.company_logo {
 
 	text-transform: uppercase;	
 
+	background-color: transparent;
+
+	margin: auto;
+
 }
 
-//section#header div.header_text h1.line {
+section#header div.header_text h1.line {
 
 	width: 20em;
 
 	margin: 0 auto;
 
-	border-right: 3px solid #98979A;
+	margin-top: 20px;
+
+	border-right: 4px solid #98979A;
 
 	text-align: center;
 
@@ -105,9 +116,11 @@ section#header div.company_logo {
 
 	overflow: hidden;
 
+	background-color: transparent;
+
 }
 
-//section#header div.header_text h1.anim-typwriter span.header_span {
+section#header div.header_text h1.anim-typwriter span.header_span {
 
 	font-family: 'Maven Pro';
 
@@ -115,16 +128,18 @@ section#header div.company_logo {
 
 	color: #496D96;
 
+	background-color: transparent;
+
 }
 
-//section#header div.header_text h1.anim-typwriter {
+section#header div.header_text h1.anim-typwriter {
 
 	animation: typewriter 4s steps(40) 0.5s 1 normal both,
 	blinkTextCursor 1100ms steps(40) infinite normal;
 
 }
 
-//@keyframes typewriter {
+@keyframes typewriter {
 
 	from { width: 0px;  }
 
@@ -132,7 +147,7 @@ section#header div.company_logo {
 
 }
 
-//@keyframes blinkTextCursor {
+@keyframes blinkTextCursor {
 
 	from { border-right-color: #98979A;  }
 
@@ -140,7 +155,7 @@ section#header div.company_logo {
 
 }
 
-//section#header div.header_text p.header_content {
+section#header div.header_text p.header_content {
 
 	justify-content: center;
 
@@ -156,15 +171,19 @@ section#header div.company_logo {
 
 	text-align: justify;
 
-}
+	padding: 30px;
 
+	background-color: transparent;
+
+}
+	
 section#header div#mouse-middle {
 
 	position: absolute;
 
 	left: 50%;
 
-	bottom: 2%;
+	bottom: 5%;
 
 	transform: translateX(-50%);
 
@@ -226,11 +245,17 @@ section#about {
 
 	align-items: center;
 
+	border: 1px solid black;
+
 }
 
 section#about div.about-left-col {
 
 	flex-basis: 50%;
+
+	margin-left: 50px;
+
+	border: 1px solid black;
 
 }
 
@@ -256,9 +281,11 @@ section#about div.about-right-col {
 
 	text-align: justify;
 
-	margin-right: 140px;
+	margin-right: 120px;
 
 	margin-left: 50px;
+
+	border: 1px solid black;
 
 }
 
@@ -450,6 +477,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	margin-left: 50px;
 
+	border: 1px solid red;
+
 }
 
 section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
@@ -503,6 +532,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
+
+	border: 1px solid black;
 
 }
 
