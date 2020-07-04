@@ -631,7 +631,7 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	text-transform: uppercase;
 
-	border-radius: 20px;
+	border-radius: 10px;
 
 	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
 
@@ -681,8 +681,6 @@ section#team {
 
 	align-items: center;
 
-	border: 1px solid black;
-
 }
 
 section#team div.team-left-col {
@@ -690,8 +688,6 @@ section#team div.team-left-col {
 	flex-basis: 50%;
 
 	margin-left: 50px;
-
-	border: 1px solid red;
 
 }
 
@@ -716,8 +712,6 @@ section#team div.team-right-col {
 	display: flex;
 
 	flex-direction: column;
-
-	border: 1px solid limegreen;
 
 	margin-right: 140px;
 
@@ -745,11 +739,9 @@ section#team div.team-right-col h1.team-title {
 
 	margin-bottom: 20px;
 
-	border: 1px solid black;
-
 }
 
-section#team div.team-right-col p.team-content {
+section#team div.team-right-col p.team-content-1 {
 
 	font-family: 'Nunito';
 
@@ -761,7 +753,161 @@ section#team div.team-right-col p.team-content {
 
 	color: #464146;
 
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+
+}
+
+section#team div.team-right-col p.team-content-2 {
+
+	font-family: 'Nunito';
+
+	font-weight: 200;
+
+	font-size: 20px;
+
+	text-align: justify;
+
+	color: #464146;
+
+}
+
+section#team div.team-right-col a.vitae_link {
+
+	width: 250px;
+
+	position: relative;
+
+	display: inline-block;
+
+	text-align: center;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	padding: 20px;
+
+	font-size: 40px;
+
+	letter-spacing: 3px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+	border-radius: 10px;
+
+	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				-2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				2px 2px 12px rgba(70, 65, 70, 0.3);
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+}
+
+section#team div.team-right-col a.vitae_link:hover {
+
+	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+
+}
+
+section#team div.team-right-col a.vitae_link:hover span#vitae_link_button {
+
+	display: inline-block;
+
+	transform: scale(0.98);
+
+}
+
+section#team div.team-right-col a.vitae_link span#vitae_link_button {
+
+	font-family: 'Maven Pro';
+
+	font-weight: 600;
+
+	color: #B1BECD;
+
+}
+
+section#team div.team-right-col a.contact_send {
+
+	width: 250px;
+
+	position: relative;
+
+	display: inline-block;
+
+	text-align: center;
+
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	padding: 20px;
+
+	font-size: 40px;
+
+	letter-spacing: 3px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+	border-radius: 10px;
+
+	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				-2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				2px 2px 12px rgba(70, 65, 70, 0.3);
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+
+}
+
+section#team div.team-right-col a.contact_send:hover {
+
+	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
+
+				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+
+				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+
+				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+
+}
+
+section#team div.team-right-col a.contact_send:hover span#contact_send_button {
+
+	display: inline-block;
+
+	transform: scale(0.98);
+
+}
+
+section#team div.team-right-col a.contact_send span#contact_send_button {
+
+	font-family: 'Maven Pro';
+
+	font-weight: 600;
+
+	color: #B1BECD;
 
 }
 
