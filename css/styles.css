@@ -86,17 +86,15 @@ section#header div.header_text h1.anim-typwriter {
 
 	font-family: 'Maven Pro';
 
-	font-weight: 600;
+	font-weight: 400;
 
-	font-size: 40px;
+	font-size: 35px;
 
 	color: #464146;
 
 	text-transform: uppercase;	
 
 	background-color: transparent;
-
-	margin: auto;
 
 }
 
@@ -118,13 +116,15 @@ section#header div.header_text h1.line {
 
 	background-color: transparent;
 
+	text-align: center;
+
 }
 
 section#header div.header_text h1.anim-typwriter span.header_span {
 
 	font-family: 'Maven Pro';
 
-	font-weight: 800;
+	font-weight: 600;
 
 	color: #496D96;
 
@@ -165,7 +165,7 @@ section#header div.header_text p.header_content {
 
 	font-size: 20px;
 
-	color: #02020A;
+	color: #464146;
 
 	margin-top: 10px;
 
@@ -245,8 +245,6 @@ section#about {
 
 	align-items: center;
 
-	border: 1px solid black;
-
 }
 
 section#about div.about-left-col {
@@ -254,8 +252,6 @@ section#about div.about-left-col {
 	flex-basis: 50%;
 
 	margin-left: 50px;
-
-	border: 1px solid black;
 
 }
 
@@ -271,8 +267,6 @@ section#about div.about-left-col div#left-col-image {
 
 	background-size: 600px;
 
-	margin-left: 50px;
-
 }
 
 section#about div.about-right-col {
@@ -281,11 +275,9 @@ section#about div.about-right-col {
 
 	text-align: justify;
 
-	margin-right: 120px;
+	margin-right: 140px;
 
 	margin-left: 50px;
-
-	border: 1px solid black;
 
 }
 
@@ -477,8 +469,6 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	margin-left: 50px;
 
-	border: 1px solid red;
-
 }
 
 section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
@@ -532,8 +522,6 @@ section#services div.container div.carousel div.slider section.subsection_slider
 	margin-left: 50px;
 
 	margin-right: 50px;
-
-	border: 1px solid black;
 
 }
 
@@ -789,9 +777,9 @@ nav#sideNav {
 
 	top: 0;
 
-	background-color: transparent;
+	background-color: rgba(239, 239, 235, .5);
 
-	backdrop-filter: blur(30px);
+	backdrop-filter: blur(20px);
 
 	z-index: 2;
 
@@ -811,7 +799,7 @@ nav#sideNav ul {
 
 	flex-direction: column;
 
-	justify-content: space-around;
+	justify-content: space-between;
 
 	margin-top: 120px;
 
@@ -853,7 +841,7 @@ nav#sideNav ul li a.menu_option i.fas {
 
 	color: #496d96;
 
-	text-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+	text-shadow: 5px 2px 20px rgba(70, 65, 70, .5);
 
 }
 
@@ -865,9 +853,9 @@ nav#sideNav ul li a.menu_option i.fas:hover {
 
 div.menu_button {
 
-	width: 100px;
+	width: 120px;
 	 
-	height: 100px;
+	height: 120px;
 
 	position: fixed;
 
@@ -895,13 +883,13 @@ div.menu_button {
 
 div.menu_button div.menu_button_burguer {
 
-	width: 80px;
+	width: 90px;
 
- 	height: 15px;
+ 	height: 20px;
 
 	background-color: #496D96;
 
-	border-radius: 10px;
+	border-radius: 5px;
 
 	transition: all .5s ease;
 
@@ -913,13 +901,13 @@ div.menu_button div.menu_button_burguer::before, div.menu_button div.menu_button
 
 	position: absolute;
 
-	width: 80px;
+	width: 90px;
 
-	height: 15px;
+	height: 20px;
 
 	background-color: #B1BECD;
 
-	border-radius: 10px;
+	border-radius: 5px;
 
 	transition: all .5s ease;
 
