@@ -773,25 +773,33 @@ section#team div.team-right-col p.team-content-2 {
 
 	color: #464146;
 
+	margin-bottom: 20px;
+
 }
 
-section#team div.team-right-col a.vitae_link {
+section#team div.team-right-col div.team_buttons {
 
-	width: 250px;
+	height: 200px;
 
-	position: relative;
+	width: 100%;
 
-	display: inline-block;
+	display: flex;
+
+	justify-content: space-around;
+
+	align-items: center;
+
+}
+
+section#team div.team-right-col div.team_buttons a.vitae_link {
+
+	width: 180px;
 
 	text-align: center;
 
-	left: 50%;
+	padding: 30px;
 
-	transform: translateX(-50%);
-
-	padding: 20px;
-
-	font-size: 40px;
+	font-size: 30px;
 
 	letter-spacing: 3px;
 
@@ -803,65 +811,55 @@ section#team div.team-right-col a.vitae_link {
 
 	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				-2px -2px 16px rgba(255, 255, 255, 0.5),
+				-2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				2px 2px 12px rgba(70, 65, 70, 0.3);
-
-	margin-top: 20px;
-
-	margin-bottom: 20px;
+				2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
-section#team div.team-right-col a.vitae_link:hover {
+section#team div.team-right-col div.team_buttons a.vitae_link:hover {
 
 	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+				inset -2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
-section#team div.team-right-col a.vitae_link:hover span#vitae_link_button {
+section#team div.team-right-col div.team_buttons a.vitae_link:hover span#vitae_link_button {
 
 	display: inline-block;
 
 	transform: scale(0.98);
 
+	color: rgba(53, 75, 108, 1);
+
 }
 
-section#team div.team-right-col a.vitae_link span#vitae_link_button {
+section#team div.team-right-col div.team_buttons a.vitae_link span#vitae_link_button {
 
 	font-family: 'Maven Pro';
 
 	font-weight: 600;
 
-	color: #B1BECD;
+	color: rgba(53, 75, 108, .6);
 
 }
 
-section#team div.team-right-col a.contact_send {
+section#team div.team-right-col div.team_buttons a.contact_send {
 
-	width: 250px;
-
-	position: relative;
-
-	display: inline-block;
+	width: 180px;
 
 	text-align: center;
 
-	left: 50%;
+	padding: 30px;
 
-	transform: translateX(-50%);
-
-	padding: 20px;
-
-	font-size: 40px;
+	font-size: 30px;
 
 	letter-spacing: 3px;
 
@@ -873,45 +871,43 @@ section#team div.team-right-col a.contact_send {
 
 	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				-2px -2px 16px rgba(255, 255, 255, 0.5),
+				-2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				2px 2px 12px rgba(70, 65, 70, 0.3);
-
-	margin-top: 20px;
-
-	margin-bottom: 20px;
+				2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
-section#team div.team-right-col a.contact_send:hover {
+section#team div.team-right-col div.team_buttons a.contact_send:hover {
 
 	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+				inset -2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
-section#team div.team-right-col a.contact_send:hover span#contact_send_button {
+section#team div.team-right-col div.team_buttons a.contact_send:hover span#contact_send_button {
 
 	display: inline-block;
 
 	transform: scale(0.98);
 
+	color: rgba(53, 75, 108, 1);
+
 }
 
-section#team div.team-right-col a.contact_send span#contact_send_button {
+section#team div.team-right-col div.team_buttons a.contact_send span#contact_send_button {
 
 	font-family: 'Maven Pro';
 
 	font-weight: 600;
 
-	color: #B1BECD;
+	color: rgba(53, 75, 108, .6);
 
 }
 
