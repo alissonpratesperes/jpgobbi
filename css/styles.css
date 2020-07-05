@@ -553,7 +553,7 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	background-image: url('../vectors/unarmed_guard.svg');
 
-	background-size: 550px;
+	background-size: 500px;
 
 	background-repeat: no-repeat;
 
@@ -617,6 +617,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	margin-top: 100px;
 
+	margin-bottom: 50px;
+
 	left: 50%;
 
 	transform: translateX(-50%);
@@ -635,11 +637,11 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				-2px -2px 16px rgba(255, 255, 255, 0.5),
+				-2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				2px 2px 12px rgba(70, 65, 70, 0.3);
+				2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
@@ -647,11 +649,11 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
 
-				inset -2px -2px 16px rgba(255, 255, 255, 0.5),
+				inset -2px -2px 16px rgba(255, 255, 255, 1),
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.1), 
+				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
-				inset 2px 2px 12px rgba(70, 65, 70, 0.3);
+				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
 
 }
 
