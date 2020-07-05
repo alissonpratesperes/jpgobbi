@@ -663,6 +663,8 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	transform: scale(0.98);
 
+	color: rgba(53, 75, 108, 1);
+
 }
 
 section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col span#contact_slide_button {
@@ -671,7 +673,7 @@ section#services div.container div.carousel div.slider section.subsection_slider
 
 	font-weight: 600;
 
-	color: #B1BECD;
+	color: rgba(53, 75, 108, .6);
 
 }
 
