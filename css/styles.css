@@ -925,8 +925,6 @@ section#contact {
 
 	height: 100vh;
 
-	border: 1px solid black;
-
 	display: flex;
 
 }
@@ -945,7 +943,7 @@ section#contact div.contact-right-col {
 
 	flex-basis: 50%;
 
-	margin-right: 140px;
+	margin-right: 120px;
 
 	margin-left: 50px;
 
@@ -953,11 +951,23 @@ section#contact div.contact-right-col {
 
 }
 
+section#contact div.contact-right-col div.right-col-image {
+
+	height: 600px;
+
+	background-image: url('../vectors/contactus.svg');
+
+	background-repeat: no-repeat;
+
+	background-size: 550px;
+
+	background-position: center;
+
+}
+
 section#footer {
 
 	height: 49vh;
-
-	border: 1px solid red;
 
 	background-image: url('../vectors/wave_footer.svg');
 
