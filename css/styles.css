@@ -38,9 +38,9 @@ section#header div.company_logo {
 
 	left: 5%;
 
-	top: 10%;
+	top: 15%;
 
-	transform: translate(-5%, -10%);
+	transform: translate(-5%, -15%);
 
 	width: 400px;
 
@@ -54,7 +54,7 @@ section#header div.company_logo {
 
 	background-position: center;
 
-	background-size: 650px;
+	background-size: 700px;
 
 }
 
@@ -163,7 +163,7 @@ section#header div.header_text p.header_content {
 
 	font-weight: 200;
 
-	font-size: 20px;
+	font-size: 25px;
 
 	color: #464146;
 
@@ -183,7 +183,7 @@ section#header div#mouse-middle {
 
 	left: 50%;
 
-	bottom: 5%;
+	bottom: 2%;
 
 	transform: translateX(-50%);
 
