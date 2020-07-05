@@ -142,6 +142,29 @@ rightArrow.addEventListener('click', function() {
 
 });
 
+$(document).ready(function(){
+
+    $(window).scroll(function(){
+
+        if ($(this).scrollTop() > 650) {
+
+            $("button#topButton").fadeIn();
+
+        } else {
+
+            $("button#topButton").fadeOut();
+
+        }
+
+    });
+
+        $("button#topButton").click(function(){
+
+            $("html, body").animate({scrollTop : 0}, 700);
+
+        });
+
+});
 
 
 

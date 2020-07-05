@@ -1161,6 +1161,48 @@ div.menu_button.open div.menu_button_burguer::after {
 
 }
 
+button#topButton {
+
+	position: fixed;
+
+	bottom: 20px;
+
+	left: 20px;
+
+	width: 55px;
+
+	height: 55px;
+
+	background-color: transparent;
+
+	color: rgb(177, 190, 205);
+
+	border: none;
+
+	outline: none;
+
+	cursor: pointer;
+
+	border-radius: 6px;
+
+	transition: all .3s ease-in-out;
+
+	display: none;
+
+}
+
+button#topButton:hover {
+
+	color: #496D96
+
+}
+
+button#topButton i.fa-arrow-alt-circle-up {
+
+	background-color: transparent;
+
+}
+
 
 
 
