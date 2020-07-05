@@ -38,7 +38,7 @@ menu_btn.addEventListener('click', () => {
 
     menuOpen = false;
 
-    sideNav.style.right = "-220px"
+    sideNav.style.right = "-235px"
 
  	}
 
@@ -52,7 +52,7 @@ section_header.addEventListener('click', () => {
 
     	menuOpen = false;
 
-    	sideNav.style.right = "-220px"
+    	sideNav.style.right = "-235px"
 
 	}
 
@@ -66,7 +66,7 @@ section_about.addEventListener('click', () => {
 
         menuOpen = false;
 
-        sideNav.style.right = "-220px"
+        sideNav.style.right = "-235px"
 
     }
 
@@ -80,7 +80,7 @@ section_services.addEventListener('click', () => {
 
         menuOpen = false;
 
-        sideNav.style.right = "-220px"
+        sideNav.style.right = "-235px"
 
     }
 
@@ -94,7 +94,7 @@ section_team.addEventListener('click', () => {
 
         menuOpen = false;
 
-        sideNav.style.right = "-220px";
+        sideNav.style.right = "-235px";
 
     }
 
