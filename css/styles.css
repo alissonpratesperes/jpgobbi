@@ -789,6 +789,8 @@ section#team div.team-right-col div.team_buttons {
 
 	align-items: center;
 
+	flex-wrap: wrap;
+
 }
 
 section#team div.team-right-col div.team_buttons a.vitae_link {
@@ -799,9 +801,9 @@ section#team div.team-right-col div.team_buttons a.vitae_link {
 
 	padding: 30px;
 
-	font-size: 30px;
+	font-size: 35px;
 
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 
 	text-decoration: none;
 
@@ -816,6 +818,10 @@ section#team div.team-right-col div.team_buttons a.vitae_link {
 				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
 				2px 2px 12px rgba(70, 65, 70, 0.5);
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
 
 }
 
@@ -859,9 +865,9 @@ section#team div.team-right-col div.team_buttons a.contact_send {
 
 	padding: 30px;
 
-	font-size: 30px;
+	font-size: 35px;
 
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 
 	text-decoration: none;
 
@@ -876,6 +882,10 @@ section#team div.team-right-col div.team_buttons a.contact_send {
 				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
 
 				2px 2px 12px rgba(70, 65, 70, 0.5);
+
+	margin-top: 20px;
+
+	margin-bottom: 20px;
 
 }
 
@@ -908,6 +918,54 @@ section#team div.team-right-col div.team_buttons a.contact_send span#contact_sen
 	font-weight: 600;
 
 	color: rgba(53, 75, 108, .6);
+
+}
+
+section#contact {
+
+	height: 100vh;
+
+	border: 1px solid black;
+
+	display: flex;
+
+}
+
+section#contact div.contact-left-col {
+
+	flex-basis: 50%;
+
+	margin-left: 50px;
+
+	border: 1px solid black;
+
+}
+
+section#contact div.contact-right-col {
+
+	flex-basis: 50%;
+
+	margin-right: 140px;
+
+	margin-left: 50px;
+
+	border: 1px solid black;
+
+}
+
+section#footer {
+
+	height: 49vh;
+
+	border: 1px solid red;
+
+	background-image: url('../vectors/wave_footer.svg');
+
+	background-repeat: no-repeat;
+
+	background-size: contain;
+
+	background-position: bottom;
 
 }
 
