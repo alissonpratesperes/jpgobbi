@@ -1,1220 +1,532 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
-* {
+:root {
 
- 	margin: 0px;
+    --header-height: 3rem;
 
- 	padding: 0px;
+    --font-extralight: 200;
 
- 	background-color: #EFEFEB;
+    --font-light: 400;
 
- 	font-family: 'Nunito', sans-serif;
+    --font-semi: 700;
 
-}
-
-section#header {
-
-	height: 100vh;
-
-}
-
-section#header div.header_detail {
-
-	height: 100vh;
-
-	background-image: url('../vectors/wave_header.svg');
-
-	background-repeat: no-repeat;
-
-	background-size: cover;
-
-}
-
-section#header div.company_logo {
-
-	position: absolute;
-
-	left: 5%;
-
-	top: 15%;
-
-	transform: translate(-5%, -15%);
-
-	width: 400px;
-
-	height: 400px;
-
-	background: transparent;
-
-	background-image: url('../images/jpgobbi_logo_withoutbg.png');
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	background-size: 700px;
-
-}
-
-section#header div.header_text {
-
-	width: 50%;
-
-	position: absolute;
-
-	top: 50%;
-
-	left: 61%;
-
-	transform: translate(-50%, -61%);
-
-	margin-left: 20px;
-
-	border-radius: 10px;
-
-	background-color: rgba(239, 239, 235, .5);
-
-	backdrop-filter: blur(20px);
-
-	box-shadow: 5px 2px 20px rgba(70, 65, 70, .2);
-
-}
-
-section#header div.header_text h1.anim-typwriter {
-
-	font-family: 'Maven Pro';
-
-	font-weight: 400;
-
-	font-size: 35px;
-
-	color: #464146;
-
-	text-transform: uppercase;	
-
-	background-color: transparent;
-
-}
-
-section#header div.header_text h1.line {
-
-	width: 20em;
-
-	margin: 0 auto;
-
-	margin-top: 20px;
-
-	border-right: 4px solid #98979A;
-
-	text-align: center;
-
-	white-space: nowrap;
-
-	overflow: hidden;
-
-	background-color: transparent;
-
-	text-align: center;
-
-}
-
-section#header div.header_text h1.anim-typwriter span.header_span {
-
-	font-family: 'Maven Pro';
-
-	font-weight: 600;
-
-	color: #496D96;
-
-	background-color: transparent;
-
-}
-
-section#header div.header_text h1.anim-typwriter {
-
-	animation: typewriter 4s steps(40) 0.5s 1 normal both,
-	blinkTextCursor 1100ms steps(40) infinite normal;
-
-}
-
-@keyframes typewriter {
-
-	from { width: 0px;  }
-
-	to { width: 17em;  }
-
-}
-
-@keyframes blinkTextCursor {
-
-	from { border-right-color: #98979A;  }
-
-	to { border-right-color: transparent;  }
-
-}
-
-section#header div.header_text p.header_content {
-
-	justify-content: center;
-
-	font-family: 'Nunito';
-
-	font-weight: 200;
-
-	font-size: 25px;
-
-	color: #464146;
-
-	margin-top: 10px;
-
-	text-align: justify;
-
-	padding: 30px;
-
-	background-color: transparent;
-
-}
-	
-section#header div#mouse-middle {
-
-	position: absolute;
-
-	left: 50%;
-
-	bottom: 2%;
-
-	transform: translateX(-50%);
-
-	margin: auto;
-
-}
-
-section#header div#mouse-middle div#mouse {
-
-	width: 50px;
-
-	height: 90px;
-
-	border: 2px solid #B1BECD;
-
-	border-radius: 50px;
-
-}
-
-section#header div#mouse-middle div#mouse::before {
-
-	content: "";
-
-	width: 12px;
-
-	height: 12px;
-
-	position: absolute;
-
-	top: 15px;
-
-	background-color: #BDCFDA;
-
-	left: 50%;
-
-	transform: translateX(-50%);
-
-	border-radius: 50%;
-
-	opacity: 1;
-
-	animation: mouse 2s infinite;
-
-}
-
-@keyframes mouse {
-
-	from { opacity: 1; top: 15px; }
-
-	to { opacity: 0; top: 65px; }
-
-}
-
-section#about {
-
-	height: 100vh;
-
-	display: flex;
-
-	align-items: center;
-
-}
-
-section#about div.about-left-col {
-
-	flex-basis: 50%;
-
-	margin-left: 50px;
-
-}
-
-section#about div.about-left-col div#left-col-image {
-
-	height: 600px;
-
-	background-image: url('../vectors/security_guards.svg');
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	background-size: 600px;
-
-}
-
-section#about div.about-right-col {
-
-	flex-basis: 50%;
-
-	text-align: justify;
-
-	margin-right: 140px;
-
-	margin-left: 50px;
-
-}
-
-section#about div.about-right-col div.about-text p.about-content {
-
-	font-family: 'Nunito';
-
-	font-weight: 200;
-
-	font-size: 18px;
-
-	color: #464146;
-
-	text-align: justify;
-
-}
-
-section#about div.about-right-col div.about-text p.about-content span.content-markup {
-
-	font-weight: 400;
-
-	color: #354B6C;
-
-}
-
-section#about div.about-right-col div.about-text h1.about-title {
-
-	font-family: 'Maven Pro';
-
-	font-weight: 600;
-
-	font-size: 40px;
-
-	color: #496D96;
-
-	text-transform: uppercase;
-
-	text-align: right;
-
-	box-sizing: border-box;
-
-	padding-right: 50px;
-
-	margin-bottom: 20px;
-
-}
-
-section#services {
-
-	height: 100vh;
-
-}
-
-section#services div.container {
-
-	width: 100%;
-
-	margin: auto;
-
-}
-
-section#services div.container div.carousel {
-
-	height: 100vh;
-
-	overflow: hidden;
-
-	position: relative;
-
-}
-
-section#services div.container div.carousel div.slider {
-
-	height: 100%;
-
-	display: flex;
-
-	width: 500%;
-
-	transition: all 0.5s ease;
+    --font-bold: 900;
 
 }
 
-section#services div.container div.carousel div.slider section.subsection_slider {
+:root {
 
-	flex-basis: 100%;
+    --first-color: #464146 ;
 
-	display: flex;
+    --second-color: #496D96;
 
-	justify-content: center;
+    --third-color: #354B6C;
 
-	align-items: center;
+    --forth-color: #0E2431;
 
 }
 
-section#services div.container div.carousel div.controls span.arrow {
+:root {
 
-	position: absolute;
+    --body-font: "Nunito", sans-serif;
 
-	bottom: 20px;
+    --big-font-size: 2rem;
 
-	cursor: pointer;
+    --h2-font-size: 1.25rem;
 
-}
-
-section#services div.container div.carousel div.controls span.left {
-
-	left: 200px;
-
-	color: #B1BECD;
-
-}
+    --normal-font-size: 0.938rem;
 
-section#services div.container div.carousel div.controls span.right {
-
-	right: 200px;
-
-	color: #B1BECD;
-
 }
-
-section#services div.container div.carousel div.controls ul#section_indicators {
-
-	position: absolute;
-
-	left: 50%;
 
-	bottom: 20px;
+@media screen and(min-width: 768px) {
 
-	transform: translate(-50%);
+    :root {
 
-	list-style: none;
+        --big-font-size: 3.5rem;
 
-	display: flex;
+        --h2-font-size: 2rem;
 
-	margin: 0px;
+        --normal-font-size: 1rem;
 
-	padding: 0px;
+    }
 
-	background-color: transparent;
-
 }
-
-section#services div.container div.carousel div.controls ul#section_indicators li {
-
-	width: 15px;
 
-	height: 15px;
+:root {
 
-	border: 2px solid #B1BECD;
+    --mb-1: 0.5rem;
 
-	border-radius: 50px;
+    --mb-2: 1rem;
 
-	margin: 10px;
+    --mb-3: 1.5rem;
 
-	background-color: #B1BECD;
-
-	cursor: pointer;
-
-}
+    --mb-4: 2rem;
 
-section#services div.container div.carousel div.controls ul#section_indicators li.selected {
+    --mb-5: 2.5rem;
 
-	background-color: transparent;
+    --mb-6: 3rem;
 
 }
 
-section#services div.container div.carousel div.slider section.subsection_slider {
+:root {
 
-	display: flex;
+    --z-back: -10;
 
-	align-items: center;
+    --z-normal: 1;
 
-	flex-wrap: nowrap;
+    --z-tooltip: 10;
 
-	box-sizing: border-box;
+    --z-fixed: 100;
 
-	padding: 50px;
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
-
-	flex-basis: 50%;
 
-	display: flex;
+*, ::before, ::after {
 
-	flex-direction: column;
+    box-sizing: border-box;
 
-	margin-left: 50px;
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
-
-	font-family: 'Maven Pro';
 
-	font-weight: 900;
+html {
 
-	font-size: 30px;
+    scroll-behavior: smooth;
 
-	color: #496D96;
-
-	text-transform: uppercase;
-
-	box-sizing: border-box;
-
-	padding-left: 50px;
-
-	margin-bottom: 20px;
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
 
-	font-family: 'Nunito';
+body {
 
-	font-weight: 200;
+    margin: var(--header-height) 0 0 0;
 
-	font-size: 20px;
+    font-family: var(--body-font);
 
-	color: #464146;
+    font-size: var(--normal-font-size);
 
-	text-align: justify;
+    color: var(--second-color);
 
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
-
-	flex-basis: 50%;
-
-	height: 600px;
-
-	background-image: url('../vectors/handshake.svg');
-
-	background-size: 550px;
-
-	background-repeat: no-repeat;
 
-	background-position: center;
+h1, h2, p {
 
-	margin-left: 50px;
+    margin: 0px;
 
-	margin-right: 50px;
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
-
-	flex-basis: 50%;
-
-	height: 600px;
-
-	background-image: url('../vectors/armed_guard.svg');
-
-	background-size: 500px;
 
-	background-repeat: no-repeat;
+ul {
 
-	background-position: center;
+    margin: 0px;
 
-	margin-left: 50px;
+    padding: 0px;
 
-	margin-right: 50px;
+    list-style: none;
 
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
-
-	flex-basis: 50%;
-
-	height: 600px;
-
-	background-image: url('../vectors/unarmed_guard.svg');
-
-	background-size: 500px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
 
-	margin-left: 50px;
+a {
 
-	margin-right: 50px;
+    text-decoration: none;
 
 }
 
-section#services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
+img {
 
-	flex-basis: 50%;
+    max-width: 100%;
 
-	height: 600px;
+    height: auto;
 
-	background-image: url('../vectors/recepcionist.svg');
+    display: block;
 
-	background-size: 550px;
-
-	background-repeat: no-repeat;
-
-	background-position: center;
-
-	margin-left: 50px;
-
-	margin-right: 50px;
-
 }
 
-section#services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
+.section_title {
 
-	flex-basis: 50%;
+    position: relative;
 
-	height: 600px;
+    font-family: "Poppins", sans-serif;
 
-	background-image: url('../vectors/contact.svg');
+    font-size: var(--h2-font-size);
 
-	background-size: 500px;
+    text-transform: uppercase;
 
-	background-repeat: no-repeat;
+    color: var(--first-color);
 
-	background-position: center;
+    margin-top: var(--mb-2);
 
-	margin-left: 50px;
+    margin-bottom: var(--mb-4);
 
-	margin-right: 50px;
+    text-align: center;
 
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link {
-
-	width: 250px;
-
-	position: relative;
-
-	display: inline-block;
-
-	text-align: center;
-
-	margin-top: 100px;
-
-	margin-bottom: 50px;
 
-	left: 50%;
+.section_title::after {
 
-	transform: translateX(-50%);
+    position: absolute;
 
-	padding: 20px;
+    left: 0px;
 
-	font-size: 40px;
+    top: 2rem;
 
-	letter-spacing: 3px;
+    right: 0px;
 
-	text-decoration: none;
+    content: "";
 
-	text-transform: uppercase;
+    width: 65px;
 
-	border-radius: 10px;
+    height: 0.2rem;
 
-	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+    margin: auto;
 
-				-2px -2px 16px rgba(255, 255, 255, 1),
+    background-color: var(--third-color);
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-				2px 2px 12px rgba(70, 65, 70, 0.5);
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover {
 
-	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
+.section {
 
-				inset -2px -2px 16px rgba(255, 255, 255, 1),
+    padding-top: 3rem;
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
+    padding-bottom: 2rem;
 
-				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
-
 }
-
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover span#contact_slide_button {
-
-	display: inline-block;
 
-	transform: scale(0.98);
+.bd-grid {
 
-	color: rgba(53, 75, 108, 1);
+    max-width: 1024px;
 
-}
+    display: grid;
 
-section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col span#contact_slide_button {
+    grid-template-columns: 100%;
 
-	font-family: 'Maven Pro';
+    grid-column-gap: 2rem;
 
-	font-weight: 600;
+    width: 100%;
 
-	color: rgba(53, 75, 108, .6);
+    padding: 1.5rem;
 
 }
-
-section#team {
-
-	height: 100vh;
 
-	display: flex;
+header.main_header {
 
-	align-items: center;
+    width: 100%;
 
-}
+    position: fixed;
 
-section#team div.team-left-col {
+    top: 0;
 
-	flex-basis: 50%;
+    left: 0;
 
-	margin-left: 50px;
+    z-index: var(--z-fixed);
 
 }
 
-section#team div.team-left-col div#left-col-image {
+header.main_header nav.page_nav {
 
-	height: 600px;
+    height: var(--header-height);
+    
+    display: flex;
 
-	background-image: url('../vectors/team_group.svg');
+    justify-content: space-between;
 
-	background-size: 550px;
+    align-items: center;
 
-	background-repeat: no-repeat;
+    font-weight: var(--font-semi);
 
-	background-position: center;
+    background-color: rgb( 53, 75, 108);
 
 }
 
-section#team div.team-right-col {
+@media screen and (max-width: 768px) {
 
-	flex-basis: 50%;
+    .nav_menu {
 
-	display: flex;
+        position: fixed;
 
-	flex-direction: column;
+        top: var(--header-height); 
 
-	margin-right: 140px;
+        right: -100%;
+        
+        width: 100%;
 
-	margin-left: 50px;
-
-}
+        height: 100%;
 
-section#team div.team-right-col h1.team-title {
+        padding: 2rem;
 
-	font-family: 'Maven Pro';
+        transition: .5s;
 
-	font-weight: 600;
+        background-color: rgba( 0, 0, 0, .15);
 
-	font-size: 30px;
+        backdrop-filter: blur(20px);
 
-	color: #496D96;
+    }
 
-	text-transform: uppercase;
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
-	text-align: right;
+        color: red;
 
-	box-sizing: border-box;
+    }
 
-	padding-right: 50px;
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover::after {
 
-	margin-bottom: 20px;
+        display: none;
+    }
 
 }
 
-section#team div.team-right-col p.team-content-1 {
+header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
 
-	font-family: 'Nunito';
+    margin-bottom: var(--mb-4);
 
-	font-weight: 200;
+    text-align: center;
 
-	font-size: 20px;
-
-	text-align: justify;
-
-	color: #464146;
-
-	margin-bottom: 50px;
-
 }
 
-section#team div.team-right-col p.team-content-2 {
+header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link {
 
-	font-family: 'Nunito';
+    position: relative;
 
-	font-weight: 200;
+    color: #656266;
 
-	font-size: 20px;
+    font-size: 20px;
 
-	text-align: justify;
+    font-weight: var(--font-light);
 
-	color: #464146;
+    text-transform: uppercase;
 
-	margin-bottom: 20px;
-
 }
-
-section#team div.team-right-col div.team_buttons {
 
-	height: 200px;
+header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
-	width: 100%;
+    position: relative;
 
-	display: flex;
-
-	justify-content: space-around;
-
-	align-items: center;
-
-	flex-wrap: wrap;
-
 }
-
-section#team div.team-right-col div.team_buttons a.vitae_link {
-
-	width: 180px;
 
-	text-align: center;
+header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover::after { 
 
-	padding: 30px;
+    position: absolute;
 
-	font-size: 35px;
+    left: 0;
 
-	letter-spacing: 4px;
+    top: 3.5rem;
 
-	text-decoration: none;
+    content: "";
 
-	text-transform: uppercase;
+    width: 100%;
 
-	border-radius: 10px;
+    height: 0.2rem;
 
-	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+    background-color: red;
 
-				-2px -2px 16px rgba(255, 255, 255, 1),
+    align-items: center;
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-				2px 2px 12px rgba(70, 65, 70, 0.5);
-
-	margin-top: 20px;
-
-	margin-bottom: 20px;
-
-}
-
-section#team div.team-right-col div.team_buttons a.vitae_link:hover {
-
-	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
-
-				inset -2px -2px 16px rgba(255, 255, 255, 1),
-
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
-
 }
 
-section#team div.team-right-col div.team_buttons a.vitae_link:hover span#vitae_link_button {
+header.main_header nav.page_nav div.main_company a.nav_company_name {
 
-	display: inline-block;
+    font-family: "Poppins", sans-serif;
 
-	transform: scale(0.98);
+    text-transform: uppercase;
 
-	color: rgba(53, 75, 108, 1);
+    color: var(--forth-color);
 
 }
 
-section#team div.team-right-col div.team_buttons a.vitae_link span#vitae_link_button {
+header.main_header nav.page_nav div.nav_toggle {
 
-	font-family: 'Maven Pro';
+    color: var(--second-color);
 
-	font-weight: 600;
+    font-size: 1.5rem;
 
-	color: rgba(53, 75, 108, .6);
+    cursor: pointer;
 
 }
-
-section#team div.team-right-col div.team_buttons a.contact_send {
-
-	width: 180px;
 
-	text-align: center;
+.show {
 
-	padding: 30px;
+    right: 0%;
 
-	font-size: 35px;
-
-	letter-spacing: 4px;
-
-	text-decoration: none;
-
-	text-transform: uppercase;
-
-	border-radius: 10px;
-
-	box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
-
-				-2px -2px 16px rgba(255, 255, 255, 1),
-
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-				2px 2px 12px rgba(70, 65, 70, 0.5);
-
-	margin-top: 20px;
-
-	margin-bottom: 20px;
-
 }
-
-section#team div.team-right-col div.team_buttons a.contact_send:hover {
 
-	box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
+main.main_dashboard section.home {
 
-				inset -2px -2px 16px rgba(255, 255, 255, 1),
+    height: calc(100vh - 3rem);
 
-				inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
+    row-gap: 1rem;
 
-				inset 2px 2px 12px rgba(70, 65, 70, 0.5);
-
 }
-
-section#team div.team-right-col div.team_buttons a.contact_send:hover span#contact_send_button {
-
-	display: inline-block;
 
-	transform: scale(0.98);
+main.main_dashboard section.home div.home_data {
 
-	color: rgba(53, 75, 108, 1);
+    align-self: center;
 
 }
 
-section#team div.team-right-col div.team_buttons a.contact_send span#contact_send_button {
+main.main_dashboard section.home div.home_data h1.home_title {
 
-	font-family: 'Maven Pro';
+    font-family: "Poppins", sans-serif;
 
-	font-weight: 600;
-
-	color: rgba(53, 75, 108, .6);
-
-}
+    font-weight: var(--font-semi);
 
-section#contact {
+    font-size: var(--big-font-size);
 
-	height: 100vh;
+    color: var(--forth-color);
 
-	display: flex;
+    margin-bottom: var(--mb-5);
 
 }
 
-section#contact div.contact-left-col {
+main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
 
-	flex-basis: 50%;
+    color: var(--second-color);
 
-	margin-left: 50px;
+    font-weight: var(--font-semi);
 
-	border: 1px solid black;
-
 }
 
-section#contact div.contact-right-col {
+main.main_dashboard section.home div.home_social {
 
-	flex-basis: 50%;
+    display: flex;
 
-	margin-right: 120px;
+    flex-direction: column;
 
-	margin-left: 50px;
+    margin-bottom: var(--mb-5);
 
-	border: 1px solid black;
-
 }
-
-section#contact div.contact-right-col div.right-col-image {
 
-	height: 600px;
+main.main_dashboard section.home div.home_social a.home_social_icon {
 
-	background-image: url('../vectors/contactus.svg');
+    width: max-content;
 
-	background-repeat: no-repeat;
+    margin-bottom: var(--mb-2);
 
-	background-size: 550px;
+    font-size: 2.8rem;
 
-	background-position: center;
-
 }
-
-section#footer {
-
-	height: 49vh;
 
-	background-image: url('../vectors/wave_footer.svg');
+main.main_dashboard section.home div.home_social a#facebook {
 
-	background-repeat: no-repeat;
+    color: #3B5998;
 
-	background-size: contain;
-
-	background-position: bottom;
-
 }
-
-nav#sideNav {
-
-	width: 220px;
-
-	height: 100vh;
-
-	position: fixed;
-
-	right: -235px;
-
-	top: 0;
-
-	background-color: rgba(239, 239, 235, .5);
-
-	backdrop-filter: blur(20px);
-
-	z-index: 2;
-
-	transition: .5s ease;
 
-	display: flex;
+main.main_dashboard section.home div.home_social a#whatsapp {
 
-	justify-content: center;
+    color: #34AF23;
 
-	box-shadow: -5px -2px 15px rgba(70, 65, 70, .2);
+    font-size: 3.2rem;
 
 }
 
-nav#sideNav ul {
+main.main_dashboard section.home div.home_social a#email {
 
-	background-color: transparent;
+    color: #228CDB;
 
-	display: flex;
-
-	flex-direction: column;
-
-	justify-content: space-between;
-
-	margin-top: 120px;
-
 }
-
-nav#sideNav ul li {
-
-	background-color: transparent;
 
-	list-style: none;
+main.main_dashboard section.home div.home_social a.home_social_icon {
 
-	display: flex;
+    color: var(--first-color);
 
-	justify-content: center;
-
-	font-size: 20px;
-
-	transition: all .3s ease-in-out;
-
 }
 
-nav#sideNav ul li:hover {
+main.main_dashboard section.home div.home_logo {
 
-	font-size: 40px;
+    position: absolute;
 
-	transition: all .3s ease;
+    right: 5px;
 
-}
-
-nav#sideNav ul li a.menu_option {
+    bottom: 5px;
 
-	background-color: transparent;
-
 }
 
-nav#sideNav ul li a.menu_option i.fas {
+main.main_dashboard section.home div.home_logo div.home_company_logo {
 
-	background-color: transparent;
+    width: 300px;
 
-	color: rgba(101, 98, 102, .7);
+    height: 300px;
 
-	text-shadow: 5px 5px 10px rgba(152, 151, 154, .6);
+    background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
 
-}
+    background-repeat: no-repeat;
 
-nav#sideNav ul li a.menu_option i.fas:hover {
+    background-size: 300px;
 
-	color: #496D96;
+    background-position: center;
 
 }
 
-div.menu_button {
+main.main_dashboard section.home div.home_data a.contact_button {
 
-	width: 120px;
-	 
-	height: 120px;
+    display: inline-block;
 
-	position: fixed;
+    background-color: var(--third-color);
 
-	right: 0;
+    color: #FFFFFF;
 
-	top: 0;
+    padding: 1.2rem 2.5rem;
 
-	margin-right: 0.1%;
+    font-family: "Poppins", sans-serif;
 
-	margin-top: 0.1%;
+    font-weight: var(--font-semi);
 
- 	display: flex;
+    font-size: 1.2rem;
 
- 	justify-content: center;
+    text-transform: uppercase;
 
- 	align-items: center;
+    border-radius: .3rem;
 
-	cursor: pointer;
-
-	background-color: transparent;
-
-	z-index: 3;
-
 }
-
-div.menu_button div.menu_button_burguer {
-
-	width: 90px;
-
- 	height: 20px;
 
-	background-color: #496d96; 
+main.main_dashboard section.home div.home_data a.contact_button:hover {
 
-	border-radius: 5px;
+    box-shadow: 0px 10px 36px rgba( 0, 0, 0, .15);
 
-	transition: all .5s ease;
-
 }
-
-div.menu_button div.menu_button_burguer::before, div.menu_button div.menu_button_burguer::after {
-
-	content: '';
-
-	position: absolute;
-
-	width: 90px;
-
-	height: 20px;
 
-	background-color: #b1becd;
+main.main_dashboard section.about div.about_container {
 
-	border-radius: 5px;
+    row-gap: 2rem;
 
-	transition: all .5s ease;
+    text-align: justify;
 
 }
 
-div.menu_button div.menu_button_burguer::before {
+main.main_dashboard section.about div.about_container div.about_contents h2.about_subtitle {
 
- 	transform: translateY(-35px);
+    margin-bottom: var(--mb-2);
 
-}
-
-div.menu_button div.menu_button_burguer::after {
-
- 	transform: translateY(35px);
+    font-family: "Poppins", sans-serif;
 
-}
+    font-weight: var(--font-semi);
 
-div.menu_button.open div.menu_button_burguer {
+    text-transform: uppercase;
 
-	transform: translateX(-50px);
+    text-align: center;
 
-	background-color: transparent;
-
 }
-
-div.menu_button.open div.menu_button_burguer::before {
 
-	transform: rotate(45deg) translate(35px, -35px);
+main.main_dashboard section.about div.about_container div.about_contents p.about_text {
 
-}
+    font-family: "Nunito", sans-serif;
+    
+    font-weight: var(--font-semi);
 
-div.menu_button.open div.menu_button_burguer::after {
+    color: var(--forth-color);
 
-	transform: rotate(-45deg) translate(35px, 35px);
-
 }
-
-button#topButton {
-
-	position: fixed;
-
-	bottom: 20px;
-
-	left: 20px;
-
-	width: 55px;
 
-	height: 55px;
+main.main_dashboard section.about div.about_container div.about_img {
 
-	background-color: transparent;
+    justify-self: center;
 
-	color: rgb(177, 190, 205);
+    width: 330px;
 
-	border: none;
+    height: 330px;
 
-	outline: none;
+    background-image: url("../vectors/security_guards.svg");
 
-	cursor: pointer;
+    background-repeat: no-repeat;
 
-	border-radius: 6px;
+    background-position: center;
 
-	transition: all .3s ease-in-out;
+    background-size: 330px;
 
-	display: none;
-
-}
-
-button#topButton:hover {
-
-	color: #496D96
-
-}
-
-button#topButton i.fa-arrow-alt-circle-up {
-
-	background-color: transparent;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
