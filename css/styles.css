@@ -384,7 +384,7 @@ main.main_dashboard section.home div.home_data h1.home_title {
 
     color: var(--forth-color);
 
-    margin-bottom: var(--mb-5);
+    margin-bottom: var(--mb-3);
 
 }
 
@@ -487,6 +487,8 @@ main.main_dashboard section.home div.home_data a.contact_button {
     text-transform: uppercase;
 
     border-radius: .3rem;
+
+    margin-bottom: var(--mb-4);
 
 }
 
