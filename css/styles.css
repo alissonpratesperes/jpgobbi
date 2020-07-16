@@ -219,7 +219,7 @@ header.main_header nav.page_nav {
 
     font-weight: var(--font-semi);
 
-    background-color: rgb( 53, 75, 108);
+    background-color: #496D96;
 
 }
 
@@ -229,7 +229,7 @@ header.main_header nav.page_nav {
 
         position: fixed;
 
-        top: var(--header-height); 
+        top: 0; 
 
         right: -100%;
         
@@ -245,6 +245,26 @@ header.main_header nav.page_nav {
 
         backdrop-filter: blur(20px);
 
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list {
+
+        height: 105%;
+
+        border: 1px solid black;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: space-around;
+
     }
 
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
@@ -258,11 +278,15 @@ header.main_header nav.page_nav {
         display: none;
     }
 
+    header.main_header nav.page_nav {
+
+        background-color: transparent;
+
+    }
+
 }
 
 header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
-
-    margin-bottom: var(--mb-4);
 
     text-align: center;
 
@@ -316,15 +340,21 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
 
     color: var(--forth-color);
 
+    letter-spacing: 2px;
+
+    display: none;
+
 }
 
 header.main_header nav.page_nav div.nav_toggle {
 
-    color: var(--second-color);
+    color: var(--forth-color);
 
     font-size: 1.5rem;
 
     cursor: pointer;
+
+    z-index: var(--z-fixed);
 
 }
 
