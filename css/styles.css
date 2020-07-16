@@ -18,7 +18,7 @@
 
 :root {
 
-    --first-color: #464146 ;
+    --first-color: #464146;
 
     --second-color: #496D96;
 
@@ -40,7 +40,7 @@
 
 }
 
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     :root {
 
@@ -85,7 +85,6 @@
 *, ::before, ::after {
 
     box-sizing: border-box;
-
 }
 
 html {
@@ -125,16 +124,6 @@ ul {
 a {
 
     text-decoration: none;
-
-}
-
-img {
-
-    max-width: 100%;
-
-    height: auto;
-
-    display: block;
 
 }
 
