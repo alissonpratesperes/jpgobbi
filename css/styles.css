@@ -241,9 +241,9 @@ header.main_header nav.page_nav {
 
         transition: .5s;
 
-        background-color: rgba( 0, 0, 0, .15);
+        background-color: rgba(73, 109, 150, 0.7);
 
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(50px);
 
         display: flex;
 
@@ -257,8 +257,6 @@ header.main_header nav.page_nav {
 
         height: 105%;
 
-        border: 1px solid black;
-
         display: flex;
 
         flex-direction: column;
@@ -269,7 +267,7 @@ header.main_header nav.page_nav {
 
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
-        color: red;
+        color: #354B6C;
 
     }
 
@@ -296,7 +294,7 @@ header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link 
 
     position: relative;
 
-    color: #656266;
+    color: #B1BECD;
 
     font-size: 20px;
 
@@ -367,8 +365,6 @@ header.main_header nav.page_nav div.nav_toggle {
 main.main_dashboard section.home {
 
     height: calc(100vh - 3rem);
-
-    row-gap: 1rem;
 
 }
 
