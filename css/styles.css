@@ -506,27 +506,23 @@ main.main_dashboard section.about div.about_container {
 
 }
 
-main.main_dashboard section.about div.about_container div.about_contents h2.about_subtitle {
-
-    margin-bottom: var(--mb-2);
-
-    font-family: "Poppins", sans-serif;
-
-    font-weight: var(--font-semi);
-
-    text-transform: uppercase;
-
-    text-align: center;
-
-}
-
 main.main_dashboard section.about div.about_container div.about_contents p.about_text {
 
     font-family: "Nunito", sans-serif;
-    
-    font-weight: var(--font-semi);
 
-    color: var(--forth-color);
+    font-size: 1.2rem;
+    
+    font-weight: 400;
+
+    color: #464146;
+
+}
+
+main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
+
+    font-weight: 700;
+
+    color: #354B6C;
 
 }
 
@@ -544,6 +540,6 @@ main.main_dashboard section.about div.about_container div.about_img {
 
     background-position: center;
 
-    background-size: 330px;
+    background-size: 360px;
 
 }
