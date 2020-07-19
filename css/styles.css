@@ -282,6 +282,124 @@ header.main_header nav.page_nav {
 
     }
 
+    section.services div.container {
+
+        border: 1px solid black;
+
+        width: 90%;
+
+        margin: 10px auto;
+
+    }
+
+    section.services div.container div.carousel {
+
+        border: 2px solid red;
+
+        height: 800px;
+
+        position: relative;
+
+        overflow: hidden;
+
+    }
+
+    section.services div.container div.carousel div.slider {
+
+        border: 1px solid limegreen;
+
+        height: 100%;
+
+        width: 500%;
+
+        display: flex;
+
+        transition: all 0.3s;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        flex-basis: 100%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        transform: translate(-0%);
+
+    }
+
+    section.services div.container div.carousel div.controls span.arrow {
+
+        position: absolute;
+
+        bottom: 20px;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls span.left {
+
+        left: 10px;
+
+    }
+
+    section.services div.container div.carousel div.controls span.right {
+
+        right: 10px;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators {
+
+        position: absolute;
+
+        left: 50%;
+
+        bottom: 20px;
+
+        transform: translate(-50%);
+
+        list-style: none;
+
+        display: flex;
+
+        margin: 0px;
+
+        padding: 0px;
+
+        background-color: transparent;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li {
+
+        width: 15px;
+
+        height: 15px;
+
+        border: 2px solid #B1BECD;
+
+        border-radius: 50px;
+
+        margin: 10px;
+
+        background-color: #B1BECD;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li.selected {
+
+        background-color: transparent;
+
+    }
+
 }
 
 header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
