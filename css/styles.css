@@ -294,8 +294,6 @@ header.main_header nav.page_nav {
 
     section.services div.container div.carousel {
 
-        border: 2px solid red;
-
         height: 800px;
 
         position: relative;
@@ -305,8 +303,6 @@ header.main_header nav.page_nav {
     }
 
     section.services div.container div.carousel div.slider {
-
-        border: 1px solid limegreen;
 
         height: 100%;
 
@@ -397,6 +393,120 @@ header.main_header nav.page_nav {
     section.services div.container div.carousel div.controls ul#section_indicators li.selected {
 
         background-color: transparent;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
+
+        flex-basis: 50%;
+
+        width: 320px;
+
+        background-image: url('../vectors/handshake.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
+
+        flex-basis: 50%;
+
+        width: 320px;
+
+        background-image: url('../vectors/armed_guard.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
+
+        flex-basis: 50%;
+
+        width: 320px;
+
+        background-image: url('../vectors/unarmed_guard.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
+
+        flex-basis: 50%;
+
+        width: 320px;
+
+        background-image: url('../vectors/recepcionist.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
+
+        flex-basis: 50%;
+
+        width: 320px;
+
+        background-image: url('../vectors/contact.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
+
+        border: 1px solid limegreen;
+
+        flex-basis: 50%;
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
+
+        text-align: justify;
+
+        font-size: 12px;
+
+        padding: 10px;
 
     }
 
