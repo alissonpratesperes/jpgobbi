@@ -210,6 +210,58 @@ header.main_header nav.page_nav {
 
     }
 
+    main.main_dashboard section.about div.about_container {
+
+        row-gap: 2rem;
+
+        box-sizing: border-box;
+
+        padding: 30px;
+    
+        text-align: justify;
+
+        border: 1px solid black;
+    
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text {
+    
+        font-family: "Nunito", sans-serif;
+    
+        font-size: 1.2rem;
+        
+        font-weight: 400;
+    
+        color: #464146;
+    
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
+    
+        font-weight: 700;
+    
+        color: #354B6C;
+    
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_img {
+    
+        justify-self: center;
+    
+        width: 330px;
+    
+        height: 330px;
+    
+        background-image: url("../vectors/security_guards.svg");
+    
+        background-repeat: no-repeat;
+    
+        background-position: center;
+    
+        background-size: 360px;
+    
+    }
+
     section.services div.container {
 
         width: 90%;
@@ -460,7 +512,7 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
-        margin-top: 20px;
+        margin-top: 10px;
 
         margin-bottom: 15px;
 
@@ -771,51 +823,5 @@ main.main_dashboard section.home div.home_data a.contact_button {
 main.main_dashboard section.home div.home_data a.contact_button:hover {
 
     box-shadow: 0px 10px 36px rgba( 0, 0, 0, .15);
-
-}
-
-main.main_dashboard section.about div.about_container {
-
-    row-gap: 2rem;
-
-    text-align: justify;
-
-}
-
-main.main_dashboard section.about div.about_container div.about_contents p.about_text {
-
-    font-family: "Nunito", sans-serif;
-
-    font-size: 1.2rem;
-    
-    font-weight: 400;
-
-    color: #464146;
-
-}
-
-main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
-
-    font-weight: 700;
-
-    color: #354B6C;
-
-}
-
-main.main_dashboard section.about div.about_container div.about_img {
-
-    justify-self: center;
-
-    width: 330px;
-
-    height: 330px;
-
-    background-image: url("../vectors/security_guards.svg");
-
-    background-repeat: no-repeat;
-
-    background-position: center;
-
-    background-size: 360px;
 
 }
