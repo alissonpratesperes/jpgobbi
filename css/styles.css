@@ -2,83 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
-:root {
-
-    --header-height: 3rem;
-
-    --font-extralight: 200;
-
-    --font-light: 400;
-
-    --font-semi: 700;
-
-    --font-bold: 900;
-
-}
-
-:root {
-
-    --first-color: #464146;
-
-    --second-color: #496D96;
-
-    --third-color: #354B6C;
-
-    --forth-color: #0E2431;
-
-}
-
-:root {
-
-    --body-font: "Nunito", sans-serif;
-
-    --big-font-size: 2rem;
-
-    --h2-font-size: 1.25rem;
-
-    --normal-font-size: 0.938rem;
-
-}
-
 @media screen and (min-width: 768px) {
 
-    :root {
-
-        --big-font-size: 3.5rem;
-
-        --h2-font-size: 2rem;
-
-        --normal-font-size: 1rem;
-
-    }
-
-}
-
-:root {
-
-    --mb-1: 0.5rem;
-
-    --mb-2: 1rem;
-
-    --mb-3: 1.5rem;
-
-    --mb-4: 2rem;
-
-    --mb-5: 2.5rem;
-
-    --mb-6: 3rem;
-
-}
-
-:root {
-
-    --z-back: -10;
-
-    --z-normal: 1;
-
-    --z-tooltip: 10;
-
-    --z-fixed: 100;
+    
 
 }
 
@@ -95,13 +21,13 @@ html {
 
 body {
 
-    margin: var(--header-height) 0 0 0;
+    margin: 3rem 0 0 0;
 
-    font-family: var(--body-font);
+    font-family: "Nunito", sans-serif;
 
-    font-size: var(--normal-font-size);
+    font-size: 0.938rem;
 
-    color: var(--second-color);
+    color: #496D96;
 
     background-color: #EFEFEB;
 
@@ -135,15 +61,15 @@ a {
 
     font-family: "Poppins", sans-serif;
 
-    font-size: var(--h2-font-size);
+    font-size: 1.25rem;
 
     text-transform: uppercase;
 
-    color: var(--first-color);
+    color: #464146;
 
-    margin-top: var(--mb-2);
+    margin-top: 1rem;
 
-    margin-bottom: var(--mb-4);
+    margin-bottom: 2rem;
 
     text-align: center;
 
@@ -167,7 +93,7 @@ a {
 
     margin: auto;
 
-    background-color: var(--third-color);
+    background-color: #354B6C;
 
 }
 
@@ -205,13 +131,13 @@ header.main_header {
 
     left: 0;
 
-    z-index: var(--z-fixed);
+    z-index: 100;
 
 }
 
 header.main_header nav.page_nav {
 
-    height: var(--header-height);
+    height: 3rem;
     
     display: flex;
 
@@ -219,7 +145,7 @@ header.main_header nav.page_nav {
 
     align-items: center;
 
-    font-weight: var(--font-semi);
+    font-weight: 700;
 
     background-color: #496D96;
 
@@ -626,7 +552,7 @@ header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link 
 
     font-size: 20px;
 
-    font-weight: var(--font-light);
+    font-weight: 600;
 
     text-transform: uppercase;
 
@@ -664,7 +590,7 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
 
     text-transform: uppercase;
 
-    color: var(--forth-color);
+    color: #0E2431;
 
     letter-spacing: 2px;
 
@@ -674,13 +600,13 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
 
 header.main_header nav.page_nav div.nav_toggle {
 
-    color: var(--forth-color);
+    color: #0E2431;
 
     font-size: 1.5rem;
 
     cursor: pointer;
 
-    z-index: var(--z-fixed);
+    z-index: 100;
 
     width: 50px;
 
@@ -726,21 +652,21 @@ main.main_dashboard section.home div.home_data h1.home_title {
 
     font-family: "Poppins", sans-serif;
 
-    font-weight: var(--font-semi);
+    font-weight: 700;
 
-    font-size: var(--big-font-size);
+    font-size: 2rem;
 
-    color: var(--forth-color);
+    color: #0E2431;
 
-    margin-bottom: var(--mb-3);
+    margin-bottom: 1.5rem;
 
 }
 
 main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
 
-    color: var(--second-color);
+    color: #496D96;
 
-    font-weight: var(--font-semi);
+    font-weight: 700;
 
 }
 
@@ -752,7 +678,7 @@ main.main_dashboard section.home div.home_social {
 
     align-items: flex-end;
 
-    margin-bottom: var(--mb-5);
+    margin-bottom: 2.5rem;
 
 }
 
@@ -760,7 +686,7 @@ main.main_dashboard section.home div.home_social a.home_social_icon {
 
     width: max-content;
 
-    margin-bottom: var(--mb-2);
+    margin-bottom: 1rem;
 
     font-size: 2.8rem;
 
@@ -788,7 +714,7 @@ main.main_dashboard section.home div.home_social a#email {
 
 main.main_dashboard section.home div.home_social a.home_social_icon {
 
-    color: var(--first-color);
+    color: #464146;
 
 }
 
@@ -822,7 +748,7 @@ main.main_dashboard section.home div.home_data a.contact_button {
 
     display: inline-block;
 
-    background-color: var(--third-color);
+    background-color: #354B6C;
 
     color: #FFFFFF;
 
@@ -830,7 +756,7 @@ main.main_dashboard section.home div.home_data a.contact_button {
 
     font-family: "Poppins", sans-serif;
 
-    font-weight: var(--font-semi);
+    font-weight: 700;
 
     font-size: 1.2rem;
 
@@ -838,7 +764,7 @@ main.main_dashboard section.home div.home_data a.contact_button {
 
     border-radius: .3rem;
 
-    margin-bottom: var(--mb-4);
+    margin-bottom: 2rem;
 
 }
 
