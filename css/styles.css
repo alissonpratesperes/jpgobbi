@@ -484,22 +484,6 @@ header.main_header nav.page_nav {
 
     }
 
-    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
-
-        font-family: "Poppins", sans-serif;
-
-        font-weight: 400;
-
-        font-size: 0.8rem;
-
-        padding: 10px;
-
-        color: #464146;
-
-        text-align: justify;
-
-    }
-
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
 
         font-family: "Poppins", sans-serif;
@@ -517,6 +501,22 @@ header.main_header nav.page_nav {
         color: #496D96;
 
         text-transform: uppercase;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 400;
+
+        font-size: 0.8rem;
+
+        padding: 10px;
+
+        color: #464146;
+
+        text-align: justify;
 
     }
 
@@ -589,6 +589,82 @@ header.main_header nav.page_nav {
         font-size: 25px;
 
         color: rgba(53, 75, 108, .6);
+
+    }
+
+    section.teams div.container {
+
+        height: 900px;
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    section.teams div.container div.team_left_col {
+
+        flex-basis: 30%;
+
+    }
+
+    section.teams div.container div.team_left_col div.team_image {
+
+        height: 320px;
+
+        background-image: url('../vectors/team_group.svg');
+
+        background-size: 310px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.teams div.container div.team_right_col {
+
+        flex-basis: 70%;
+
+        border: 1px solid red;
+
+    }
+
+    section.teams div.container div.team_right_col h3.team_subtitle {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+        box-sizing: border-box;
+
+        margin-top: 20px;
+
+        margin-bottom: 10px;
+
+        color: #496D96;
+
+        text-transform: uppercase;
+
+        text-align: center;
+
+    }
+
+    section.teams div.container div.team_right_col p.team_content {
+
+        font-family: "Nunito", sans-serif;
+
+        font-weight: 400;
+
+        font-size: 0.8rem;
+
+        padding: 20px;
+
+        color: #464146;
+
+        text-align: justify;
 
     }
 
