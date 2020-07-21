@@ -191,7 +191,7 @@ header.main_header nav.page_nav {
 
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
-        color: #354B6C;
+        color: #0E2431;
 
     }
 
@@ -266,7 +266,7 @@ header.main_header nav.page_nav {
     
         color: #3B5998;
 
-        font-size: 3rem;
+        font-size: 3.5rem;
 
     }
     
@@ -274,7 +274,7 @@ header.main_header nav.page_nav {
     
         color: #34AF23;
     
-        font-size: 3.4rem;
+        font-size: 3.9rem;
     
     }
     
@@ -282,7 +282,7 @@ header.main_header nav.page_nav {
     
         color: #228CDB;
 
-        font-size: 3rem;
+        font-size: 3.5rem;
     
     }
     
@@ -304,15 +304,15 @@ header.main_header nav.page_nav {
     
     main.main_dashboard section.home div.home_logo div.home_company_logo {
     
-        width: 260px;
+        width: 280px;
     
-        height: 260px;
+        height: 280px;
     
         background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
     
         background-repeat: no-repeat;
     
-        background-size: 260px;
+        background-size: 280px;
     
         background-position: center;
     
@@ -716,7 +716,7 @@ header.main_header nav.page_nav {
 
         transform: scale(0.98);
 
-        color: rgba(53, 75, 108, 1);
+        color: rgba(14, 36, 49, 1);
 
     }
 
@@ -728,7 +728,7 @@ header.main_header nav.page_nav {
 
         font-size: 25px;
 
-        color: rgba(53, 75, 108, .6);
+        color: rgba(14, 36, 49, .5);
 
     }
 
@@ -864,7 +864,7 @@ header.main_header nav.page_nav {
 
         transform: scale(0.98);
 
-        color: rgba(53, 75, 108, 1);
+        color: rgba(14, 36, 49, 1);
 
     }
 
@@ -876,7 +876,7 @@ header.main_header nav.page_nav {
 
         font-size: 25px;
 
-        color: rgba(53, 75, 108, .6);
+        color: rgba(14, 36, 49, .5);
 
     }
 
@@ -952,9 +952,9 @@ header.main_header nav.page_nav div.nav_toggle {
 
     z-index: 100;
 
-    width: 50px;
+    width: 65px;
 
-    height: 50px;
+    height: 65px;
 
     position: absolute;
 
@@ -977,5 +977,15 @@ header.main_header nav.page_nav div.nav_toggle {
 .show {
 
     right: 0%;
+
+}
+
+@media screen and (max-width: 374px) {
+
+    main.main_dashboard section.home div.home_data h1.home_title {
+
+        font-size: 1.8rem;
+
+    }
 
 }
