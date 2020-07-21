@@ -55,11 +55,11 @@ a {
 
     font-family: "Poppins", sans-serif;
 
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 
     text-transform: uppercase;
 
-    color: #464146;
+    color: rgba(14, 36, 49, 1);
 
     margin-top: 1rem;
 
@@ -81,13 +81,13 @@ a {
 
     content: "";
 
-    width: 65px;
+    width: 75px;
 
     height: 0.2rem;
 
     margin: auto;
 
-    background-color: #354B6C;
+    background-color: #496D96;
 
 }
 
@@ -224,7 +224,7 @@ header.main_header nav.page_nav {
     
         font-weight: 700;
     
-        font-size: 2rem;
+        font-size: 2.2rem;
     
         color: #0E2431;
     
@@ -630,7 +630,7 @@ header.main_header nav.page_nav {
 
         font-weight: 700;
 
-        font-size: 25px;
+        font-size: 20px;
 
         box-sizing: border-box;
 
