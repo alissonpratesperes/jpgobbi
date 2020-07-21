@@ -2,21 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
-@media screen and (max-width: 350px) {
-
-    main.main_dashboard section.home div.home_logo div.home_company_logo {
-
-        width: 150px;
-
-        height: 150px;
-
-        background-size: 150px;
-
-    }
-    
-
-}
-
 *, ::before, ::after {
 
     box-sizing: border-box;
@@ -160,7 +145,7 @@ header.main_header nav.page_nav {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
 
     .nav_menu {
 
@@ -180,7 +165,7 @@ header.main_header nav.page_nav {
 
         background-color: rgba(73, 109, 150, 0.7);
 
-        backdrop-filter: blur(50px);
+        backdrop-filter: blur(30px);
 
         display: flex;
 
@@ -278,20 +263,24 @@ header.main_header nav.page_nav {
     main.main_dashboard section.home div.home_social a#facebook {
     
         color: #3B5998;
-    
+
+        font-size: 3rem;
+
     }
     
     main.main_dashboard section.home div.home_social a#whatsapp {
     
         color: #34AF23;
     
-        font-size: 3.2rem;
+        font-size: 3.4rem;
     
     }
     
     main.main_dashboard section.home div.home_social a#email {
     
         color: #228CDB;
+
+        font-size: 3rem;
     
     }
     
@@ -313,15 +302,15 @@ header.main_header nav.page_nav {
     
     main.main_dashboard section.home div.home_logo div.home_company_logo {
     
-        width: 300px;
+        width: 260px;
     
-        height: 300px;
+        height: 260px;
     
         background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
     
         background-repeat: no-repeat;
     
-        background-size: 300px;
+        background-size: 260px;
     
         background-position: center;
     
@@ -990,4 +979,3 @@ header.main_header nav.page_nav div.nav_toggle {
     right: 0%;
 
 }
-
