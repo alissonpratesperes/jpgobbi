@@ -177,6 +177,8 @@ header.main_header nav.page_nav {
 
     header.main_header nav.page_nav div.nav_menu ul.nav_list {
 
+        font-family: "Poppins", sans-serif;
+
         height: 105%;
 
         display: flex;
@@ -335,6 +337,8 @@ header.main_header nav.page_nav {
         text-transform: uppercase;
     
         border-radius: .3rem;
+
+        margin-top: 20px;
     
         margin-bottom: 2rem;
     
@@ -352,7 +356,7 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
-        padding: 30px;
+        padding: 20px;
     
         text-align: justify;
     
@@ -362,7 +366,7 @@ header.main_header nav.page_nav {
     
         font-family: "Nunito", sans-serif;
     
-        font-size: 1.2rem;
+        font-size: 1rem;
         
         font-weight: 400;
     
@@ -374,7 +378,7 @@ header.main_header nav.page_nav {
     
         font-weight: 700;
     
-        color: #354B6C;
+        color: #496D96;
     
     }
     
@@ -398,10 +402,12 @@ header.main_header nav.page_nav {
 
     section.services div.container {
 
-        width: 90%;
+        width: 100%;
 
         margin: 10px auto;
 
+        border: 1px solid black;
+    
     }
 
     section.services div.container div.carousel {
@@ -532,11 +538,11 @@ header.main_header nav.page_nav {
 
         flex-basis: 40%;
 
-        width: 320px;
+        width: 330px;
 
         background-image: url('../vectors/handshake.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -548,11 +554,11 @@ header.main_header nav.page_nav {
 
         flex-basis: 40%;
 
-        width: 320px;
+        width: 330px;
 
         background-image: url('../vectors/armed_guard.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -564,11 +570,11 @@ header.main_header nav.page_nav {
 
         flex-basis: 40%;
 
-        width: 320px;
+        width: 330px;
 
         background-image: url('../vectors/unarmed_guard.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -580,11 +586,11 @@ header.main_header nav.page_nav {
 
         flex-basis: 40%;
 
-        width: 320px;
+        width: 330px;
 
         background-image: url('../vectors/recepcionist.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -596,11 +602,11 @@ header.main_header nav.page_nav {
 
         flex-basis: 40%;
 
-        width: 320px;
+        width: 330px;
 
         background-image: url('../vectors/contact.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -646,9 +652,9 @@ header.main_header nav.page_nav {
 
         font-weight: 400;
 
-        font-size: 0.8rem;
+        font-size: 0.85rem;
 
-        padding: 10px;
+        padding: 0px 20px 0px 20px;
 
         color: #464146;
 
@@ -740,17 +746,17 @@ header.main_header nav.page_nav {
 
     section.teams div.container div.team_left_col {
 
-        flex-basis: 30%;
+        flex-basis: 20%;
 
     }
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 320px;
+        height: 330px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 310px;
+        background-size: 330px;
 
         background-repeat: no-repeat;
 
@@ -760,15 +766,15 @@ header.main_header nav.page_nav {
 
     section.teams div.container div.team_right_col {
 
-        flex-basis: 70%;
+        flex-basis: 80%;
 
         display: flex;
 
         flex-direction: column;
 
-        align-items: center;
-
         justify-content: center;
+
+        align-items: center;
 
     }
 
@@ -780,15 +786,11 @@ header.main_header nav.page_nav {
 
         font-size: 20px;
 
-        box-sizing: border-box;
-
-        margin-top: 20px;
-
-        margin-bottom: 10px;
-
         color: #496D96;
 
         text-transform: uppercase;
+
+        text-align: center;
 
     }
 
@@ -798,9 +800,9 @@ header.main_header nav.page_nav {
 
         font-weight: 400;
 
-        font-size: 0.9rem;
+        font-size: 1rem;
 
-        padding: 20px;
+        padding: 0px 20px 0px 20px;
 
         color: #464146;
 
