@@ -1,12 +1,17 @@
 const showMenu = (toggleId, navId) => {
 
     const toggle = document.getElementById(toggleId),
+    
     nav = document.getElementById(navId)
 
         if (toggle && nav) {
+
             toggle.addEventListener("click", () => {
+
                 nav.classList.toggle("show")
+
             })
+
         }
 
 }
@@ -30,9 +35,6 @@ showMenu("nav-toggle", "nav-menu")
     navLink.forEach(n => n.addEventListener("click", linkAction))
 
 
-
-
-
 const slider = document.querySelector('div.slider');
 
 const leftArrow = document.querySelector('span.left');
@@ -54,7 +56,7 @@ var indicatorParents = document.querySelector('ul#section_indicators');
 
     document.querySelectorAll('div.controls ul#section_indicators li').forEach(function(indicator, index){
 
-        indicator.addEventListener('click', function(){
+        indicator.addEventListener('click', function() {
 
             sectionIndex = index;
 
@@ -66,7 +68,7 @@ var indicatorParents = document.querySelector('ul#section_indicators');
 
     });
 
-    leftArrow.addEventListener('click', function(){
+    leftArrow.addEventListener('click', function() {
 
         sectionIndex = (sectionIndex > 0) ? sectionIndex - 1 : 0;
 
