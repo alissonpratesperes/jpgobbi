@@ -2,8 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 350px) {
 
+    main.main_dashboard section.home div.home_logo div.home_company_logo {
+
+        width: 150px;
+
+        height: 150px;
+
+        background-size: 150px;
+
+    }
     
 
 }
@@ -208,6 +217,144 @@ header.main_header nav.page_nav {
 
         background-color: transparent;
 
+    }
+
+    main.main_dashboard section.home {
+
+        height: calc(100vh - 3rem);
+    
+    }
+    
+    main.main_dashboard section.home div.home_data {
+    
+        align-self: center;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title {
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 2rem;
+    
+        color: #0E2431;
+    
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
+    
+        color: #496D96;
+    
+        font-weight: 700;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: flex-end;
+    
+        margin-bottom: 2.5rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        width: max-content;
+    
+        margin-bottom: 1rem;
+    
+        font-size: 2.8rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a#facebook {
+    
+        color: #3B5998;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a#whatsapp {
+    
+        color: #34AF23;
+    
+        font-size: 3.2rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a#email {
+    
+        color: #228CDB;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        color: #464146;
+    
+    }
+    
+    main.main_dashboard section.home div.home_logo {
+    
+        position: absolute;
+    
+        left: 5px;
+    
+        bottom: 5px;
+    
+    }
+    
+    main.main_dashboard section.home div.home_logo div.home_company_logo {
+    
+        width: 300px;
+    
+        height: 300px;
+    
+        background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
+    
+        background-repeat: no-repeat;
+    
+        background-size: 300px;
+    
+        background-position: center;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button {
+    
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #FFFFFF;
+    
+        padding: 1.2rem 2.5rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 1.2rem;
+    
+        text-transform: uppercase;
+    
+        border-radius: .3rem;
+    
+        margin-bottom: 2rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button:hover {
+    
+        box-shadow: 0px 10px 36px rgba( 0, 0, 0, .15);
+    
     }
 
     main.main_dashboard section.about div.about_container {
@@ -844,140 +991,3 @@ header.main_header nav.page_nav div.nav_toggle {
 
 }
 
-main.main_dashboard section.home {
-
-    height: calc(100vh - 3rem);
-
-}
-
-main.main_dashboard section.home div.home_data {
-
-    align-self: center;
-
-}
-
-main.main_dashboard section.home div.home_data h1.home_title {
-
-    font-family: "Poppins", sans-serif;
-
-    font-weight: 700;
-
-    font-size: 2rem;
-
-    color: #0E2431;
-
-    margin-bottom: 1.5rem;
-
-}
-
-main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
-
-    color: #496D96;
-
-    font-weight: 700;
-
-}
-
-main.main_dashboard section.home div.home_social {
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: flex-end;
-
-    margin-bottom: 2.5rem;
-
-}
-
-main.main_dashboard section.home div.home_social a.home_social_icon {
-
-    width: max-content;
-
-    margin-bottom: 1rem;
-
-    font-size: 2.8rem;
-
-}
-
-main.main_dashboard section.home div.home_social a#facebook {
-
-    color: #3B5998;
-
-}
-
-main.main_dashboard section.home div.home_social a#whatsapp {
-
-    color: #34AF23;
-
-    font-size: 3.2rem;
-
-}
-
-main.main_dashboard section.home div.home_social a#email {
-
-    color: #228CDB;
-
-}
-
-main.main_dashboard section.home div.home_social a.home_social_icon {
-
-    color: #464146;
-
-}
-
-main.main_dashboard section.home div.home_logo {
-
-    position: absolute;
-
-    left: 5px;
-
-    bottom: 5px;
-
-}
-
-main.main_dashboard section.home div.home_logo div.home_company_logo {
-
-    width: 300px;
-
-    height: 300px;
-
-    background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
-
-    background-repeat: no-repeat;
-
-    background-size: 300px;
-
-    background-position: center;
-
-}
-
-main.main_dashboard section.home div.home_data a.contact_button {
-
-    display: inline-block;
-
-    background-color: #354B6C;
-
-    color: #FFFFFF;
-
-    padding: 1.2rem 2.5rem;
-
-    font-family: "Poppins", sans-serif;
-
-    font-weight: 700;
-
-    font-size: 1.2rem;
-
-    text-transform: uppercase;
-
-    border-radius: .3rem;
-
-    margin-bottom: 2rem;
-
-}
-
-main.main_dashboard section.home div.home_data a.contact_button:hover {
-
-    box-shadow: 0px 10px 36px rgba( 0, 0, 0, .15);
-
-}
