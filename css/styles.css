@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&display=swap');
 
 * {
 
@@ -266,6 +266,8 @@ header.main_header nav.page_nav {
         font-size: 2.8rem;
 
         box-sizing: border-box;
+
+        margin-bottom: 10px;
     
     }
     
@@ -331,7 +333,7 @@ header.main_header nav.page_nav {
     
         background-color: #354B6C;
     
-        color: #FFFFFF;
+        color: #EFEFEB;
     
         padding: 1.2rem 2.2rem;
     
@@ -352,12 +354,18 @@ header.main_header nav.page_nav {
         margin-top: 12px;
     
         margin-bottom: 0rem;
+
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+
+        transition: all .3s;
     
     }
     
     main.main_dashboard section.home div.home_data a.contact_button:hover {
     
-        box-shadow: 0px 10px 36px rgba( 0, 0, 0, .15);
+        box-shadow: none;
+
+        transform: scale(0.98);
     
     }
 
@@ -391,9 +399,9 @@ header.main_header nav.page_nav {
 
     main.main_dashboard section.about div.about_container div.about_contents p.about_text {
 
-        font-family: "Nunito", sans-serif;
+        font-family: "Baloo Chettan 2";
     
-        font-size: 1.2rem;
+        font-size: 1rem;
         
         font-weight: 400;
     
@@ -423,7 +431,7 @@ header.main_header nav.page_nav {
 
     section.services div.container div.carousel {
 
-        height: 900px;
+        height: 850px;
 
         position: relative;
 
@@ -667,11 +675,11 @@ header.main_header nav.page_nav {
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
 
-        font-family: "Poppins", sans-serif;
+        font-family: "Baloo Chettan 2";
 
         font-weight: 400;
 
-        font-size: 0.85rem;
+        font-size: 0.9rem;
 
         color: #464146;
 
@@ -755,13 +763,11 @@ header.main_header nav.page_nav {
 
     section.teams div.container {
 
-        height: 1000px;
+        height: 1100px;
 
         display: flex;
 
         flex-direction: column;
-
-        border: 1px solid black;
 
     }
 
@@ -769,23 +775,19 @@ header.main_header nav.page_nav {
 
         flex-basis: 20%;
 
-        border: 1px solid black;
-
     }
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 340px;
+        height: 400px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 340px;
+        background-size: 400px;
 
         background-repeat: no-repeat;
 
         background-position: center;
-
-        border: 1px solid black;
 
     }
 
@@ -801,7 +803,9 @@ header.main_header nav.page_nav {
 
         align-items: center;
 
-        border: 1px solid black;
+        box-sizing: border-box;
+
+        padding: 0px 20px 0px 20px;
 
     }
 
@@ -819,27 +823,19 @@ header.main_header nav.page_nav {
 
         text-align: center;
 
-        border: 1px solid black;
-
     }
 
     section.teams div.container div.team_right_col p.team_content {
 
-        font-family: "Nunito", sans-serif;
+        font-family: "Baloo Chettan 2";
 
         font-weight: 400;
 
-        font-size: 1rem;
-
-        box-sizing: border-box;
-
-        padding: 0px 20px 0px 20px;
+        font-size: 1.1rem;
 
         color: #464146;
 
         text-align: justify;
-
-        border: 1px solid black;
 
     }
 
@@ -853,9 +849,9 @@ header.main_header nav.page_nav {
 
         text-align: center;
 
-        margin-top: 20px;
+        margin-top: 30px;
 
-        margin-bottom: 20px;
+        margin-bottom: 15px;
 
         box-sizing: border-box;
 
@@ -934,6 +930,8 @@ header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link 
     font-weight: 600;
 
     text-transform: uppercase;
+
+    text-decoration: none;
 
 }
 
