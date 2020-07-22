@@ -993,12 +993,6 @@ header.main_header nav.page_nav div.nav_toggle {
 
 @media screen and (max-width: 390px) {
 
-    * {
-
-        transition: all 0.1s;
-
-    }
-
     main.main_dashboard section.home {
 
         height: 100vh;
