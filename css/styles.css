@@ -360,14 +360,16 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
-        padding: 20px;
+        padding: 0px;
+
+        margin: 0px;
     
         text-align: justify;
     
     }
     
     main.main_dashboard section.about div.about_container div.about_contents p.about_text {
-    
+
         font-family: "Nunito", sans-serif;
     
         font-size: 1rem;
@@ -375,7 +377,9 @@ header.main_header nav.page_nav {
         font-weight: 400;
     
         color: #464146;
-    
+
+        padding: 0px 20px 0px 20px;
+
     }
     
     main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
@@ -390,9 +394,9 @@ header.main_header nav.page_nav {
     
         justify-self: center;
     
-        width: 330px;
+        width: 360px;
     
-        height: 330px;
+        height: 360px;
     
         background-image: url("../vectors/security_guards.svg");
     
@@ -502,15 +506,15 @@ header.main_header nav.page_nav {
 
     section.services div.container div.carousel div.controls ul#section_indicators li {
 
-        width: 20px;
+        width: 25px;
 
-        height: 20px;
+        height: 25px;
 
         border: 2px solid #B1BECD;
 
         border-radius: 50px;
 
-        margin: 10px;
+        margin: 0px 15px;
 
         background-color: #B1BECD;
 
@@ -738,7 +742,7 @@ header.main_header nav.page_nav {
 
     section.teams div.container {
 
-        height: 900px;
+        height: 1000px;
 
         display: flex;
 
@@ -754,11 +758,11 @@ header.main_header nav.page_nav {
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 330px;
+        height: 340px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 330px;
+        background-size: 340px;
 
         background-repeat: no-repeat;
 
@@ -985,72 +989,6 @@ header.main_header nav.page_nav div.nav_toggle {
 }
 
 @media screen and (max-width: 374px) {
-
-    main.main_dashboard section.home div.home_data h1.home_title {
-
-        font-size: 1.8rem;
-
-    }
-
-    main.main_dashboard section.home div.home_social {
-
-        width: 70%;
-
-        margin-top: 10px;
-
-        margin-left: 90px;
-
-    }
-
-    main.main_dashboard section.home div.home_social a.home_social_icon {
-    
-        margin-bottom: 0.5rem;
-    
-    }
-
-    main.main_dashboard section.home div.home_social a#facebook {
-
-        font-size: 3rem;
-
-    }
-
-    main.main_dashboard section.home div.home_social a#whatsapp {
-
-        font-size: 3.4rem;
-
-    }
-
-    main.main_dashboard section.home div.home_social a#email {
-
-        font-size: 3rem;
-
-    }
-
-    main.main_dashboard section.home div.home_logo {
-
-        position: absolute;
-
-        left: 10px;
-
-        bottom: 5px;
-
-    }
-
-    main.main_dashboard section.home div.home_logo div.home_company_logo {
-
-        width: 230px;
-
-        height: 230px;
-
-        background-size: 230px;
-
-    }
-
-    main.main_dashboard section.home div.home_data a.contact_button {
-
-        margin-top: 20px;
-
-    }
 
 
 }
