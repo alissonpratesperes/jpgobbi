@@ -277,6 +277,18 @@ header.main_header nav.page_nav {
 
         font-size: 3.5rem;
 
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
+
+    }
+
+    main.main_dashboard section.home div.home_social a#facebook:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
     }
     
     main.main_dashboard section.home div.home_social a#whatsapp {
@@ -284,7 +296,19 @@ header.main_header nav.page_nav {
         color: #34AF23;
     
         font-size: 4rem;
+
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
     
+    }
+
+    main.main_dashboard section.home div.home_social a#whatsapp:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
     }
     
     main.main_dashboard section.home div.home_social a#email {
@@ -292,7 +316,19 @@ header.main_header nav.page_nav {
         color: #228CDB;
 
         font-size: 3.5rem;
+
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
     
+    }
+
+    main.main_dashboard section.home div.home_social a#email:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
     }
     
     main.main_dashboard section.home div.home_social a.home_social_icon {
@@ -349,7 +385,7 @@ header.main_header nav.page_nav {
 
         text-decoration: none;
     
-        border-radius: .3rem;
+        border-radius: .5rem;
 
         margin-top: 12px;
     
@@ -357,7 +393,7 @@ header.main_header nav.page_nav {
 
         box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 
-        transition: all .3s;
+        transition: all 0.1s;
     
     }
     
@@ -691,73 +727,43 @@ header.main_header nav.page_nav {
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link {
 
-        width: 200px;
-
-        position: relative;
-
         display: inline-block;
-
-        text-align: center;
-
-        margin-top: 100px;
-
-        margin-bottom: 50px;
-
-        box-sizing: border-box;
-
-        padding: 20px;
-
-        font-size: 20px;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 1.2rem 2.2rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 1.5rem;
 
         letter-spacing: 2px;
-
-        text-decoration: none;
-
+    
         text-transform: uppercase;
 
-        border-radius: 10px;
+        text-decoration: none;
+    
+        border-radius: .5rem;
 
-        box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+        margin-top: 100px;
+    
+        margin-bottom: 50px;
 
-                -2px -2px 16px rgba(255, 255, 255, 1),
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 
-                inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-                2px 2px 12px rgba(70, 65, 70, 0.5);
+        transition: all 0.1s;
 
     }
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover {
 
-        box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
-
-                inset -2px -2px 16px rgba(255, 255, 255, 1),
-
-                inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-                inset 2px 2px 12px rgba(70, 65, 70, 0.5);
-
-    }
-
-    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover span#contact_slide_button {
-
-        display: inline-block;
+        box-shadow: none;
 
         transform: scale(0.98);
-
-        color: rgba(14, 36, 49, 1);
-
-    }
-
-    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link span#contact_slide_button {
-
-        font-family: "Poppins", sans-serif;
-
-        font-weight: 700;
-
-        font-size: 25px;
-
-        color: rgba(14, 36, 49, .5);
 
     }
 
@@ -841,73 +847,43 @@ header.main_header nav.page_nav {
 
     section.teams div.container div.team_right_col a.contact_link {
 
-        width: 200px;
-
-        position: relative;
-
         display: inline-block;
-
-        text-align: center;
-
-        margin-top: 30px;
-
-        margin-bottom: 15px;
-
-        box-sizing: border-box;
-
-        padding: 20px;
-
-        font-size: 20px;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 1.2rem 2.2rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 1.5rem;
 
         letter-spacing: 2px;
-
-        text-decoration: none;
-
+    
         text-transform: uppercase;
 
-        border-radius: 10px;
+        text-decoration: none;
+    
+        border-radius: .5rem;
 
-        box-shadow: -2px -2px 12px rgba(255, 255, 255, 1), 
+        margin-top: 30px;
+    
+        margin-bottom: 30px;
 
-                    -2px -2px 16px rgba(255, 255, 255, 1),
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 
-                    inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-                    2px 2px 12px rgba(70, 65, 70, 0.5);
+        transition: all 0.1s;
 
     }
 
     section.teams div.container div.team_right_col a.contact_link:hover {
 
-        box-shadow: inset -2px -2px 12px rgba(255, 255, 255, 1), 
-
-                    inset -2px -2px 16px rgba(255, 255, 255, 1),
-
-                    inset 2px 2px 8px rgba(255, 255, 255, 0.5), 
-
-                    inset 2px 2px 12px rgba(70, 65, 70, 0.5);
-
-    }
-
-    section.teams div.container div.team_right_col a.contact_link:hover span#contact_teams {
-
-        display: inline-block;
+        box-shadow: none;
 
         transform: scale(0.98);
-
-        color: rgba(14, 36, 49, 1);
-
-    }
-
-    section.teams div.container div.team_right_col a.contact_link span#contact_teams {
-
-        font-family: "Poppins", sans-serif;
-
-        font-weight: 700;
-
-        font-size: 25px;
-
-        color: rgba(14, 36, 49, .5);
 
     }
 
@@ -1001,9 +977,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
     justify-content: center;
 
-    border-radius: 5px;
+    border-radius: .5rem;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .25);
 
 }
 
