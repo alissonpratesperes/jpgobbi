@@ -209,12 +209,16 @@ header.main_header nav.page_nav {
     main.main_dashboard section.home {
 
         height: 100vh;
+
+        border: 1px solid black;
     
     }
     
     main.main_dashboard section.home div.home_data {
     
         align-self: center;
+
+        border: 1px solid black;
     
     }
     
@@ -224,21 +228,23 @@ header.main_header nav.page_nav {
     
         font-weight: 700;
     
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     
         color: #0E2431;
 
         margin-top: 2.5rem;
     
         margin-bottom: 1.5rem;
+
+        border: 1px solid black;
     
     }
     
     main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
     
         color: #496D96;
-    
-        font-weight: 700;
+
+        font-weight: 900;
     
     }
     
@@ -249,10 +255,14 @@ header.main_header nav.page_nav {
         flex-direction: column;
     
         align-items: flex-end;
-
-        margin-top: 10px;
     
         margin-bottom: 2.5rem;
+
+        border: 1px solid black;
+
+        box-sizing: border-box;
+
+        padding-right: 15px;
     
     }
     
@@ -260,9 +270,9 @@ header.main_header nav.page_nav {
     
         width: max-content;
     
-        margin-bottom: 0.4rem;
-    
         font-size: 2.8rem;
+
+        border: 1px solid red;
     
     }
     
@@ -278,7 +288,7 @@ header.main_header nav.page_nav {
     
         color: #34AF23;
     
-        font-size: 3.9rem;
+        font-size: 4rem;
     
     }
     
@@ -300,9 +310,11 @@ header.main_header nav.page_nav {
     
         position: absolute;
     
-        left: 12px;
+        left: 15px;
     
-        bottom: 12px;
+        bottom: 15px;
+
+        border: 1px solid black;
     
     }
     
@@ -330,19 +342,21 @@ header.main_header nav.page_nav {
     
         color: #FFFFFF;
     
-        padding: 1.2rem 2.5rem;
+        padding: 1.2rem 2.2rem;
     
         font-family: "Poppins", sans-serif;
     
         font-weight: 700;
     
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+
+        letter-spacing: 2px;
     
         text-transform: uppercase;
     
         border-radius: .3rem;
 
-        margin-top: 20px;
+        margin-top: 12px;
     
         margin-bottom: 0rem;
     
@@ -365,6 +379,8 @@ header.main_header nav.page_nav {
         margin: 0px;
     
         text-align: justify;
+
+        border: 1px solid black;
     
     }
     
@@ -379,6 +395,8 @@ header.main_header nav.page_nav {
         color: #464146;
 
         padding: 0px 20px 0px 20px;
+
+        border: 1px solid black;
 
     }
     
@@ -405,6 +423,8 @@ header.main_header nav.page_nav {
         background-position: center;
     
         background-size: 360px;
+
+        border: 1px solid black;
     
     }
 
@@ -413,6 +433,8 @@ header.main_header nav.page_nav {
         width: 100%;
 
         margin: 10px auto;
+
+        border: 1px solid black;
 
     }
 
@@ -502,6 +524,8 @@ header.main_header nav.page_nav {
 
         background-color: transparent;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators li {
@@ -538,6 +562,8 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
@@ -553,6 +579,8 @@ header.main_header nav.page_nav {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -570,6 +598,8 @@ header.main_header nav.page_nav {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
@@ -585,6 +615,8 @@ header.main_header nav.page_nav {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -602,6 +634,8 @@ header.main_header nav.page_nav {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
@@ -618,6 +652,8 @@ header.main_header nav.page_nav {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
@@ -629,6 +665,8 @@ header.main_header nav.page_nav {
         flex-direction: column;
 
         align-items: center;
+
+        border: 1px solid black;
 
     }
 
@@ -650,6 +688,8 @@ header.main_header nav.page_nav {
 
         text-transform: uppercase;
 
+        border: 1px solid black;
+
     }
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
@@ -665,6 +705,8 @@ header.main_header nav.page_nav {
         color: #464146;
 
         text-align: justify;
+
+        border: 1px solid black;
 
     }
 
@@ -748,11 +790,15 @@ header.main_header nav.page_nav {
 
         flex-direction: column;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_left_col {
 
         flex-basis: 20%;
+
+        border: 1px solid black;
 
     }
 
@@ -768,6 +814,8 @@ header.main_header nav.page_nav {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_right_col {
@@ -781,6 +829,8 @@ header.main_header nav.page_nav {
         justify-content: center;
 
         align-items: center;
+
+        border: 1px solid black;
 
     }
 
@@ -798,6 +848,8 @@ header.main_header nav.page_nav {
 
         text-align: center;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_right_col p.team_content {
@@ -813,6 +865,8 @@ header.main_header nav.page_nav {
         color: #464146;
 
         text-align: justify;
+
+        border: 1px solid black;
 
     }
 
