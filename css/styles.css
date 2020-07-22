@@ -15,7 +15,7 @@ html {
 
 body {
 
-    margin: 3rem 0 0 0;
+    margin: 0px 0px 0px 0px;
 
     font-family: "Nunito", sans-serif;
 
@@ -208,7 +208,7 @@ header.main_header nav.page_nav {
 
     main.main_dashboard section.home {
 
-        height: calc(100vh - 3rem);
+        height: 100vh;
     
     }
     
@@ -227,6 +227,8 @@ header.main_header nav.page_nav {
         font-size: 2.2rem;
     
         color: #0E2431;
+
+        margin-top: 2.5rem;
     
         margin-bottom: 1.5rem;
     
@@ -247,6 +249,8 @@ header.main_header nav.page_nav {
         flex-direction: column;
     
         align-items: flex-end;
+
+        margin-top: 10px;
     
         margin-bottom: 2.5rem;
     
@@ -256,7 +260,7 @@ header.main_header nav.page_nav {
     
         width: max-content;
     
-        margin-bottom: 1rem;
+        margin-bottom: 0.4rem;
     
         font-size: 2.8rem;
     
@@ -296,23 +300,23 @@ header.main_header nav.page_nav {
     
         position: absolute;
     
-        left: 5px;
+        left: 12px;
     
-        bottom: 5px;
+        bottom: 12px;
     
     }
     
     main.main_dashboard section.home div.home_logo div.home_company_logo {
     
-        width: 280px;
+        width: 260px;
     
-        height: 280px;
+        height: 260px;
     
         background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
     
         background-repeat: no-repeat;
     
-        background-size: 280px;
+        background-size: 260px;
     
         background-position: center;
     
@@ -340,7 +344,7 @@ header.main_header nav.page_nav {
 
         margin-top: 20px;
     
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     
     }
     
@@ -987,5 +991,66 @@ header.main_header nav.page_nav div.nav_toggle {
         font-size: 1.8rem;
 
     }
+
+    main.main_dashboard section.home div.home_social {
+
+        width: 70%;
+
+        margin-top: 10px;
+
+        margin-left: 90px;
+
+    }
+
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        margin-bottom: 0.5rem;
+    
+    }
+
+    main.main_dashboard section.home div.home_social a#facebook {
+
+        font-size: 3rem;
+
+    }
+
+    main.main_dashboard section.home div.home_social a#whatsapp {
+
+        font-size: 3.4rem;
+
+    }
+
+    main.main_dashboard section.home div.home_social a#email {
+
+        font-size: 3rem;
+
+    }
+
+    main.main_dashboard section.home div.home_logo {
+
+        position: absolute;
+
+        left: 10px;
+
+        bottom: 5px;
+
+    }
+
+    main.main_dashboard section.home div.home_logo div.home_company_logo {
+
+        width: 230px;
+
+        height: 230px;
+
+        background-size: 230px;
+
+    }
+
+    main.main_dashboard section.home div.home_data a.contact_button {
+
+        margin-top: 20px;
+
+    }
+
 
 }
