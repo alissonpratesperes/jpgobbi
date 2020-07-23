@@ -1157,15 +1157,15 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 1.0rem 2.0rem;
+        padding: 0.8rem 1.8rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 700;
+        font-weight: 400;
     
-        font-size: 1.3rem;
+        font-size: 1.1rem;
 
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     
         text-transform: uppercase;
 
@@ -1175,7 +1175,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         margin-top: 5px;
     
-        margin-bottom: 0rem;
+        margin-bottom: 0px;
 
         box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 
@@ -1379,7 +1379,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
 
-        flex-basis: 30%;
+        flex-basis: 40%;
 
         width: 230px;
 
@@ -1461,7 +1461,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         align-self: center;
 
-        flex-basis: 70%;
+        flex-basis: 60%;
 
         display: flex;
 
@@ -1501,7 +1501,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 400;
 
-        font-size: 0.8rem;
+        font-size: 0.7rem;
 
         color: #464146;
 
@@ -1640,6 +1640,690 @@ header.main_header nav.page_nav div.nav_toggle {
         color: #EFEFEB;
     
         padding: 0.8rem 1.8rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 400;
+    
+        font-size: 1.1rem;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: .5rem;
+
+        margin-top: 30px;
+    
+        margin-bottom: 15px;
+
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+
+        transition: all 0.1s;
+
+    }
+
+    section.teams div.container div.team_right_col a.contact_link:hover {
+
+        box-shadow: none;
+
+        transform: scale(0.98);
+
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    main.main_dashboard section.home {
+
+        height: 100vh;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data {
+    
+        align-self: center;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title {
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 1.6rem;
+    
+        color: #0E2431;
+
+        margin-top: 3rem;
+    
+        margin-bottom: 3rem;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
+    
+        color: #496D96;
+
+        font-weight: 900;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: flex-end;
+    
+        margin-bottom: 2.7rem;
+
+        box-sizing: border-box;
+
+        padding-right: 0px;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        width: max-content;
+    
+        font-size: 2.8rem;
+
+        box-sizing: border-box;
+
+        margin-bottom: 15px;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a#facebook {
+    
+        color: #3B5998;
+
+        font-size: 3rem;
+
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
+
+    }
+
+    main.main_dashboard section.home div.home_social a#facebook:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a#whatsapp {
+    
+        color: #34AF23;
+    
+        font-size: 3.4rem;
+
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
+    
+    }
+
+    main.main_dashboard section.home div.home_social a#whatsapp:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a#email {
+    
+        color: #228CDB;
+
+        font-size: 3rem;
+
+        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+
+        transition: all 0.1s;
+    
+    }
+
+    main.main_dashboard section.home div.home_social a#email:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        color: #464146;
+    
+    }
+    
+    main.main_dashboard section.home div.home_logo {
+    
+        position: absolute;
+    
+        left: 10px;
+    
+        bottom: 10px;
+
+    }
+    
+    main.main_dashboard section.home div.home_logo div.home_company_logo {
+    
+        width: 200px;
+    
+        height: 200px;
+    
+        background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
+    
+        background-repeat: no-repeat;
+    
+        background-size: 200px;
+    
+        background-position: center;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button {
+    
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 0.8rem 1.3rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 400;
+    
+        font-size: 1.1rem;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: .5rem;
+
+        margin-top: 0px;
+    
+        margin-bottom: 0px;
+
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+
+        transition: all 0.1s;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button:hover {
+    
+        box-shadow: none;
+
+        transform: scale(0.98);
+    
+    }
+
+    main.main_dashboard section.about div.about_container {
+
+        row-gap: 2rem;
+
+        box-sizing: border-box;
+    
+        text-align: justify;
+    
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_img {
+    
+        justify-self: center;
+    
+        width: 270px;
+    
+        height: 270px;
+    
+        background-image: url("../vectors/security_guards.svg");
+    
+        background-repeat: no-repeat;
+    
+        background-position: center;
+    
+        background-size: 270px;
+    
+    }
+
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text {
+
+        font-family: "Baloo Chettan 2";
+    
+        font-size: 0.8rem;
+        
+        font-weight: 400;
+    
+        color: #464146;
+
+        box-sizing: border-box;
+
+        padding: 0px;
+
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
+    
+        font-weight: 700;
+    
+        color: #496D96;
+    
+    }
+
+    section.services div.container {
+
+        width: 100%;
+
+        margin: 10px auto;
+
+    }
+
+    section.services div.container div.carousel {
+
+        height: 650px;
+
+        position: relative;
+
+        overflow: hidden;
+
+    }
+
+    section.services div.container div.carousel div.slider {
+
+        height: 100%;
+
+        width: 500%;
+
+        display: flex;
+
+        transition: all 0.3s;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        flex-basis: 100%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        transform: translate(-0%);
+
+    }
+
+    section.services div.container div.carousel div.controls span.arrow {
+
+        position: absolute;
+
+        bottom: 0px;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls span.left {
+
+        left: 10px;
+
+        color: #B1BECD;
+
+        display: none;
+
+    }
+
+    section.services div.container div.carousel div.controls span.right {
+
+        right: 10px;
+
+        color: #B1BECD;
+
+        display: none;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators {
+
+        position: absolute;
+
+        left: 50%;
+
+        bottom: 0px;
+
+        transform: translate(-50%);
+
+        list-style: none;
+
+        display: flex;
+
+        box-sizing: border-box;
+
+        margin: 0px;
+
+        padding: 0px;
+
+        background-color: transparent;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li {
+
+        width: 20px;
+
+        height: 20px;
+
+        border: 2px solid #B1BECD;
+
+        border-radius: 50px;
+
+        margin: 0px 15px;
+
+        background-color: #B1BECD;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li.selected {
+
+        background-color: transparent;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
+
+        flex-basis: 40%;
+
+        width: 230px;
+
+        background-image: url('../vectors/handshake.svg');
+
+        background-size: 230px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
+
+        flex-basis: 40%;
+
+        width: 230px;
+
+        background-image: url('../vectors/armed_guard.svg');
+
+        background-size: 230px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
+
+        flex-basis: 40%;
+
+        width: 230px;
+
+        background-image: url('../vectors/unarmed_guard.svg');
+
+        background-size: 230px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
+
+        flex-basis: 40%;
+
+        width: 230px;
+
+        background-image: url('../vectors/recepcionist.svg');
+
+        background-size: 230px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
+
+        flex-basis: 40%;
+
+        width: 230px;
+
+        background-image: url('../vectors/contact.svg');
+
+        background-size: 230px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
+
+        align-self: center;
+
+        flex-basis: 60%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 700;
+
+        font-size: 18px;
+
+        box-sizing: border-box;
+
+        margin-top: 8px;
+
+        margin-bottom: 8px;
+
+        color: #496D96;
+
+        text-transform: uppercase;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
+
+        font-family: "Baloo Chettan 2";
+
+        font-weight: 400;
+
+        font-size: 0.65rem;
+
+        color: #464146;
+
+        text-align: justify;
+
+        align-self: center;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link {
+
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 0.8rem 1.3rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 400;
+    
+        font-size: 1.1rem;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: .5rem;
+
+        margin-top: 100px;
+    
+        margin-bottom: 50px;
+
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+
+        transition: all 0.1s;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover {
+
+        box-shadow: none;
+
+        transform: scale(0.98);
+
+    }
+
+    section.teams div.container {
+
+        height: 920px;
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    section.teams div.container div.team_left_col {
+
+        flex-basis: 20%;
+
+    }
+
+    section.teams div.container div.team_left_col div.team_image {
+
+        height: 270px;
+
+        background-image: url('../vectors/team_group.svg');
+
+        background-size: 270px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+    }
+
+    section.teams div.container div.team_right_col {
+
+        flex-basis: 80%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    section.teams div.container div.team_right_col h3.team_subtitle {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 700;
+
+        font-size: 20px;
+
+        color: #496D96;
+
+        text-transform: uppercase;
+
+        text-align: center;
+
+    }
+
+    section.teams div.container div.team_right_col p.team_content {
+
+        font-family: "Baloo Chettan 2";
+
+        font-weight: 400;
+
+        font-size: 0.85rem;
+
+        color: #464146;
+
+        text-align: justify; 
+
+    }
+
+    section.teams div.container div.team_right_col a.contact_link {
+
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 0.8rem 1.3rem;
     
         font-family: "Poppins", sans-serif;
     
