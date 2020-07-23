@@ -419,9 +419,9 @@ header.main_header nav.page_nav {
     
         justify-self: center;
     
-        width: 400px;
+        width: 360px;
     
-        height: 400px;
+        height: 360px;
     
         background-image: url("../vectors/security_guards.svg");
     
@@ -429,7 +429,7 @@ header.main_header nav.page_nav {
     
         background-position: center;
     
-        background-size: 400px;
+        background-size: 360px;
     
     }
 
@@ -537,7 +537,7 @@ header.main_header nav.page_nav {
 
         left: 50%;
 
-        bottom: 0px;
+        bottom: 15px;
 
         transform: translate(-50%);
 
@@ -785,11 +785,11 @@ header.main_header nav.page_nav {
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 400px;
+        height: 360px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 400px;
+        background-size: 360px;
 
         background-repeat: no-repeat;
 
@@ -1011,7 +1011,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         font-weight: 700;
     
-        font-size: 1.8rem;
+        font-size: 2rem;
     
         color: #0E2431;
 
@@ -1173,7 +1173,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         border-radius: .5rem;
 
-        margin-top: 12px;
+        margin-top: 5px;
     
         margin-bottom: 0rem;
 
@@ -1205,9 +1205,9 @@ header.main_header nav.page_nav div.nav_toggle {
     
         justify-self: center;
     
-        width: 340px;
+        width: 300px;
     
-        height: 340px;
+        height: 300px;
     
         background-image: url("../vectors/security_guards.svg");
     
@@ -1215,7 +1215,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         background-position: center;
     
-        background-size: 340px;
+        background-size: 300px;
     
     }
 
@@ -1223,7 +1223,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-family: "Baloo Chettan 2";
     
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         
         font-weight: 400;
     
@@ -1253,7 +1253,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.services div.container div.carousel {
 
-        height: 700px;
+        height: 650px;
 
         position: relative;
 
@@ -1323,7 +1323,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         left: 50%;
 
-        bottom: 20px;
+        bottom: 0px;
 
         transform: translate(-50%);
 
@@ -1381,11 +1381,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-basis: 30%;
 
-        width: 240px;
+        width: 230px;
 
         background-image: url('../vectors/handshake.svg');
 
-        background-size: 240px;
+        background-size: 230px;
 
         background-repeat: no-repeat;
 
@@ -1397,11 +1397,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-basis: 40%;
 
-        width: 240px;
+        width: 230px;
 
         background-image: url('../vectors/armed_guard.svg');
 
-        background-size: 240px;
+        background-size: 230px;
 
         background-repeat: no-repeat;
 
@@ -1413,11 +1413,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-basis: 40%;
 
-        width: 240px;
+        width: 230px;
 
         background-image: url('../vectors/unarmed_guard.svg');
 
-        background-size: 240px;
+        background-size: 230px;
 
         background-repeat: no-repeat;
 
@@ -1429,11 +1429,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-basis: 40%;
 
-        width: 240px;
+        width: 230px;
 
         background-image: url('../vectors/recepcionist.svg');
 
-        background-size: 240px;
+        background-size: 230px;
 
         background-repeat: no-repeat;
 
@@ -1445,11 +1445,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-basis: 40%;
 
-        width: 240px;
+        width: 230px;
 
         background-image: url('../vectors/contact.svg');
 
-        background-size: 240px;
+        background-size: 230px;
 
         background-repeat: no-repeat;
 
@@ -1519,15 +1519,15 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 1.0rem 2.0rem;
+        padding: 0.8rem 1.8rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 700;
+        font-weight: 400;
     
-        font-size: 1.3rem;
+        font-size: 1.1rem;
 
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     
         text-transform: uppercase;
 
@@ -1555,7 +1555,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.teams div.container {
 
-        height: 870px;
+        height: 1000px;
 
         display: flex;
 
@@ -1571,11 +1571,11 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 240px;
+        height: 300px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 240px;
+        background-size: 300px;
 
         background-repeat: no-repeat;
 
@@ -1597,7 +1597,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-sizing: border-box;
 
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 20px;
 
     }
 
@@ -1639,15 +1639,15 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 1.0rem 2.0rem;
+        padding: 0.8rem 1.8rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 700;
+        font-weight: 400;
     
-        font-size: 1.3rem;
+        font-size: 1.1rem;
 
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     
         text-transform: uppercase;
 
@@ -1657,7 +1657,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         margin-top: 30px;
     
-        margin-bottom: 30px;
+        margin-bottom: 15px;
 
         box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
 
