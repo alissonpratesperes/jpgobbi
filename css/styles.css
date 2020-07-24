@@ -810,7 +810,7 @@ header.main_header nav.page_nav {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
@@ -942,7 +942,7 @@ header.main_header nav.page_nav {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
@@ -1014,15 +1014,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
     color: #0E2431;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     cursor: pointer;
 
     z-index: 100;
 
-    width: 65px;
+    width: 60px;
 
-    height: 65px;
+    height: 60px;
 
     position: absolute;
 
@@ -1800,12 +1800,16 @@ header.main_header nav.page_nav div.nav_toggle {
     main.main_dashboard section.home {
 
         height: 100vh;
+
+        border: 1px solid red;
     
     }
     
     main.main_dashboard section.home div.home_data {
     
         align-self: center;
+
+        border: 1px solid red;
     
     }
     
@@ -1815,13 +1819,15 @@ header.main_header nav.page_nav div.nav_toggle {
     
         font-weight: 700;
     
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     
         color: #0E2431;
 
         margin-top: 3rem;
     
         margin-bottom: 3rem;
+
+        border: 1px solid red;
     
     }
     
@@ -1846,6 +1852,8 @@ header.main_header nav.page_nav div.nav_toggle {
         box-sizing: border-box;
 
         padding-right: 0px;
+
+        border: 1px solid red;
     
     }
     
@@ -1858,6 +1866,8 @@ header.main_header nav.page_nav div.nav_toggle {
         box-sizing: border-box;
 
         margin-bottom: 15px;
+
+        border: 1px solid red;
     
     }
     
@@ -1865,7 +1875,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #3B5998;
 
-        font-size: 3rem;
+        font-size: 2.8rem;
 
         text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
 
@@ -1885,7 +1895,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #34AF23;
     
-        font-size: 3.4rem;
+        font-size: 3.2rem;
 
         text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
 
@@ -1905,7 +1915,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #228CDB;
 
-        font-size: 3rem;
+        font-size: 2.8rem;
 
         text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
 
@@ -1935,19 +1945,21 @@ header.main_header nav.page_nav div.nav_toggle {
     
         bottom: 10px;
 
+        border: 1px solid red;
+
     }
     
     main.main_dashboard section.home div.home_logo div.home_company_logo {
     
-        width: 200px;
+        width: 180px;
     
-        height: 200px;
+        height: 180px;
     
         background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
     
         background-repeat: no-repeat;
     
-        background-size: 200px;
+        background-size: 180px;
     
         background-position: center;
     
@@ -1961,13 +1973,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.3rem;
+        padding: 0.8rem 1.2rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 14px;
 
         letter-spacing: 3px;
     
@@ -1975,13 +1987,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
         margin-top: 0px;
     
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
@@ -1991,7 +2003,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
     
     }
 
@@ -2000,8 +2012,12 @@ header.main_header nav.page_nav div.nav_toggle {
         row-gap: 2rem;
 
         box-sizing: border-box;
+
+        padding: 10px;
     
         text-align: justify;
+
+        border: 1px solid red;
     
     }
     
@@ -2019,7 +2035,9 @@ header.main_header nav.page_nav div.nav_toggle {
     
         background-position: center;
     
-        background-size: 270px;
+        background-size: 285px;
+
+        border: 1px solid red;
     
     }
 
@@ -2033,9 +2051,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #464146;
 
-        box-sizing: border-box;
-
-        padding: 0px;
+        border: 1px solid red;
 
     }
     
@@ -2043,7 +2059,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         font-weight: 700;
     
-        color: #496D96;
+        color: #0E2431;
     
     }
 
@@ -2053,15 +2069,19 @@ header.main_header nav.page_nav div.nav_toggle {
 
         margin: 10px auto;
 
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel {
 
-        height: 650px;
+        height: 700px;
 
         position: relative;
 
         overflow: hidden;
+
+        border: 1px solid red;
 
     }
 
@@ -2074,6 +2094,8 @@ header.main_header nav.page_nav div.nav_toggle {
         display: flex;
 
         transition: all 0.3s;
+
+        border: 1px solid red;
 
     }
 
@@ -2089,6 +2111,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         transform: translate(-0%);
 
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel div.controls span.arrow {
@@ -2103,21 +2127,25 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.services div.container div.carousel div.controls span.left {
 
-        left: 10px;
+        left: 50px;
 
-        color: #B1BECD;
+        bottom: 0px;
 
-        display: none;
+        color: #0E2431;
+
+        border: 1px solid red;
 
     }
 
     section.services div.container div.carousel div.controls span.right {
 
-        right: 10px;
+        right: 50px;
 
-        color: #B1BECD;
+        bottom: 0px;
 
-        display: none;
+        color: #0E2431;
+
+        border: 1px solid red;
 
     }
 
@@ -2143,6 +2171,10 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-color: transparent;
 
+        display: none;
+
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators li {
@@ -2160,6 +2192,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-color: #B1BECD;
 
         cursor: pointer;
+
+        border: 1px solid red;
 
     }
 
@@ -2179,6 +2213,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-sizing: border-box;
 
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
@@ -2194,6 +2230,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid red;
 
     }
 
@@ -2211,6 +2249,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-position: center;
 
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
@@ -2226,6 +2266,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid red;
 
     }
 
@@ -2243,6 +2285,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-position: center;
 
+        border: 1px solid red;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
@@ -2258,6 +2302,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid red;
 
     }
 
@@ -2276,6 +2322,8 @@ header.main_header nav.page_nav div.nav_toggle {
         box-sizing: border-box;
 
         padding: 0px 20px 0px 20px;
+
+        border: 1px solid red;
 
     }
 
@@ -2297,6 +2345,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-transform: uppercase;
 
+        border: 1px solid red;
+
     }
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
@@ -2305,13 +2355,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 400;
 
-        font-size: 0.65rem;
+        font-size: 0.7rem;
 
         color: #464146;
 
         text-align: justify;
 
         align-self: center;
+
+        border: 1px solid red;
 
     }
 
@@ -2323,13 +2375,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.3rem;
+        padding: 0.8rem 1.2rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 14px;
 
         letter-spacing: 3px;
     
@@ -2337,13 +2389,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
         margin-top: 100px;
     
         margin-bottom: 50px;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -2353,7 +2405,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
@@ -2365,11 +2417,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-direction: column;
 
+        border: 1px solid red;
+
     }
 
     section.teams div.container div.team_left_col {
 
         flex-basis: 20%;
+
+        border: 1px solid red;
 
     }
 
@@ -2384,6 +2440,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid blue;
 
     }
 
@@ -2403,6 +2461,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         padding: 0px 20px 0px 20px;
 
+        border: 1px solid red;
+
     }
 
     section.teams div.container div.team_right_col h3.team_subtitle {
@@ -2411,13 +2471,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 700;
 
-        font-size: 20px;
+        font-size: 18px;
 
         color: #496D96;
 
         text-transform: uppercase;
 
         text-align: center;
+
+        border: 1px solid red;
 
     }
 
@@ -2427,11 +2489,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 400;
 
-        font-size: 0.85rem;
+        font-size: 0.8rem;
 
         color: #464146;
 
         text-align: justify; 
+
+        border: 1px solid red;
 
     }
 
@@ -2443,13 +2507,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.3rem;
+        padding: 0.8rem 1.2rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 14px;
 
         letter-spacing: 3px;
     
@@ -2457,13 +2521,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
         margin-top: 30px;
     
         margin-bottom: 15px;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -2473,7 +2537,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
