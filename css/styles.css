@@ -470,8 +470,8 @@ header.main_header nav.page_nav {
     main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
     
         font-weight: 700;
-    
-        color: #496D96;
+
+        color: #0E2431;
     
     }
 
@@ -543,7 +543,7 @@ header.main_header nav.page_nav {
 
         bottom: 5px;
 
-        color: #354B6C;
+        color: #0E2431;
 
     }
 
@@ -553,7 +553,7 @@ header.main_header nav.page_nav {
 
         bottom: 5px;
 
-        color: #354B6C;
+        color: #0E2431;
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators {
@@ -1056,7 +1056,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         height: 100vh;
 
-        border: 1px solid red;
+        border: 1px solid black;
     
     }
     
@@ -1064,7 +1064,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         align-self: center;
 
-        border: 1px solid red;
+        border: 1px solid black;
     
     }
     
@@ -1078,11 +1078,11 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #0E2431;
 
-        margin-top: 3.7rem;
+        margin-top: 3rem;
     
-        margin-bottom: 3.5rem;
+        margin-bottom: 2rem;
 
-        border: 1px solid red;
+        border: 1px solid black;
     
     }
     
@@ -1102,13 +1102,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         align-items: flex-end;
     
-        margin-bottom: 2.5rem;
+        margin-bottom: 3.2rem;
 
         box-sizing: border-box;
 
-        padding-right: 10px;
+        padding-right: 0px;
 
-        border: 1px solid red;
+        border: 1px solid black;
     
     }
     
@@ -1122,7 +1122,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         margin-bottom: 10px;
 
-        border: 1px solid red;
+        border: 1px solid black;
     
     }
     
@@ -1196,11 +1196,11 @@ header.main_header nav.page_nav div.nav_toggle {
     
         position: absolute;
     
-        left: 15px;
+        left: 10px;
     
-        bottom: 15px;
+        bottom: 10px;
 
-        border: 1px solid red;
+        border: 1px solid black;
 
     }
     
@@ -1228,13 +1228,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.8rem;
+        padding: 1rem 1.6rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 18px;
 
         letter-spacing: 3px;
     
@@ -1242,13 +1242,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
-        margin-top: 5px;
+        margin-top: 25px;
     
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
@@ -1258,7 +1258,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
     
     }
 
@@ -1267,8 +1267,12 @@ header.main_header nav.page_nav div.nav_toggle {
         row-gap: 2rem;
 
         box-sizing: border-box;
+
+        padding: 15px;
     
         text-align: justify;
+
+        border: 1px solid black;
     
     }
     
@@ -1286,7 +1290,9 @@ header.main_header nav.page_nav div.nav_toggle {
     
         background-position: center;
     
-        background-size: 300px;
+        background-size: 320px;
+
+        border: 1px solid black;
     
     }
 
@@ -1300,17 +1306,15 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #464146;
 
-        box-sizing: border-box;
-
-        padding: 0px;
+        border: 1px solid black;
 
     }
     
     main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
     
         font-weight: 700;
-    
-        color: #496D96;
+
+        color: #0E2431;
     
     }
 
@@ -1319,6 +1323,8 @@ header.main_header nav.page_nav div.nav_toggle {
         width: 100%;
 
         margin: 10px auto;
+
+        border: 1px solid black;
 
     }
 
@@ -1329,6 +1335,8 @@ header.main_header nav.page_nav div.nav_toggle {
         position: relative;
 
         overflow: hidden;
+
+        border: 1px solid black;
 
     }
 
@@ -1341,6 +1349,8 @@ header.main_header nav.page_nav div.nav_toggle {
         display: flex;
 
         transition: all 0.3s;
+
+        border: 1px solid black;
 
     }
 
@@ -1370,22 +1380,25 @@ header.main_header nav.page_nav div.nav_toggle {
 
     section.services div.container div.carousel div.controls span.left {
 
-        left: 10px;
+        left: 50px;
 
-        color: #B1BECD;
+        bottom: 0px;
 
-        display: none;
+        color: #0E2431;
+
+        border: 1px solid black;
 
     }
 
     section.services div.container div.carousel div.controls span.right {
 
-        right: 10px;
+        right: 50px;
 
-        color: #B1BECD;
+        bottom: 0px;
 
-        display: none;
+        color: #0E2431;
 
+        border: 1px solid black;
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators {
@@ -1410,6 +1423,10 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-color: transparent;
 
+        display: none;
+
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators li {
@@ -1427,6 +1444,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-color: #B1BECD;
 
         cursor: pointer;
+
+        border: 1px solid black;
 
     }
 
@@ -1446,6 +1465,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-sizing: border-box;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
@@ -1461,6 +1482,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -1478,6 +1501,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
@@ -1493,6 +1518,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -1510,6 +1537,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         background-position: center;
 
+        border: 1px solid black;
+
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
@@ -1525,6 +1554,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -1544,6 +1575,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         padding: 0px 20px 0px 20px;
 
+        border: 1px solid black;
+
     }
 
     section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
@@ -1552,17 +1585,19 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 700;
 
-        font-size: 18px;
+        font-size: 20px;
 
         box-sizing: border-box;
 
         margin-top: 8px;
 
-        margin-bottom: 8px;
+        margin-bottom: 4px;
 
         color: #496D96;
 
         text-transform: uppercase;
+
+        border: 1px solid black;
 
     }
 
@@ -1572,13 +1607,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-weight: 400;
 
-        font-size: 0.7rem;
+        font-size: 0.75rem;
 
         color: #464146;
 
         text-align: justify;
 
         align-self: center;
+
+        border: 1px solid black;
 
     }
 
@@ -1590,13 +1627,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.8rem;
+        padding: 1rem 1.6rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 18px;
 
         letter-spacing: 3px;
     
@@ -1604,13 +1641,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
-        margin-top: 100px;
+        margin-top: 80px;
     
         margin-bottom: 50px;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -1620,7 +1657,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
@@ -1632,11 +1669,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
         flex-direction: column;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_left_col {
 
         flex-basis: 20%;
+
+        border: 1px solid black;
 
     }
 
@@ -1651,6 +1692,8 @@ header.main_header nav.page_nav div.nav_toggle {
         background-repeat: no-repeat;
 
         background-position: center;
+
+        border: 1px solid black;
 
     }
 
@@ -1670,6 +1713,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         padding: 0px 20px 0px 20px;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_right_col h3.team_subtitle {
@@ -1686,6 +1731,8 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-align: center;
 
+        border: 1px solid black;
+
     }
 
     section.teams div.container div.team_right_col p.team_content {
@@ -1698,7 +1745,9 @@ header.main_header nav.page_nav div.nav_toggle {
 
         color: #464146;
 
-        text-align: justify; 
+        text-align: justify;
+        
+        border: 1px solid black;
 
     }
 
@@ -1710,13 +1759,13 @@ header.main_header nav.page_nav div.nav_toggle {
     
         color: #EFEFEB;
     
-        padding: 0.8rem 1.8rem;
+        padding: 1rem 1.6rem;
     
         font-family: "Poppins", sans-serif;
     
-        font-weight: 400;
+        font-weight: 700;
     
-        font-size: 1.1rem;
+        font-size: 18px;
 
         letter-spacing: 3px;
     
@@ -1724,13 +1773,13 @@ header.main_header nav.page_nav div.nav_toggle {
 
         text-decoration: none;
     
-        border-radius: .5rem;
+        border-radius: 50px;
 
-        margin-top: 30px;
+        margin-top: 25px;
     
-        margin-bottom: 15px;
+        margin-bottom: 10px;
 
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -1740,7 +1789,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         box-shadow: none;
 
-        transform: scale(0.98);
+        transform: scale(0.95);
 
     }
 
