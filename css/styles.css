@@ -148,6 +148,806 @@ header.main_header nav.page_nav {
 
 }
 
+@media screen and (max-width: 900px) {
+
+    .nav_menu {
+
+        position: fixed;
+
+        top: 0; 
+
+        right: -100%;
+        
+        width: 100%;
+
+        height: 100%;
+
+        padding: 2rem;
+
+        transition: .5s;
+
+        background-color: rgba(73, 109, 150, 0.7);
+
+        backdrop-filter: blur(30px);
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list {
+
+        font-family: "Poppins", sans-serif;
+
+        height: 105%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: space-around;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
+
+        color: #0E2431;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover::after {
+
+        display: none;
+    }
+
+    header.main_header nav.page_nav {
+
+        background-color: transparent;
+
+    }
+
+    main.main_dashboard section.home {
+
+        height: 100vh;
+
+        border: 1px solid blue;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data {
+    
+        align-self: center;
+
+        border: 1px solid blue;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title {
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 2.4rem;
+    
+        color: #0E2431;
+
+        margin-top: 2.5rem;
+    
+        margin-bottom: 1.5rem;
+
+        border: 1px solid blue;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data h1.home_title span.home_title_color {
+    
+        color: #496D96;
+
+        font-weight: 900;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: flex-end;
+    
+        margin-bottom: 2.5rem;
+
+        box-sizing: border-box;
+
+        padding-right: 0px;
+
+        border: 1px solid blue;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        width: max-content;
+    
+        font-size: 2.8rem;
+
+        box-sizing: border-box;
+
+        margin-bottom: 10px;
+
+        border: 1px solid blue;
+    
+    }
+    
+    main.main_dashboard section.home div.home_social a#facebook {
+    
+        color: #3B5998;
+
+        font-size: 3.5rem;
+
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+
+    }
+
+    main.main_dashboard section.home div.home_social a#facebook:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a#whatsapp {
+    
+        color: #34AF23;
+    
+        font-size: 4rem;
+
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+    
+    }
+
+    main.main_dashboard section.home div.home_social a#whatsapp:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a#email {
+    
+        color: #228CDB;
+
+        font-size: 3.5rem;
+
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+    
+    }
+
+    main.main_dashboard section.home div.home_social a#email:hover {
+
+        text-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+    
+    main.main_dashboard section.home div.home_social a.home_social_icon {
+    
+        color: #464146;
+    
+    }
+    
+    main.main_dashboard section.home div.home_logo {
+    
+        position: absolute;
+    
+        left: 10px;
+    
+        bottom: 10px;
+
+        border: 1px solid blue;
+
+    }
+    
+    main.main_dashboard section.home div.home_logo div.home_company_logo {
+    
+        width: 260px;
+    
+        height: 260px;
+    
+        background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
+    
+        background-repeat: no-repeat;
+    
+        background-size: 260px;
+    
+        background-position: center;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button {
+    
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 1.2rem 2rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 22px;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: 50px;
+
+        margin-top: 12px;
+    
+        margin-bottom: 0rem;
+
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+    
+    }
+    
+    main.main_dashboard section.home div.home_data a.contact_button:hover {
+    
+        box-shadow: none;
+
+        transform: scale(0.95);
+    
+    }
+
+    main.main_dashboard section.about div.about_container {
+
+        row-gap: 2rem;
+
+        box-sizing: border-box;
+
+        padding: 14px;
+    
+        text-align: justify;
+
+        border: 1px solid limegreen;
+    
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_img {
+    
+        justify-self: center;
+    
+        width: 360px;
+    
+        height: 360px;
+    
+        background-image: url("../vectors/security_guards.svg");
+    
+        background-repeat: no-repeat;
+    
+        background-position: center;
+    
+        background-size: 380px;
+
+        border: 1px solid limegreen;
+    
+    }
+
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text {
+
+        font-family: "Baloo Chettan 2";
+    
+        font-size: 1rem;
+        
+        font-weight: 400;
+    
+        color: #464146;
+
+        border: 1px solid limegreen;
+
+    }
+    
+    main.main_dashboard section.about div.about_container div.about_contents p.about_text span.content_markup {
+    
+        font-weight: 700;
+
+        color: #0E2431;
+    
+    }
+
+    section.services div.container {
+
+        width: 100%;
+
+        margin: 10px auto;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel {
+
+        height: 850px;
+
+        position: relative;
+
+        overflow: hidden;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider {
+
+        height: 100%;
+
+        width: 500%;
+
+        display: flex;
+
+        transition: all 0.3s;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        flex-basis: 100%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        transform: translate(-0%);
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.controls span.arrow {
+
+        position: absolute;
+
+        bottom: 0px;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls span.left {
+
+        left: 50px;
+
+        bottom: 5px;
+
+        color: #0E2431;
+
+    }
+
+    section.services div.container div.carousel div.controls span.right {
+
+        right: 50px;
+
+        bottom: 5px;
+
+        color: #0E2431;
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators {
+
+        position: absolute;
+
+        left: 50%;
+
+        bottom: 10px;
+
+        transform: translate(-50%);
+
+        list-style: none;
+
+        display: flex;
+
+        box-sizing: border-box;
+
+        margin: 0px;
+
+        padding: 0px;
+
+        background-color: transparent;
+
+        display: none;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li {
+
+        width: 30px;
+
+        height: 30px;
+
+        border: 2px solid #B1BECD;
+
+        border-radius: 50px;
+
+        margin: 0px 15px;
+
+        background-color: #B1BECD;
+
+        cursor: pointer;
+
+    }
+
+    section.services div.container div.carousel div.controls ul#section_indicators li.selected {
+
+        background-color: transparent;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
+
+        flex-basis: 40%;
+
+        width: 330px;
+
+        background-image: url('../vectors/handshake.svg');
+
+        background-size: 330px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
+
+        flex-basis: 40%;
+
+        width: 330px;
+
+        background-image: url('../vectors/armed_guard.svg');
+
+        background-size: 330px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
+
+        flex-basis: 40%;
+
+        width: 330px;
+
+        background-image: url('../vectors/unarmed_guard.svg');
+
+        background-size: 330px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
+
+        flex-basis: 40%;
+
+        width: 330px;
+
+        background-image: url('../vectors/recepcionist.svg');
+
+        background-size: 330px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
+
+        flex-basis: 40%;
+
+        width: 330px;
+
+        background-image: url('../vectors/contact.svg');
+
+        background-size: 330px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.services div.container div.carousel div.slider section.subsection_slider div.slider_left_col {
+
+        align-self: center;
+
+        flex-basis: 60%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+        padding: 0px 20px 0px 20px;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col h2.slider_title {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 700;
+
+        font-size: 22px;
+
+        box-sizing: border-box;
+
+        margin-top: 10px;
+
+        margin-bottom: 15px;
+
+        color: #496D96;
+
+        text-transform: uppercase;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col p.slider_content {
+
+        font-family: "Baloo Chettan 2";
+
+        font-weight: 400;
+
+        font-size: 0.95rem;
+
+        color: #464146;
+
+        text-align: justify;
+
+        align-self: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link {
+
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 1.2rem 2rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 22px;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: 50px;
+
+        margin-top: 100px;
+    
+        margin-bottom: 50px;
+
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+
+    }
+
+    section#services div.container div.carousel div.slider section.subsection_slider div.slider_left_col a.contact_link:hover {
+
+        box-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+
+    section.teams div.container {
+
+        height: 1100px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_left_col {
+
+        flex-basis: 20%;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_left_col div.team_image {
+
+        height: 360px;
+
+        background-image: url('../vectors/team_group.svg');
+
+        background-size: 360px;
+
+        background-repeat: no-repeat;
+
+        background-position: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_right_col {
+
+        flex-basis: 80%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+        box-sizing: border-box;
+
+        padding: 0px 20px 0px 20px;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_right_col h3.team_subtitle {
+
+        font-family: "Poppins", sans-serif;
+
+        font-weight: 700;
+
+        font-size: 22px;
+
+        color: #496D96;
+
+        text-transform: uppercase;
+
+        text-align: center;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_right_col p.team_content {
+
+        font-family: "Baloo Chettan 2";
+
+        font-weight: 400;
+
+        font-size: 1rem;
+
+        color: #464146;
+
+        text-align: justify;
+
+        border: 1px solid limegreen;
+
+    }
+
+    section.teams div.container div.team_right_col a.contact_link {
+
+        display: inline-block;
+    
+        background-color: #354B6C;
+    
+        color: #EFEFEB;
+    
+        padding: 1.2rem 2rem;
+    
+        font-family: "Poppins", sans-serif;
+    
+        font-weight: 700;
+    
+        font-size: 22px;
+
+        letter-spacing: 3px;
+    
+        text-transform: uppercase;
+
+        text-decoration: none;
+    
+        border-radius: 50px;
+
+        margin-top: 30px;
+    
+        margin-bottom: 15px;
+
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+
+        transition: all 0.1s;
+
+    }
+
+    section.teams div.container div.team_right_col a.contact_link:hover {
+
+        box-shadow: none;
+
+        transform: scale(0.95);
+
+    }
+
+}
+
 @media screen and (max-width: 500px) {
 
     .nav_menu {
@@ -1132,7 +1932,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-size: 3.2rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -1152,7 +1952,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         font-size: 3.6rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
@@ -1172,7 +1972,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-size: 3.2rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
@@ -1877,7 +2677,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-size: 2.8rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
 
@@ -1897,7 +2697,7 @@ header.main_header nav.page_nav div.nav_toggle {
     
         font-size: 3.2rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
@@ -1917,7 +2717,7 @@ header.main_header nav.page_nav div.nav_toggle {
 
         font-size: 2.8rem;
 
-        text-shadow: 0px 5px 20px rgba(0, 0, 0, .35);
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
         transition: all 0.1s;
     
