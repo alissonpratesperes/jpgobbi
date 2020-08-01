@@ -457,7 +457,7 @@ header.main_header nav.page_nav {
 
         font-family: "Baloo Chettan 2";
     
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         
         font-weight: 400;
     
@@ -487,7 +487,7 @@ header.main_header nav.page_nav {
 
     section.services div.container div.carousel {
 
-        height: 850px;
+        height: 900px;
 
         position: relative;
 
@@ -545,6 +545,8 @@ header.main_header nav.page_nav {
 
         color: #0E2431;
 
+        border: 1px solid blue;
+
     }
 
     section.services div.container div.carousel div.controls span.right {
@@ -554,6 +556,8 @@ header.main_header nav.page_nav {
         bottom: 5px;
 
         color: #0E2431;
+
+        border: 1px solid blue;
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators {
@@ -562,7 +566,7 @@ header.main_header nav.page_nav {
 
         left: 50%;
 
-        bottom: 10px;
+        bottom: 15px;
 
         transform: translate(-50%);
 
@@ -578,25 +582,23 @@ header.main_header nav.page_nav {
 
         background-color: transparent;
 
-        display: none;
-
         border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.controls ul#section_indicators li {
 
-        width: 30px;
+        width: 25px;
 
-        height: 30px;
+        height: 25px;
 
-        border: 2px solid #B1BECD;
+        border: 2px solid #0E2431;
 
         border-radius: 50px;
 
         margin: 0px 15px;
 
-        background-color: #B1BECD;
+        background-color: #0E2431;
 
         cursor: pointer;
 
@@ -760,7 +762,7 @@ header.main_header nav.page_nav {
 
         font-weight: 400;
 
-        font-size: 1rem;
+        font-size: 1.05rem;
 
         color: #464146;
 
@@ -814,7 +816,7 @@ header.main_header nav.page_nav {
 
     section.teams div.container {
 
-        height: 1150px;
+        height: 1250px;
 
         display: flex;
 
@@ -892,7 +894,7 @@ header.main_header nav.page_nav {
 
         font-weight: 400;
 
-        font-size: 1rem;
+        font-size: 1.2rem;
 
         color: #464146;
 
@@ -1812,15 +1814,15 @@ header.main_header nav.page_nav div.nav_toggle {
 
     color: #0E2431;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     cursor: pointer;
 
     z-index: 100;
 
-    width: 60px;
+    width: 70px;
 
-    height: 60px;
+    height: 70px;
 
     position: absolute;
 
@@ -1837,8 +1839,6 @@ header.main_header nav.page_nav div.nav_toggle {
     border-radius: 50px;
 
     backdrop-filter: blur(20px);
-
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
 }
 
