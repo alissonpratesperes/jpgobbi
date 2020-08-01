@@ -231,13 +231,13 @@ header.main_header nav.page_nav {
     
         font-weight: 700;
     
-        font-size: 2.4rem;
+        font-size: 2.9rem;
     
         color: #0E2431;
 
-        margin-top: 2.5rem;
+        margin-top: 3rem;
     
-        margin-bottom: 1.5rem;
+        margin-bottom: 3rem;
 
         border: 1px solid blue;
     
@@ -259,7 +259,7 @@ header.main_header nav.page_nav {
     
         align-items: flex-end;
     
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
 
         box-sizing: border-box;
 
@@ -275,9 +275,9 @@ header.main_header nav.page_nav {
     
         font-size: 2.8rem;
 
-        box-sizing: border-box;
+        margin-bottom: 20px;
 
-        margin-bottom: 10px;
+        box-sizing: border-box;
 
         border: 1px solid blue;
     
@@ -287,7 +287,7 @@ header.main_header nav.page_nav {
     
         color: #3B5998;
 
-        font-size: 3.5rem;
+        font-size: 4.7rem;
 
         text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
@@ -307,7 +307,7 @@ header.main_header nav.page_nav {
     
         color: #34AF23;
     
-        font-size: 4rem;
+        font-size: 5.35rem;
 
         text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
@@ -327,7 +327,7 @@ header.main_header nav.page_nav {
     
         color: #228CDB;
 
-        font-size: 3.5rem;
+        font-size: 4.7rem;
 
         text-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
@@ -353,9 +353,9 @@ header.main_header nav.page_nav {
     
         position: absolute;
     
-        left: 10px;
+        left: 5px;
     
-        bottom: 10px;
+        bottom: 5px;
 
         border: 1px solid blue;
 
@@ -363,15 +363,15 @@ header.main_header nav.page_nav {
     
     main.main_dashboard section.home div.home_logo div.home_company_logo {
     
-        width: 260px;
+        width: 300px;
     
-        height: 260px;
+        height: 300px;
     
         background-image: url("../images/jpgobbi_logo_withoutbg_cropped.png");
     
         background-repeat: no-repeat;
     
-        background-size: 260px;
+        background-size: 300px;
     
         background-position: center;
     
@@ -385,13 +385,13 @@ header.main_header nav.page_nav {
     
         color: #EFEFEB;
     
-        padding: 1.2rem 2rem;
+        padding: 1.4rem 2.2rem;
     
         font-family: "Poppins", sans-serif;
     
         font-weight: 700;
     
-        font-size: 22px;
+        font-size: 28px;
 
         letter-spacing: 3px;
     
@@ -425,11 +425,11 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
-        padding: 14px;
+        padding: 12px;
     
         text-align: justify;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
     
     }
     
@@ -437,9 +437,9 @@ header.main_header nav.page_nav {
     
         justify-self: center;
     
-        width: 360px;
+        width: 470px;
     
-        height: 360px;
+        height: 470px;
     
         background-image: url("../vectors/security_guards.svg");
     
@@ -447,9 +447,9 @@ header.main_header nav.page_nav {
     
         background-position: center;
     
-        background-size: 380px;
+        background-size: 470px;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
     
     }
 
@@ -457,13 +457,13 @@ header.main_header nav.page_nav {
 
         font-family: "Baloo Chettan 2";
     
-        font-size: 1rem;
+        font-size: 1.5rem;
         
         font-weight: 400;
     
         color: #464146;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
     
@@ -481,7 +481,7 @@ header.main_header nav.page_nav {
 
         margin: 10px auto;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -493,7 +493,7 @@ header.main_header nav.page_nav {
 
         overflow: hidden;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -507,7 +507,7 @@ header.main_header nav.page_nav {
 
         transition: all 0.3s;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -523,7 +523,7 @@ header.main_header nav.page_nav {
 
         transform: translate(-0%);
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -580,7 +580,7 @@ header.main_header nav.page_nav {
 
         display: none;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -618,97 +618,97 @@ header.main_header nav.page_nav {
 
         box-sizing: border-box;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider1_right_col {
 
-        flex-basis: 40%;
+        flex-basis: 45%;
 
-        width: 330px;
+        width: 370px;
 
         background-image: url('../vectors/handshake.svg');
 
-        background-size: 330px;
+        background-size: 370px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider2_right_col {
 
-        flex-basis: 40%;
+        flex-basis: 45%;
 
-        width: 330px;
+        width: 370px;
 
         background-image: url('../vectors/armed_guard.svg');
 
-        background-size: 330px;
+        background-size: 370px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider3_right_col {
 
-        flex-basis: 40%;
+        flex-basis: 45%;
 
-        width: 330px;
+        width: 370px;
 
         background-image: url('../vectors/unarmed_guard.svg');
 
-        background-size: 330px;
+        background-size: 370px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider4_right_col {
 
-        flex-basis: 40%;
+        flex-basis: 45%;
 
-        width: 330px;
+        width: 370px;
 
         background-image: url('../vectors/recepcionist.svg');
 
-        background-size: 330px;
+        background-size: 370px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.services div.container div.carousel div.slider section.subsection_slider div#slider5_right_col {
 
-        flex-basis: 40%;
+        flex-basis: 45%;
 
-        width: 330px;
+        width: 370px;
 
         background-image: url('../vectors/contact.svg');
 
-        background-size: 330px;
+        background-size: 370px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -716,7 +716,7 @@ header.main_header nav.page_nav {
 
         align-self: center;
 
-        flex-basis: 60%;
+        flex-basis: 55%;
 
         display: flex;
 
@@ -728,7 +728,7 @@ header.main_header nav.page_nav {
 
         padding: 0px 20px 0px 20px;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -738,7 +738,7 @@ header.main_header nav.page_nav {
 
         font-weight: 700;
 
-        font-size: 22px;
+        font-size: 26px;
 
         box-sizing: border-box;
 
@@ -750,7 +750,7 @@ header.main_header nav.page_nav {
 
         text-transform: uppercase;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -760,7 +760,7 @@ header.main_header nav.page_nav {
 
         font-weight: 400;
 
-        font-size: 0.95rem;
+        font-size: 1rem;
 
         color: #464146;
 
@@ -768,7 +768,7 @@ header.main_header nav.page_nav {
 
         align-self: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -780,13 +780,13 @@ header.main_header nav.page_nav {
     
         color: #EFEFEB;
     
-        padding: 1.2rem 2rem;
+        padding: 1.4rem 2.2rem;
     
         font-family: "Poppins", sans-serif;
     
         font-weight: 700;
     
-        font-size: 22px;
+        font-size: 28px;
 
         letter-spacing: 3px;
     
@@ -796,9 +796,7 @@ header.main_header nav.page_nav {
     
         border-radius: 50px;
 
-        margin-top: 100px;
-    
-        margin-bottom: 50px;
+        margin-top: 70px;
 
         box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
 
@@ -816,13 +814,13 @@ header.main_header nav.page_nav {
 
     section.teams div.container {
 
-        height: 1100px;
+        height: 1150px;
 
         display: flex;
 
         flex-direction: column;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -830,23 +828,23 @@ header.main_header nav.page_nav {
 
         flex-basis: 20%;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
     section.teams div.container div.team_left_col div.team_image {
 
-        height: 360px;
+        height: 470px;
 
         background-image: url('../vectors/team_group.svg');
 
-        background-size: 360px;
+        background-size: 470px;
 
         background-repeat: no-repeat;
 
         background-position: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -866,7 +864,7 @@ header.main_header nav.page_nav {
 
         padding: 0px 20px 0px 20px;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -876,7 +874,7 @@ header.main_header nav.page_nav {
 
         font-weight: 700;
 
-        font-size: 22px;
+        font-size: 26px;
 
         color: #496D96;
 
@@ -884,7 +882,7 @@ header.main_header nav.page_nav {
 
         text-align: center;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -900,7 +898,7 @@ header.main_header nav.page_nav {
 
         text-align: justify;
 
-        border: 1px solid limegreen;
+        border: 1px solid blue;
 
     }
 
@@ -912,13 +910,13 @@ header.main_header nav.page_nav {
     
         color: #EFEFEB;
     
-        padding: 1.2rem 2rem;
+        padding: 1.4rem 2.2rem;
     
         font-family: "Poppins", sans-serif;
     
         font-weight: 700;
     
-        font-size: 22px;
+        font-size: 28px;
 
         letter-spacing: 3px;
     
@@ -929,7 +927,7 @@ header.main_header nav.page_nav {
         border-radius: 50px;
 
         margin-top: 30px;
-    
+
         margin-bottom: 15px;
 
         box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
