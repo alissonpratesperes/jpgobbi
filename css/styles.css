@@ -220,6 +220,18 @@ header.main_header nav.page_nav {
 
     }
 
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.active i {
+
+        color: #0E2431;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.active span.link_name {
+
+        color: #0E2431;
+
+    }
+
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover::after {
 
         display: none;
@@ -1037,6 +1049,18 @@ header.main_header nav.page_nav {
     }
 
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
+
+        color: #0E2431;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.active i {
+
+        color: #0E2431;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.active span.link_name {
 
         color: #0E2431;
 
@@ -3362,11 +3386,5 @@ header.main_header nav.page_nav div.nav_toggle {
 .show {
 
     right: 0%;
-
-}
-
-.active {
-
-    color: red;
 
 }
