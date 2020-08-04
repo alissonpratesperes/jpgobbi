@@ -192,6 +192,28 @@ header.main_header nav.page_nav {
 
     }
 
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
+
+        text-align: center;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link {
+
+        position: relative;
+
+        color: #B1BECD;
+
+        font-size: 20px;
+
+        font-weight: 600;
+
+        text-transform: uppercase;
+
+        text-decoration: none;
+
+    }
+
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
         color: #0E2431;
@@ -992,6 +1014,28 @@ header.main_header nav.page_nav {
 
     }
 
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
+
+        text-align: center;
+
+    }
+
+    header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link {
+
+        position: relative;
+
+        color: #B1BECD;
+
+        font-size: 20px;
+
+        font-weight: 600;
+
+        text-transform: uppercase;
+
+        text-decoration: none;
+
+    }
+
     header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
         color: #0E2431;
@@ -1748,27 +1792,7 @@ header.main_header nav.page_nav {
 
 }
 
-header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item {
 
-    text-align: center;
-
-}
-
-header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link {
-
-    position: relative;
-
-    color: #B1BECD;
-
-    font-size: 20px;
-
-    font-weight: 600;
-
-    text-transform: uppercase;
-
-    text-decoration: none;
-
-}
 
 header.main_header nav.page_nav div.nav_menu ul.nav_list li.nav_item a.nav_link:hover {
 
@@ -1807,44 +1831,6 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
     letter-spacing: 2px;
 
     display: none;
-
-}
-
-header.main_header nav.page_nav div.nav_toggle {
-
-    color: #0E2431;
-
-    font-size: 1.2rem;
-
-    cursor: pointer;
-
-    z-index: 100;
-
-    width: 70px;
-
-    height: 70px;
-
-    position: absolute;
-
-    top: 10px;
-
-    right: 10px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    border-radius: 50px;
-
-    backdrop-filter: blur(20px);
-
-}
-
-.show {
-
-    right: 0%;
 
 }
 
@@ -3338,5 +3324,49 @@ header.main_header nav.page_nav div.nav_toggle {
         transform: scale(0.95);
 
     }
+
+}
+
+header.main_header nav.page_nav div.nav_toggle {
+
+    color: #0E2431;
+
+    font-size: 1.2rem;
+
+    cursor: pointer;
+
+    z-index: 100;
+
+    width: 70px;
+
+    height: 70px;
+
+    position: absolute;
+
+    top: 10px;
+
+    right: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50px;
+
+    backdrop-filter: blur(20px);
+
+}
+
+.show {
+
+    right: 0%;
+
+}
+
+.active {
+
+    color: red;
 
 }
