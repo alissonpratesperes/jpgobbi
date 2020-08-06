@@ -89,6 +89,34 @@ var indicatorParents = document.querySelector('ul#section_indicators');
     });
 
 
+document.addEventListener("DOMContentLoaded", function(){
+
+    const sections = document.querySelectorAll(".section");
+    const menuLinks = document.querySelectorAll(".nav_item a");
+
+    const makeActive = (link) => menuLinks[link].classList.add("active");
+    const removeActive = (link) => menuLinks[link].classList.remove("active");
+    const removeAllActive = () => [...Array(sections.length).keys()].forEach((link) => removeActive(link));
+
+    const sectionMargin = 100;
+
+    let currentActive = 0;
+
+        window.addEventListener("scroll", () => {
+
+            const current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin) - 1;
+
+            if (current !== currentActive) {
+                removeAllActive();
+                currentActive = current;
+                makeActive(current);
+              }
+
+        });
+
+});
+
+
 
 
 
