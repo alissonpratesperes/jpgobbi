@@ -246,6 +246,8 @@ header.main_header nav.page_nav {
     main.main_dashboard section.home {
 
         height: 100vh;
+        
+        overflow: hidden;
 
         border: 1px solid blue;
     
