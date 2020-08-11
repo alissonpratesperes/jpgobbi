@@ -387,9 +387,11 @@ header.main_header nav.page_nav {
     
         position: absolute;
     
-        left: 5px;
+        left: 2%;
     
-        bottom: 5px;
+        bottom: 2%;
+
+        transform: translate(-2%, -2%);
 
         border: 1px solid blue;
 
@@ -1221,9 +1223,11 @@ header.main_header nav.page_nav {
     
         position: absolute;
     
-        left: 10px;
+        left: 2%;
     
-        bottom: 10px;
+        bottom: 2%;
+
+        transform: translate(-2%, -2%);
 
         border: 1px solid limegreen;
 
@@ -2004,9 +2008,11 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
     
         position: absolute;
     
-        left: 10px;
+        left: 2%;
     
-        bottom: 10px;
+        bottom: 2%;
+
+        transform: translate(-2%, -2%);
 
         border: 1px solid black;
 
@@ -2749,9 +2755,11 @@ header.main_header nav.page_nav div.main_company a.nav_company_name {
     
         position: absolute;
     
-        left: 10px;
+        left: 2%;
     
-        bottom: 10px;
+        bottom: 2%;
+
+        transform: translate(-2%, -2%);
 
         border: 1px solid red;
 
