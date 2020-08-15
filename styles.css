@@ -23,7 +23,7 @@ a {
     justify-content: center;
 }
 
-/* Início do CSS: Sessão de Início */
+/* Início do CSS: Section Home */
 
 section#home {
     background-image: url('./images/security_guard_scanning.jpg');
@@ -131,9 +131,9 @@ section#home div.home_container div.home_content a.cta_button:hover {
     background-color: #354B6C;
 }
 
-/* Fim do CSS: Sessão de Início */
+/* Fim do CSS: Section Home */
 
-/* Início do CSS: Keyframes da página */
+/* Início do CSS: Animações Keyframes gerais */
 
 @keyframes title_reveal_box {
     50% { width: 100%; left: 0%; }
@@ -148,4 +148,62 @@ section#home div.home_container div.home_content a.cta_button:hover {
     100% { color: #496D96; }
 }
 
-/* Fim do CSS: Keyframes da página */
+/* Fim do CSS: Animações Keyframes gerais */
+
+/* Início do CSS: Section History */
+
+section#history {
+    background-color: #EFEEFB;
+}
+
+section#history div.history_container {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+section#history div.history_container div.history_content div.history_top {
+    flex-basis: 80%;
+}
+
+section#history div.history_container div.history_content div.history_top h1.section_title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #464146;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+section#history div.history_container div.history_content div.history_top h1.section_title span.section_title_span {
+    font-weight: 500;
+    color: #496D96;
+}
+
+section#history div.history_container div.history_content div.history_top p.section_text {
+    font-size: 1.6rem;
+    margin: 50px 40px 50px 40px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    max-width: 1000px;
+}
+
+section#history div.history_container div.history_content div.history_top p.section_text span.text_span {
+    font-weight: 500;
+    color: #354B6C;
+}
+
+section#history div.history_container div.history_content div.history_bottom {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Fim do CSS: Section History */
