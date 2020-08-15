@@ -45,4 +45,114 @@ section#hero::after {
     z-index: -1;
 }
 
+section#hero div.hero_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    justify-content: flex-start;
+    border: 1px solid red;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    color: transparent;
+    animation: title_reveal 0.5s ease forwards;
+    animation-delay: 1.5s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(1) {
+    animation-delay: 1s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(2) {
+    animation-delay: 2s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(3) {
+    animation-delay: 3s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(4) span.title_span {
+    animation-delay: 4s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title span.title_box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0%;
+    background-color: #354B6C;
+    animation: title_reveal_box 1s ease;
+    animation-delay: 0.3s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(1) span.title_box {
+    animation-delay: 0.5s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(2) span.title_box {
+    animation-delay: 1.5s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(3) span.title_box {
+    animation-delay: 2.5s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title:nth-child(4) span.title_box {
+    animation-delay: 3.5s;
+}
+
+section#hero div.hero_container div.hero_content h1.hero_title span.title_span {
+    font-weight: 700;
+    color: transparent;
+    animation: title_span_reveal 0.5s ease forwards;
+    animation-delay: 1.5s;
+}
+
+section#hero div.hero_container div.hero_content a.cta_button {
+    display: inline-block;
+    padding: 10px 30px;
+    color: #B1BECD;
+    background-color: transparent;
+    border: 2px solid #354B6C;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color;
+}
+
+section#hero div.hero_container div.hero_content a.cta_button:hover {
+    background-color: #354B6C;
+}
+
 /* Fim do CSS: Sessão de Início */
+
+/* Início do CSS: Keyframes da página */
+
+@keyframes title_reveal_box {
+
+    50% { width: 100%; left: 0%; }
+    100% { width: 0%; left: 100%; }
+
+}
+
+@keyframes title_reveal {
+
+    100% { color: #B1BECD;  }
+
+}
+
+@keyframes title_span_reveal {
+
+    100% { color: #496D96; }
+
+}
+
+/* Fim do CSS: Keyframes da página */
