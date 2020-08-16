@@ -438,3 +438,54 @@ section#about div.about_container div.column_right p.about_section_text {
 }
 
 /* Fim do CSS: Sessão About */
+
+/* Início do CSS: Sessão Contact */
+
+section#contact div.contact_container {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section#contact div.contact_container div.contact_items {
+    width: 400px;
+}
+
+section#contact div.contact_container div.contact_items div.contact_item {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 18px 0px #0000002C;
+    transition: 0.3s ease box-shadow;
+}
+
+section#contact div.contact_container div.contact_items div.contact_item:hover {
+    box-shadow: 0px 0px 5px 0px #0000002C;
+}
+
+section#contact div.contact_container div.contact_items div.contact_item div.icon {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+section#contact div.contact_container div.contact_items div.contact_item div.contact_info h1.contact_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+section#contact div.contact_container div.contact_items div.contact_item div.contact_info h2.contact_info {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+/* Fim do CSS: Sessão Contact */
