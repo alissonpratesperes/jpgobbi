@@ -39,10 +39,10 @@ a {
     color: #496D96;
 }
 
-/* Início do CSS: Section Home */
+/* Início do CSS: Sessão Home */
 
 section#home {
-    background-image: url('./images/security_guard_scanning.jpg');
+    background-image: url('./images/security_guard_scanning_right.jpeg');
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -50,14 +50,14 @@ section#home {
 }
 
 section#home::after {
+    content: '';
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
-    content: '';
     background-color: #000000;
-    opacity: 0.7;
+    opacity: 0.6;
     z-index: -1;
 }
 
@@ -80,19 +80,19 @@ section#home div.home_container div.home_content h1.home_title {
 }
 
 section#home div.home_container div.home_content h1.home_title:nth-child(1) {
-    animation-delay: 1s;
+    animation-delay: 1.2s;
 }
 
 section#home div.home_container div.home_content h1.home_title:nth-child(2) {
-    animation-delay: 2s;
+    animation-delay: 2.2s;
 }
 
 section#home div.home_container div.home_content h1.home_title:nth-child(3) {
-    animation-delay: 3s;
+    animation-delay: 3.2s;
 }
 
 section#home div.home_container div.home_content h1.home_title:nth-child(4) span.title_span {
-    animation-delay: 4s;
+    animation-delay: 4.2s;
 }
 
 section#home div.home_container div.home_content h1.home_title span.title_box {
@@ -102,8 +102,9 @@ section#home div.home_container div.home_content h1.home_title span.title_box {
     height: 100%;
     width: 0%;
     background-color: #354B6C;
+    border-radius: 5px;
     animation: title_reveal_box 1s ease;
-    animation-delay: 0.3s;
+    animation-delay: 0.4s;
 }
 
 section#home div.home_container div.home_content h1.home_title:nth-child(1) span.title_box {
@@ -129,25 +130,59 @@ section#home div.home_container div.home_content h1.home_title span.title_span {
     animation-delay: 1.5s;
 }
 
-section#home div.home_container div.home_content a.cta_button {
+section#home div.home_container div.home_content span.cta_button {
+    position: relative;
     display: inline-block;
-    padding: 10px 30px;
-    color: #B1BECD;
-    background-color: transparent;
-    border: 2px solid #354B6C;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    padding: 10px 20px;
     margin-top: 30px;
-    transition: 0.3s ease;
-    transition-property: background-color;
+    cursor: pointer;
 }
 
-section#home div.home_container div.home_content a.cta_button:hover {
-    background-color: #354B6C;
+section#home div.home_container div.home_content span.cta_button div.text {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #B1BECD;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
 }
 
-/* Fim do CSS: Section Home */
+section#home div.home_container div.home_content span.cta_button div.text a {
+    text-decoration: none;
+    color: #B1BECD;
+}
+
+section#home div.home_container div.home_content span.cta_button div.text::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #354B6C;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+section#home div.home_container div.home_content span.cta_button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #B1BECD;
+    border-radius: 5px;
+    right: 0;
+    top: 0;
+    transition: 0.3s;
+
+}
+
+section#home div.home_container div.home_content span.cta_button:hover div.text::before {
+    width: 0%;
+}
+
+section#home div.home_container div.home_content span.cta_button:hover::before {
+    width: 0%;
+}
+
+/* Fim do CSS: Sessão Home */
 
 /* Início do CSS: Animações Keyframes gerais */
 
@@ -157,7 +192,7 @@ section#home div.home_container div.home_content a.cta_button:hover {
 }
 
 @keyframes title_reveal {
-    100% { color: #B1BECD;  }
+    100% { color: #B1BECD; }
 }
 
 @keyframes title_span_reveal {
