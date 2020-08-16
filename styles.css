@@ -39,6 +39,12 @@ a {
     color: #496D96;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Início do CSS: Sessão Home */
 
 section#home {
@@ -201,60 +207,22 @@ section#home div.home_container div.home_content span.cta_button:hover::before {
 
 /* Fim do CSS: Animações Keyframes gerais */
 
-/* Início do CSS: Section History */
-
-section#history div.history_container {
-    flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 0px;
-}
-
-section#history div.history_container div.history_content div.history_top {
-    flex-basis: 80%;
-}
-
-section#history div.history_container div.history_content div.history_top p.section_text {
-    font-size: 1.6rem;
-    margin: 50px 40px 50px 40px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    text-align: justify;
-    max-width: 1000px;
-}
-
-section#history div.history_container div.history_content div.history_top p.section_text span.text_span {
-    font-weight: 500;
-    color: #354B6C;
-}
-
-section#history div.history_container div.history_content div.history_bottom {
-    flex-basis: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* Fim do CSS: Section History */
-
-/* Início do CSS: Section Services */
+/* Início do CSS: Sessão Services */
 
 section#services div.services_container {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0px 0;
+    padding: 100px 0;
 }
 
 section#services div.services_container div.services_top p.section_text {
-    font-size: 1.6rem;
-    margin: 50px 40px 50px 40px;
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 50px 40px;
     line-height: 2.5rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     text-align: justify;
     max-width: 1000px;
@@ -272,15 +240,34 @@ section#services div.services_container div.services_bottom div.service_item {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url('./images/security_guard_scanning.jpg');
-    background-size: cover;
     margin: 10px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+section#services div.services_container div.services_bottom div#card_1 {
+    background-image: url('./images/security_professional.jpeg');
+    background-size: cover;
+}
+
+section#services div.services_container div.services_bottom div#card_2 {
+    background-image: url('./images/armed_surveillance.jpg');
+    background-size: cover;
+}
+
+section#services div.services_container div.services_bottom div#card_3 {
+    background-image: url('./images/unarmed_guard.jpg');
+    background-size: cover;
+}
+
+section#services div.services_container div.services_bottom div#card_4 {
+    background-image: url('./images/receptionist_professionals.jpg');
+    background-size: cover;
 }
 
 section#services div.services_container div.services_bottom div.service_item::after {
@@ -290,8 +277,8 @@ section#services div.services_container div.services_bottom div.service_item::af
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323C 0%, #485563 100%);
-    opacity: 0.4;
+    background-color: #000000;
+    opacity: 0.7;
     z-index: -1;
 }
 
@@ -301,15 +288,9 @@ section#services div.services_container div.services_bottom div.service_item div
     margin-bottom: 20px;
 }
 
-section#services div.services_container div.services_bottom div.service_item div.icon img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
 section#services div.services_container div.services_bottom div.service_item h2.service_item_title {
     font-size: 2rem;
-    color: #354B6C;
+    color: #496D96;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -318,10 +299,16 @@ section#services div.services_container div.services_bottom div.service_item p.s
     color: #B1BECD;
     text-align: justify;
     font-size: 1.4rem;
+    font-weight: 300;
     line-height: 1.9rem;
 }
 
-/* Fim do CSS: Section Services */
+section#services div.services_container div.services_bottom div.service_item p.service_item_text span.service_item_span {
+    color: #DEDCDF;
+    font-weight: 500;
+}
+
+/* Fim do CSS: Sessão Services */
 
 /* Início do CSS: Section Projects */
 
