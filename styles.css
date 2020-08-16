@@ -9,6 +9,7 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #EFEEFB;
 }
 
 a {
@@ -21,6 +22,21 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section_title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #464146;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.section_title_span {
+    font-weight: 500;
+    color: #496D96;
 }
 
 /* Início do CSS: Section Home */
@@ -152,10 +168,6 @@ section#home div.home_container div.home_content a.cta_button:hover {
 
 /* Início do CSS: Section History */
 
-section#history {
-    background-color: #EFEEFB;
-}
-
 section#history div.history_container {
     flex-direction: column;
     text-align: center;
@@ -166,21 +178,6 @@ section#history div.history_container {
 
 section#history div.history_container div.history_content div.history_top {
     flex-basis: 80%;
-}
-
-section#history div.history_container div.history_content div.history_top h1.section_title {
-    font-size: 4rem;
-    font-weight: 300;
-    color: #464146;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    text-align: center;
-}
-
-section#history div.history_container div.history_content div.history_top h1.section_title span.section_title_span {
-    font-weight: 500;
-    color: #496D96;
 }
 
 section#history div.history_container div.history_content div.history_top p.section_text {
@@ -207,3 +204,92 @@ section#history div.history_container div.history_content div.history_bottom {
 }
 
 /* Fim do CSS: Section History */
+
+/* Início do CSS: Section Services */
+
+section#services div.services_container {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+section#services div.services_container div.services_top p.section_text {
+    font-size: 1.6rem;
+    margin: 50px 40px 50px 40px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    max-width: 1000px;
+}
+
+section#services div.services_container div.services_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+section#services div.services_container div.services_bottom div.service_item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url('./images/security_guard_scanning.jpg');
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+section#services div.services_container div.services_bottom div.service_item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323C 0%, #485563 100%);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+section#services div.services_container div.services_bottom div.service_item div.icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+section#services div.services_container div.services_bottom div.service_item div.icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section#services div.services_container div.services_bottom div.service_item h2.service_item_title {
+    font-size: 2rem;
+    color: #354B6C;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+section#services div.services_container div.services_bottom div.service_item p.service_item_text {
+    color: #B1BECD;
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+/* Fim do CSS: Section Services */
+
+/* Início do CSS: Section Projects */
+
+
+
+/* Fim do CSS: Section Projects */
