@@ -407,3 +407,34 @@ section#projects div.projects_container div.all_projects div.project_item:hover 
 }
 
 /* Fim do CSS: Sessão Projects */
+
+/* Início do CSS: Sessão About */
+
+section#about div.about_container {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+section#about div.about_container div.column_left {
+    width: 250px;
+    height: 360px;
+}
+
+section#about div.about_container div.column_right {
+    width: 100%;
+}
+
+section#about div.about_container div.column_right p.about_section_text {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 50px 40px;
+    line-height: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
+/* Fim do CSS: Sessão About */
