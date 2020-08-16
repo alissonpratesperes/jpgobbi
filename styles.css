@@ -290,6 +290,76 @@ section#services div.services_container div.services_bottom div.service_item p.s
 
 /* Início do CSS: Section Projects */
 
+section#projects div.projects_container {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
 
+section#projects div.projects_container div.projects_header h1.section_title {
+    margin-bottom: 50px;
+}
+
+section#projects div.projects_container div.all_projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#projects div.projects_container div.all_projects div.project_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_info {
+    padding: 30px;
+    flex-basis: 50%;
+    background-color: #CCCCCC;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_info h1.project_title {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_info h2.project_subtitle {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_info p.project_text {
+    color: #FFFFFF;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_image {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+section#projects div.projects_container div.all_projects div.project_item div.project_image::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
 
 /* Fim do CSS: Section Projects */
