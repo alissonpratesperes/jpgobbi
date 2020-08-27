@@ -166,7 +166,7 @@ p {
 
     min-height: 8vh;
 
-    background-color: rgba(31, 30, 30, 0.24);
+    background: rgba(31, 30, 30, 0.24);
 
     transition: .3s ease background-color;
 
