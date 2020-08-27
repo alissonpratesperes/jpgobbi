@@ -130,7 +130,7 @@ p {
 
 .brand h1 {
 
-    font-size: 3rem;
+    font-size: 1.3rem;
 
     text-transform: uppercase;
 
@@ -1122,6 +1122,12 @@ p {
 /* Media Query For Tablet */
 
 @media only screen and (min-width: 768px) {
+
+    .brand h1 {
+
+        font-size: 3rem;
+
+    }
 
     .cta {
 
