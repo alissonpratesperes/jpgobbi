@@ -156,7 +156,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     color: rgba(240, 248, 255, 0.021);
-    font-size: 9rem;
+    font-size: 6rem;
     letter-spacing: 50px;
     z-index: -1;
     transition: .3s ease;
@@ -314,6 +314,10 @@ p {
 /* End Hero Section */
 
 /* Services Section */
+
+#services .section-title {
+    font-size: 2.7rem;
+}
 
 #services .services {
     flex-direction: column;
@@ -912,78 +916,57 @@ p {
 
 @media only screen and (min-width: 768px) {
 
+    /* Main Header Menu */
+
     .brand h1 {
-
         font-size: 2.8rem;
-
     }
-
-    /* Header Section */
 
     #header .nav-list ul a::after {
         font-size: 14rem;
     }
 
     #header .hamburger {
-
         width: 80px;
-
         height: 80px;
-
     }
 
     #header .hamburger .bar {
-
         width: 45px;
-
     }
 
     #header .hamburger .bar::after {
-
         top: 12px;
-    
     }
     
     #header .hamburger .bar::before {
-    
         bottom: 12px;
-    
     }
 
-    /* End Header Section */
-
-    .cta {
-
-        font-size: 2.5rem;
-
-        padding: 20px 60px;
-
-    }
-
-    h1.section-title {
-
-        font-size: 6rem;
-
-    }
+    /* End Main Header Menu */
 
     /* Hero Section */
 
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+
     #hero h1 {
-
         font-size: 7rem;
-
     }
 
     /* End Hero Section */
 
     /* Services Section */
 
+    #services .section-title {
+        font-size: 4rem;
+    }
+
     #services .service-bottom .service-item {
-
         flex-basis: 45%;
-
         margin: 2.5%;
-
     }
 
     /* End Services Section */
