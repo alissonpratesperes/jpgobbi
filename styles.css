@@ -62,7 +62,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid #354B6C;
+    border: 2px solid #496D96;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -73,7 +73,7 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: #354B6C;
+    background-color: #496D96;
 }
 
 .brand h1 {
@@ -147,6 +147,8 @@ p {
     text-transform: uppercase;
     padding: 20px;
     display: block;
+    transition: .3s ease;
+    transition-property: font-size, color;
 }
 
 #header .nav-list ul a::after {
@@ -170,6 +172,12 @@ p {
 
 #header .nav-list ul li:hover a {
     color: #496D96;
+    font-size: 4rem;
+}
+
+#header .nav-list ul li a.active {
+    color: #496D96;
+    font-size: 4rem;
 }
 
 #header .hamburger {
@@ -346,6 +354,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    background-image: linear-gradient(60deg, #485563 50%, #29323C 100%);
     padding: 15px;
     border-radius: 10px;
     margin: 10px 5%;
@@ -365,30 +374,6 @@ p {
     font-weight: 700;
 }
 
-#services .first {
-    background-image: url(./images/security_professional.jpeg);
-    background-size: cover;
-    background-position: right;
-}
-
-#services .second {
-    background-image: url(./images/armed_surveillance.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#services .third {
-    background-image: url(./images/unarmed_guard.jpg);
-    background-size: cover;
-    background-position: right;
-}
-
-#services .four {
-    background-image: url(./images/receptionist_professionals.jpg);
-    background-size: cover;
-    background-position: right;
-}
-
 #services .service-item::after {
     content: '';
     position: absolute;
@@ -396,7 +381,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.4);
     opacity: .8;
     z-index: -1;
 }
@@ -404,7 +389,7 @@ p {
 #services .service-bottom .item-icon {
     width: 100px;
     height: 100px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 #services .service-bottom .icon-first {
@@ -848,7 +833,7 @@ p {
 
 /* Keyframes */
 
-@keyframes hamburger_puls {
+//@keyframes hamburger_puls {
 
     0% {
 
@@ -1128,55 +1113,55 @@ p {
 
 @media only screen and (min-width: 1200px) {
 
-    /* Header */
+    /* Main Header Menu */
+
+    #header .nav-list ul li:hover a {
+        font-size: 2.3rem;
+    }
+
+    #header .nav-list ul li a.active {
+        font-size: 2.3rem;
+    }
 
     #header .hamburger {
-
         display: none;
-
     }
 
     #header .nav-list ul {
-
         position: initial;
-
         display: block;
-
         height: auto;
-
         width: fit-content;
-
         background-image: none;
 
     }
 
     #header .nav-list ul li {
-
         display: inline-block;
-
     }
 
     #header .nav-list ul li a {
-
-        font-size: 1.8rem;
-
+        font-size: 1.7rem;
     }
 
     #header .nav-list ul a:after {
-
         display: none;
-
     }
 
-    /* End Header */
+    /* End Main Header Menu */
+
+    /* Services Section */
+
+    #services .service-top p {
+        font-size: 1.8rem;
+    }
 
     #services .service-bottom .service-item {
-
         flex-basis: 22%;
-    
         margin: 1.5%;
-    
     }
+
+    /* End Services Section */
 
 }
 
