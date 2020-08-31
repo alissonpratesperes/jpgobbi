@@ -311,87 +311,49 @@ section#footer div.footer p { color: #B1BECD; font-size: 1.1rem; font-weight: 40
 
     /* Main Header Menu */
 
-    div.brand h1.brand_title {
-        font-size: 2.8rem;
-    }
+    div.brand h1.brand_title { font-size: 2.8rem; }
 
-    #header .nav-list ul a::after {
-        font-size: 14rem;
-    }
+    section#header div.header div.nav_bar div.nav_list ul a::after { font-size: 14rem; }
 
-    #header .hamburger {
-        width: 80px;
-        height: 80px;
-    }
+    section#header div.header div.nav_bar div.nav_list div.hamburger { width: 80px; height: 80px; }
 
-    #header .hamburger .bar {
-        width: 45px;
-    }
+    section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { width: 45px; }
 
-    #header .hamburger .bar::after {
-        top: 12px;
-    }
+    section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after { top: 12px; }
     
-    #header .hamburger .bar::before {
-        bottom: 12px;
-    }
+    section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 12px; }
 
     /* End Main Header Menu */
 
     /* Hero Section */
 
-    .call_to_action {
-        font-size: 2.5rem;
-        padding: 20px 60px;
-    }
+    .call_to_action { font-size: 2.5rem; padding: 20px 60px; }
 
-    #hero h1 {
-        font-size: 7rem;
-    }
+    section#hero div.hero div h1 { font-size: 7rem; }
 
     /* End Hero Section */
 
     /* Services Section */
 
-    #services .section-title {
-        font-size: 4rem;
-    }
+    section#services div.services div.service_top h1.section_title { font-size: 4rem; }
 
-    #services .service-bottom .service-item {
-        flex-basis: 45%;
-        margin: 2.5%;
-    }
+    section#services div.services div.service_bottom div.service_item { flex-basis: 45%; margin: 2.5%; }
 
     /* End Services Section */
 
     /* Projects Section */
 
-    #projects .section-title {
-        font-size: 4rem;
-    }
+    section#projects div.projects div.projects_header h1.section_title { font-size: 4rem; }
 
-    #projects .project-item {
-        flex-direction: row;
-    }
+    section#projects div.projects div.all_projects div.project_item { flex-direction: row; }
 
-    #projects .project-item:nth-child(even) {
-        flex-direction: row-reverse;
-    }
+    section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; }
 
-    #projects .project-item {
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
+    section#projects div.projects div.all_projects div.project_item { height: 400px; margin: 0; width: 100%; border-radius: 0; }
 
-    #projects .all-projects .project-info {
-        height: 100%;
-    }
+    section#projects div.projects div.all_projects div.project_item div.project_info { height: 100%; }
 
-    #projects .all-projects .project-img {
-        height: 100%;
-    }
+    section#projects div.projects div.all_projects div.project_item div.project_image { height: 100%; }
 
     /* End Projects Section */
 
@@ -445,9 +407,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1.1rem; font-weight: 40
 
     /* Contact Section */
 
-    #contact .contact .section-title {
-        font-size: 4rem;
-    }
+    section#contact div.contact div h1.section_title { font-size: 4rem; }
 
     /* End Contact Section */
 
