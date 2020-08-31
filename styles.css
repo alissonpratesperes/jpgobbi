@@ -255,180 +255,55 @@ section#projects div.projects div.all_projects div.project_item:hover div.projec
 
 /* Contact Section */
 
-#contact .contact .section-title {
-    font-size: 2.7rem;
-}
+section#contact div.contact div h1.section_title { font-size: 2.7rem; }
 
-#contact .contact {
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+section#contact div.contact { flex-direction: column; max-width: 1200px; margin: 0 auto; }
 
-#contact .contact-items {
-    width: 320px;
-    margin: 50px auto;
-}
+section#contact div.contact div.contact_items { width: 320px; margin: 50px auto; }
 
-#contact .contact-item {
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002C;
-    transition: .3s ease box-shadow;
-}
+section#contact div.contact div.contact_items div.contact_item { width: 80%; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 0px 18px 0 #0000002C; transition: .3s ease box-shadow; }
 
-#contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002C;
-}
+section#contact div.contact div.contact_items div.contact_item:hover { box-shadow: 0px 0px 5px 0 #0000002C; }
 
-#contact .icon {
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
+section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; }
 
-#contact .contact-info h1 {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #000000;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-}
+section#contact div.contact div.contact_items div.contact_item div.contact_info h1 { font-size: 2rem; font-weight: 500; color: #000000; margin-bottom: 5px; text-transform: uppercase; }
 
-#contact .contact-info h2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #496D96;
-}
+section#contact div.contact div.contact_items div.contact_item div.contact_info h2 { font-size: 1.5rem; line-height: 2rem; text-transform: uppercase; font-weight: 500; color: #496D96; }
 
-#contact .contact-info h3 {
-    font-size: 1.5rem;
-    color: #354B6C;
-    margin-top: 10px;
-}
+section#contact div.contact div.contact_items div.contact_item div.contact_info h3 { font-size: 1.5rem; color: #354B6C; margin-top: 10px; }
 
 /* End Contact Section */
 
 /* Footer Section */
 
-#footer {
-    background-image: linear-gradient(45deg, #29323C 0%, #485563 100%);
-}
+section#footer { background-image: linear-gradient(45deg, #29323C 0%, #485563 100%); }
 
-#footer .footer {
-    min-height: 250px;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
+section#footer div.footer { min-height: 250px; flex-direction: column; padding-top: 20px; padding-bottom: 10px; }
 
-#footer h1 {
-    margin-bottom: 20px;
-}
+section#footer div.footer div.brand h1.brand_title { margin-bottom: 20px; }
 
-#footer h2 {
-    color: 	#B1BECD;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    letter-spacing: .1rem;
-    margin-bottom: 20px;
-}
+section#footer div.footer h2 { color: #B1BECD; font-weight: 400; text-transform: uppercase; font-size: 1.3rem; letter-spacing: .1rem; margin-bottom: 20px; }
 
-#footer .social-icon {
-    display: flex;
-    margin-bottom: 20px;
-}
+section#footer div.footer div.social_icon { display: flex; margin-bottom: 20px; }
 
-#footer .social-item {
-    height: 50px;
-    width: 50px;
-    margin: 0 5px;
-}
+section#footer div.footer div.social_icon div.social_item { height: 50px; width: 50px; margin: 0 5px; }
 
-#footer p {
-    color: #B1BECD;
-    font-size: 1.1rem;
-    font-weight: 400;
-}
+section#footer div.footer p { color: #B1BECD; font-size: 1.1rem; font-weight: 400; }
 
 /* End Footer Section */
 
-/* Keyframes */
+/* General Keyframes */
 
-//@keyframes hamburger_puls {
+@keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.4); } }
 
-    0% {
+@keyframes text_reveal_box { 50% { width: 100%; left: 0; } 100% { width: 0; left: 100%; } }
 
-        opacity: 1;
+@keyframes text_reveal { 100% { color: #B1BECD; } }
 
-        transform: scale(1);
+@keyframes text_reveal_name { 100% { color: #496D96; font-weight: 700; } }
 
-    }
-
-    100% {
-
-        opacity: 0;
-
-        transform: scale(1.4);
-
-    }
-
-}
-
-@keyframes text_reveal_box {
-
-    50% {
-
-        width: 100%;
-
-        left: 0;
-
-    }
-
-    100% {
-
-        width: 0;
-
-        left: 100%;
-
-    }
-
-}
-
-@keyframes text_reveal {
-
-    100% {
-
-        color: #B1BECD;
-
-    }
-
-}
-
-@keyframes text_reveal_name {
-
-    100% {
-
-        color: #496D96;
-
-        font-weight: 700;
-
-    }
-
-}
-
-/* End Keyframes */
+/* End General Keyframes */
 
 /* Media Query For Tablet */
 
