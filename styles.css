@@ -70,183 +70,59 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 
 /* Hero Section */
 
-#hero {
-    background-image: url(./images/security_guard_scanning_right.jpeg);
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-    z-index: 1;
-}
+section#hero { background-image: url(./images/security_guard_scanning_right.jpeg); background-size: cover; background-position: top center; position: relative; z-index: 1; }
 
-#hero::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: .7;
-    z-index: -1;
-}
+section#hero::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-color: black; opacity: .7; z-index: -1; }
 
-#hero .hero {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 50px;
-    justify-content: flex-start;
-}
+section#hero div.hero { max-width: 1200px; margin: 0 auto; padding: 0 50px; justify-content: flex-start; }
 
-#hero h1 {
-    display: block;
-    width: fit-content;
-    font-size: 3.8rem;
-    position: relative;
-    color: transparent;
-    animation: text_reveal .5s ease forwards;
-    animation-delay: 1s;
-}
+section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; color: transparent; animation: text_reveal .5s ease forwards; animation-delay: 1s; }
 
-#hero h1:nth-child(1) {
-    animation-delay: 1s;
-}
+section#hero div.hero div h1:nth-child(1) { animation-delay: 1s; }
 
-#hero h1:nth-child(2) {
-    animation-delay: 2s;
-}
+section#hero div.hero div h1:nth-child(2) { animation-delay: 2s; }
 
-#hero h1:nth-child(3) {
-    animation: text_reveal_name .5s ease forwards;
-    animation-delay: 3s;
-}
+section#hero div.hero div h1:nth-child(3) { animation: text_reveal_name .5s ease forwards; animation-delay: 3s; }
 
-#hero h1 span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background-color: #354B6C;
-    animation: text_reveal_box 1s ease;
-    animation-delay: .5s;
-}
+section#hero div.hero div h1 span { position: absolute; top: 0; left: 0; height: 100%; width: 0; background-color: #354B6C; animation: text_reveal_box 1s ease; animation-delay: .5s; }
 
-#hero h1:nth-child(1) span {
-    animation-delay: .5s;
-}
+section#hero div.hero div h1:nth-child(1) span { animation-delay: .5s; }
 
-#hero h1:nth-child(2) span {
-    animation-delay: 1.5s;
-}
+section#hero div.hero div h1:nth-child(2) span { animation-delay: 1.5s; }
 
-#hero h1:nth-child(3) span {
-    animation-delay: 2.5s;
-}
+section#hero div.hero div h1:nth-child(3) span { animation-delay: 2.5s; }
 
 /* End Hero Section */
 
 /* Services Section */
 
-#services .section-title {
-    font-size: 2.7rem;
-}
+section#services div.services div.service_top h1.section_title { font-size: 2.7rem; }
 
-#services .services {
-    flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
+section#services div.services { flex-direction: column; text-align: center; max-width: 1500px; margin: 0 auto; padding: 100px 0; }
 
-#services .service-top {
-    max-width: 1000px;
-    margin: 0 auto;
-}
+section#services div.services div.service_top { max-width: 1000px; margin: 0 auto; }
 
-#services .service-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
+section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; }
 
-#services .service-item {
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    background-image: linear-gradient(60deg, #485563 50%, #29323C 100%);
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px 5%;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
+section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); padding: 15px; border-radius: 10px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 
-#services .service-item .service-item-text {
-    color: #B1BECD;
-    font-weight: 500;
-    text-align: left;
-}
+section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD; font-weight: 500; text-align: left; }
 
-#services .service-item .service-item-span {
-    color: #496D96;
-    font-weight: 700;
-}
+section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
 
-#services .service-item::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    opacity: .8;
-    z-index: -1;
-}
+section#services div.services div.service_bottom div.service_item::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: .8; z-index: -1; }
 
-#services .service-bottom .item-icon {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-}
+section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-bottom: 20px; }
 
-#services .service-bottom .icon-first {
-    background-image: url(./vectors/handshake.svg);
-    background-size: cover;
-    background-position: center;
-}
+section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; }
 
-#services .service-bottom .icon-second {
-    background-image: url(./vectors/armed_guard.svg);
-    background-size: cover;
-    background-position: center;
-}
+section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: cover; background-position: center; }
 
-#services .service-bottom .icon-third {
-    background-image: url(./vectors/unarmed_guard.svg);
-    background-size: cover;
-    background-position: center;
-}
+section#services div.services div.service_bottom div.service_item div.icon_third { background-image: url(./vectors/unarmed_guard.svg); background-size: cover; background-position: center; }
 
-#services .service-bottom .icon-four {
-    background-image: url(./vectors/recepcionist.svg);
-    background-size: cover;
-    background-position: center;
-}
+section#services div.services div.service_bottom div.service_item div.icon_four { background-image: url(./vectors/recepcionist.svg); background-size: cover; background-position: center; }
 
-#services .service-item h2 {
-    font-size: 1.6rem;
-    margin-left: 20px;
-    color: #496D96;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
+section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 10px; text-transform: uppercase; }
 
 /* End Services Section */
 
