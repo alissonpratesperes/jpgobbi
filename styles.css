@@ -2,91 +2,29 @@
 
 /* Global CSS Parameters */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+* { padding: 0; margin: 0; box-sizing: border-box; }
 
-html {
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
-}
+html { font-size: 10px; font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
 
-a {
-    text-decoration: none;
-}
+a { text-decoration: none; }
 
-.container {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.container { min-height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+img { height: 100%; width: 100%; object-fit: cover; }
 
-p {
-    color: black;
-    font-size: 1.5rem;
-    margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
-    text-align: justify;
-    padding: 0px 20px;
-}
+p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: .05rem; text-align: justify; padding: 0px 20px; }
 
-.section-title {
-    font-size: 4rem;
-    font-weight: 400;
-    color: black;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
+.section_title { font-size: 4rem; font-weight: 400; color: black; margin-bottom: 50px; text-transform: uppercase; letter-spacing: .2rem; text-align: center; }
 
-.section-title span {
-    color: #496D96;
-}
+.section_title span.section_title_span { color: #496D96; }
 
-.cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: #FFFFFF;
-    background-color: transparent;
-    border: 2px solid #496D96;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    border-radius: 7px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-}
+.call_to_action { display: inline-block; padding: 10px 30px; color: #FFFFFF; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; text-transform: uppercase; letter-spacing: .1rem; margin-top: 30px; border-radius: 7px; transition: .3s ease; transition-property: background-color, color; }
 
-.cta:hover {
-    color: #FFFFFF;
-    background-color: #496D96;
-}
+.call_to_action:hover { color: #FFFFFF; background-color: #496D96; }
 
-.brand h1 {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    color: #B1BECD;
-    margin-left: 10px;
-}
+div.brand h1.brand_title { font-size: 1.2em; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 
-.brand h1 span {
-    color: #496D96;
-}
+div.brand h1.brand_title span.brand_span { color: #496D96; }
 
 /* End Global CSS Parameters */
 
@@ -800,7 +738,7 @@ p {
 
     /* Main Header Menu */
 
-    .brand h1 {
+    div.brand h1.brand_title {
         font-size: 2.8rem;
     }
 
@@ -829,7 +767,7 @@ p {
 
     /* Hero Section */
 
-    .cta {
+    .call_to_action {
         font-size: 2.5rem;
         padding: 20px 60px;
     }
@@ -994,6 +932,7 @@ p {
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
+        min-height: 440px;
     }
 
     /* End Services Section */
