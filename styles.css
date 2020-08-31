@@ -30,156 +30,41 @@ div.brand h1.brand_title span.brand_span { color: #496D96; }
 
 /* Main Header Menu */
 
-#header {
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: auto;
-}
+section#header { position: fixed; z-index: 1000; left: 0; top: 0; width: 100vw; height: auto; }
 
-#header .header {
-    min-height: 8vh;
-    background: rgba(31, 30, 30, 0.24);
-    transition: .3s ease background-color;
-}
+section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); transition: .3s ease background-color; }
 
-#header .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    max-width: 1300px;
-    padding: 5px 10px;
-}
+section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 
-#header .nav-list ul {
-    list-style: none;
-    position: absolute;
-    background-image: linear-gradient(60deg, #485563 0%, #29323C 100%);
-    width: 100vw;
-    height: 100vh;
-    left: 100%;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: .3s ease;
-    transition-property: left;
-}
+section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(60deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: .3s ease; transition-property: left; }
 
-#header .nav-list ul.active {
-    left: 0%;
-}
+section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
 
-#header .nav-list ul a {
-    font-size: 2.5rem;
-    font-weight: 500;
-    letter-spacing: .2rem;
-    text-decoration: none;
-    color: #B1BECD;
-    text-transform: uppercase;
-    padding: 20px;
-    display: block;
-    transition: .3s ease;
-    transition-property: font-size, color;
-}
+section#header div.header div.nav_bar div.nav_list ul a { font-size: 2.5rem; font-weight: 500; letter-spacing: .2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: .3s ease; transition-property: font-size, color; }
 
-#header .nav-list ul a::after {
-    content: attr(data-after);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
-    font-size: 6rem;
-    letter-spacing: 50px;
-    z-index: -1;
-    transition: .3s ease;
-    transition-property: letter-spacing;
-}
+section#header div.header div.nav_bar div.nav_list ul a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: rgba(240, 248, 255, 0.021); font-size: 6rem; letter-spacing: 50px; z-index: -1; transition: .3s ease; transition-property: letter-spacing; }
 
-#header .nav-list ul li:hover a::after {
-    transform: translate(-50%, -50%) scale(1);
-    letter-spacing: initial;
-}
+section#header div.header div.nav_bar div.nav_list ul li:hover a::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
 
-#header .nav-list ul li:hover a {
-    color: #496D96;
-    font-size: 4rem;
-}
+section#header div.header div.nav_bar div.nav_list ul li:hover a { color: #496D96; font-size: 4rem; }
 
-#header .nav-list ul li a.active {
-    color: #496D96;
-    font-size: 4rem;
-}
+section#header div.header div.nav_bar div.nav_list ul li a.active { color: #496D96; font-size: 4rem; }
 
-#header .hamburger {
-    height: 50px;
-    width: 50px;
-    display: inline-block;
-    border: 3px solid #354b6c;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    cursor: pointer;
-    transform: scale(.8);
-    margin-right: 10px;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(.8); margin-right: 10px; }
 
-#header .hamburger::after {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid #B1BECD;
-    animation: hamburger_puls 1s ease infinite;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 1s ease infinite; }
 
-#header .hamburger .bar {
-    height: 2px;
-    width: 25px;
-    position: relative;
-    background-color: #496D96;
-    z-index: -1;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { height: 2px; width: 25px; position: relative; background-color: #496D96; z-index: -1; }
 
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background-color: #B1BECD;
-    transition: .3s ease;
-    transition-property: top, bottom;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after, section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { content: ''; position: absolute; height: 100%; width: 100%; left: 0; background-color: #B1BECD; transition: .3s ease; transition-property: top, bottom; }
 
-#header .hamburger .bar::after {
-    top: 8px;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after { top: 8px; }
 
-#header .hamburger .bar::before {
-    bottom: 8px;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 8px; }
 
-#header .hamburger.active .bar::before {
-    bottom: 0;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::before { bottom: 0; }
 
-#header .hamburger.active .bar::after {
-    top: 0;
-}
+section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0; }
 
 /* End Main Header Menu */
 
