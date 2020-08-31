@@ -22,7 +22,7 @@ p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-
 
 .call_to_action:hover { color: #FFFFFF; background-color: #496D96; }
 
-div.brand h1.brand_title { font-size: 1.3em; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
+div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 
 div.brand h1.brand_title span.brand_span { color: #496D96; }
 
@@ -36,7 +36,7 @@ section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); 
 
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 
-section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(60deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: .3s ease; transition-property: left; }
+section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: .3s ease; transition-property: left; }
 
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
 
@@ -49,6 +49,8 @@ section#header div.header div.nav_bar div.nav_list ul li:hover a::after { transf
 section#header div.header div.nav_bar div.nav_list ul li:hover a { color: #496D96; font-size: 4rem; }
 
 section#header div.header div.nav_bar div.nav_list ul li a.active { color: #496D96; font-size: 4rem; }
+
+section#header div.header div.nav_bar div.nav_list ul li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
 
 section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(.8); margin-right: 10px; }
 
