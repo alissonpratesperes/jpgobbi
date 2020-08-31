@@ -98,23 +98,25 @@ section#hero div.hero div h1:nth-child(3) span { animation-delay: 2.5s; }
 
 /* Services Section */
 
-section#services div.services div.service_top h1.section_title { font-size: 2.7rem; }
+section#services div.services div.service_top h1.section_title { font-size: 2.6rem; font-weight: 500; }
 
 section#services div.services { flex-direction: column; text-align: center; max-width: 1500px; margin: 0 auto; padding: 100px 0; }
 
 section#services div.services div.service_top { max-width: 1000px; margin: 0 auto; }
 
+section#services div.services div.service_top p { padding: 0px 20px; font-weight: 400; }
+
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; }
 
-section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); padding: 15px; border-radius: 10px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
+section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); padding: 10px; border-radius: 10px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 
-section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD; font-weight: 500; text-align: left; }
+section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1rem; line-height: 2rem; font-weight: 500; text-align: left; }
 
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
 
 section#services div.services div.service_bottom div.service_item::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: .8; z-index: -1; }
 
-section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-bottom: 20px; }
+section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-bottom: 10px; }
 
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; }
 
