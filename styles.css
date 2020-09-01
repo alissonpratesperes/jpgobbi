@@ -15,7 +15,7 @@ div.brand h1.brand_title span.brand_span { color: #496D96; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; }
-section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); transition: 0.3s ease background-color; }
+section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); transition: 0.3s ease background-color; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
@@ -51,7 +51,7 @@ section#hero div.hero div h1:nth-child(3) span { animation-delay: 2.5s; }
 section#services div.services div.service_top h1.section_title { font-size: 2.6rem; font-weight: 500; }
 section#services div.services { flex-direction: column; text-align: center; max-width: 1500px; margin: 0px auto; padding: 100px 0px; }
 section#services div.services div.service_top { max-width: 1000px; margin: 0px auto; }
-section#services div.services div.service_top p { padding: 0px 20px; font-weight: 400; }
+section#services div.services div.service_top p { padding: 0px 30px; font-weight: 400; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; }
 section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 15px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.2rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
@@ -68,7 +68,7 @@ section#services div.services div.service_bottom div.service_item h2 { font-size
 /* Projects Section */
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; font-weight: 500; }
 section#projects div.projects div.projects_header { max-width: 1000px; margin: 0px auto; }
-section#projects div.projects div.projects_header p { padding: 0px 20px; font-weight: 400; }
+section#projects div.projects div.projects_header p { padding: 0px 30px; font-weight: 400; }
 section#projects div.projects { flex-direction: column; max-width: 1200px; margin: 0px auto; padding: 100px 0px; }
 section#projects div.projects div.all_projects { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 50px; }
 section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 10px; }
@@ -181,7 +181,7 @@ section#projects div.projects div.all_projects div.project_item:hover div.projec
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
 section#contact div.contact { flex-direction: column; max-width: 1200px; margin: 0px auto; }
-section#contact div.contact div p { max-width: 1000px; padding: 0px 20px; font-weight: 400; }
+section#contact div.contact div p { max-width: 1000px; padding: 0px 30px; font-weight: 400; }
 section#contact div.contact div.contact_items { min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 0px 18px 0 #0000002C; transition: 0.3s ease; transition-property: box-shadow; }
 section#contact div.contact div.contact_items div.contact_item:hover { box-shadow: 0px 0px 5px 0 #0000002C; }
@@ -224,14 +224,14 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     /* End Hero Section */
     /* Services Section */
     section#services div.services div.service_top h1.section_title { font-size: 4rem; }
-    section#services div.services div.service_top p { font-size: 1.6rem; padding: 0px 30px; }
+    section#services div.services div.service_top p { font-size: 1.6rem; padding: 0px 40px; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 45%; margin: 2.5%; max-height: 359px; }
     section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.4rem; }
     section#services div.services div.service_bottom div.service_item h2 { font-size: 2rem; }
     /* End Services Section */
     /* Projects Section */
     section#projects div.projects div.projects_header h1.section_title { font-size: 4rem; }
-    section#projects div.projects div.projects_header p { font-size: 1.6rem; padding: 0px 30px;}
+    section#projects div.projects div.projects_header p { font-size: 1.6rem; padding: 0px 40px;}
     section#projects div.projects div.all_projects div.project_item { flex-direction: row; }
     section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; }
     section#projects div.projects div.all_projects div.project_item { height: 400px; margin: 0px; width: 100%; border-radius: 0px; }
@@ -294,7 +294,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
 
     /* Contact Section */
     section#contact div.contact div h1.section_title { font-size: 4rem; }
-    section#contact div.contact div p { font-size: 1.6rem; padding: 0px 30px; }
+    section#contact div.contact div p { font-size: 1.6rem; padding: 0px 40px; }
     /* End Contact Section */
     /* Footer Section */
     section#footer div.footer h2 { font-size: 1.5rem; }
@@ -321,7 +321,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#projects div.projects div.projects_header p { font-size: 1.8rem; }
     /* End Projects Section */
     /* Contact Section */
-    section#contact div.contact div p { font-size: 1.8rem; }
+    section#contact div.contact div p { font-size: 1.8rem; padding: 0px 40px; }
     section#contact div.contact { max-width: 1000px; flex-direction: column; padding: 100px 0px; align-items: center; justify-content: center; min-width: 20vh; }
     section#contact div.contact div.contact_items { width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; margin: 50px; }
     /* End Contact Section */
