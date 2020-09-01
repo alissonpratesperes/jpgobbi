@@ -53,16 +53,17 @@ section#services div.services { flex-direction: column; text-align: center; max-
 section#services div.services div.service_top { max-width: 1000px; margin: 0px auto; }
 section#services div.services div.service_top p { padding: 0px 20px; font-weight: 400; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; }
-section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); padding: 10px; border-radius: 10px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
+section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 15px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.2rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
 section#services div.services div.service_bottom div.service_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: 0.8; z-index: -1; }
-section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; }
+section#services div.services div.service_bottom div.service_item::after {width: 120%; height: 200px; background-color: #B1BECD; z-index: 1; left: -25px; top: -35px; }
+section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; z-index: 2; }
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_third { background-image: url(./vectors/unarmed_guard.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_four { background-image: url(./vectors/recepcionist.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
-section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 10px; text-transform: uppercase; }
+section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 10px; text-transform: uppercase; z-index: 2; }
 /* End Services Section */
 /* Projects Section */
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; font-weight: 500; }
@@ -225,7 +226,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#services div.services div.service_top h1.section_title { font-size: 4rem; }
     section#services div.services div.service_top p { font-size: 1.6rem; padding: 0px 30px; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 45%; margin: 2.5%; max-height: 359px; }
-    section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.5rem; }
+    section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.4rem; }
     section#services div.services div.service_bottom div.service_item h2 { font-size: 2rem; }
     /* End Services Section */
     /* Projects Section */
