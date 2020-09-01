@@ -19,11 +19,11 @@ section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); 
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
-section#header div.header div.nav_bar div.nav_list ul a { font-size: 2.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
+section#header div.header div.nav_bar div.nav_list ul a { font-size: 3rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
 section#header div.header div.nav_bar div.nav_list ul a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: rgba(240, 248, 255, 0.021); font-size: 6rem; letter-spacing: 50px; z-index: -1; transition: 0.3s ease; transition-property: letter-spacing; }
 section#header div.header div.nav_bar div.nav_list ul li:hover a::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
-section#header div.header div.nav_bar div.nav_list ul li:hover a { color: #496D96; font-size: 4rem; }
-section#header div.header div.nav_bar div.nav_list ul li a.active { color: #496D96; font-size: 4rem; }
+section#header div.header div.nav_bar div.nav_list ul li:hover a { color: #496D96; font-size: 5rem; }
+section#header div.header div.nav_bar div.nav_list ul li a.active { color: #496D96; font-size: 5rem; }
 section#header div.header div.nav_bar div.nav_list ul li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
 section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); margin-right: 10px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 1s ease infinite; }
@@ -208,7 +208,10 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
 @media only screen and (min-width: 768px) {
     /* Main Header Menu */
     div.brand h1.brand_title { font-size: 2.8rem; }
+    section#header div.header div.nav_bar div.nav_list ul a { font-size: 6rem; }
     section#header div.header div.nav_bar div.nav_list ul a::after { font-size: 14rem; }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 9rem; }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 9rem; }
     section#header div.header div.nav_bar div.nav_list div.hamburger { width: 80px; height: 80px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { width: 45px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after { top: 12px; }
@@ -236,7 +239,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info.right p { text-align: right; }
     section#projects div.projects div.all_projects div.project_item div.project_image { height: 400px; display: flex; justify-content: center; align-items: center; }
-    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 85%; height: auto; transform: scale(0.8); }
+    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 70%; height: auto; transform: scale(0.8); }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
     /* End Projects Section */
 
