@@ -152,11 +152,11 @@ section#projects div.projects div.all_projects div.project_item div.project_info
 
 section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #496D96; font-weight: 700; }
 
-section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-image: linear-gradient(0deg,#485563 0%, #29323c 100%); padding: 20px; }
+section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-image: linear-gradient(0deg,#485563 0%, #29323c 100%); padding: 20px; display: flex; justify-content: center; align-items: center; }
 
-section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 100%; height: auto; transform: scale(0.9); }
+section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); }
 
-section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1.1); }
+section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1);  }
 
 /* End Projects Section */
 
@@ -263,11 +263,11 @@ section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weigh
 
 section#contact div.contact { flex-direction: column; max-width: 1200px; margin: 0px auto; }
 
-section#contact div.contact div p { padding: 0px 20px; font-weight: 400; }
+section#contact div.contact div p { max-width: 1000px; padding: 0px 20px; font-weight: 400; }
 
-section#contact div.contact div.contact_items { width: 320px; margin: 50px auto; }
+section#contact div.contact div.contact_items { min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
-section#contact div.contact div.contact_items div.contact_item { width: 80%; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 0px 18px 0 #0000002C; transition: 0.3s ease; transition-property: box-shadow; }
+section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 0px 18px 0 #0000002C; transition: 0.3s ease; transition-property: box-shadow; }
 
 section#contact div.contact div.contact_items div.contact_item:hover { box-shadow: 0px 0px 5px 0 #0000002C; }
 
@@ -371,7 +371,13 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
 
     section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; }
 
-    section#projects div.projects div.all_projects div.project_item div.project_image { height: 100%; }
+    section#projects div.projects div.all_projects div.project_item div.project_info.right p { text-align: right; }
+
+    section#projects div.projects div.all_projects div.project_item div.project_image { height: 400px; display: flex; justify-content: center; align-items: center; }
+
+    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 85%; height: auto; transform: scale(0.8); }
+
+    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
 
     /* End Projects Section */
 
