@@ -54,7 +54,7 @@ section#services div.services div.service_top { max-width: 1000px; margin: 0px a
 section#services div.services div.service_top p { padding: 0px 30px; font-weight: 400; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; }
 section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 15px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
-section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.2rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
+section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
 section#services div.services div.service_bottom div.service_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: 0.8; z-index: -1; }
 section#services div.services div.service_bottom div.service_item::after {width: 120%; height: 200px; background-color: #B1BECD; z-index: 1; left: -25px; top: -35px; }
@@ -71,12 +71,12 @@ section#projects div.projects div.projects_header { max-width: 1000px; margin: 0
 section#projects div.projects div.projects_header p { padding: 0px 30px; font-weight: 400; }
 section#projects div.projects { flex-direction: column; max-width: 1200px; margin: 0px auto; padding: 100px 0px; }
 section#projects div.projects div.all_projects { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 50px; }
-section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 10px; }
-section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(0deg,#485563 0%, #29323c 100%); }
-section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; text-transform: uppercase; color: #496D96; }
+section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 15px; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); }
+section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(-60deg, #485563 50%, #29323C 100%); }
+section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 1.6rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; text-transform: uppercase; color: #496D96; }
 section#projects div.projects div.all_projects div.project_item div.project_info p {font-weight: 500; font-size: 1.3rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #496D96; font-weight: 700; }
-section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-image: linear-gradient(0deg,#485563 0%, #29323c 100%); padding: 20px; display: flex; justify-content: center; align-items: center; }
+section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #B1BECD; padding: 20px; display: flex; justify-content: center; align-items: center; }
 section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); }
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
 /* End Projects Section */
@@ -232,15 +232,15 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     /* Projects Section */
     section#projects div.projects div.projects_header h1.section_title { font-size: 4rem; }
     section#projects div.projects div.projects_header p { font-size: 1.6rem; padding: 0px 40px;}
-    section#projects div.projects div.all_projects div.project_item { flex-direction: row; }
+    section#projects div.projects div.all_projects div.project_item { flex-direction: row; border-radius: 0px; box-shadow: none; }
     section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; }
-    section#projects div.projects div.all_projects div.project_item { height: 400px; margin: 0px; width: 100%; border-radius: 0px; }
-    section#projects div.projects div.all_projects div.project_item div.project_info { height: 100%; }
-    section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 2.2rem; }
+    section#projects div.projects div.all_projects div.project_item { height: 400px; margin: 0px; width: 100%; }
+    section#projects div.projects div.all_projects div.project_item div.project_info { height: 100%; border-radius: 0px; }
+    section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 2.2rem; }  
     section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info.right p { text-align: right; }
     section#projects div.projects div.all_projects div.project_item div.project_image { height: 400px; display: flex; justify-content: center; align-items: center; }
-    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 70%; height: auto; transform: scale(0.8); }
+    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
     /* End Projects Section */
 
