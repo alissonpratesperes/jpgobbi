@@ -15,7 +15,7 @@ div.brand h1.brand_title span.brand_span { color: #496D96; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; }
-section#header div.header {min-height: 8vh; background: rgba(31, 30, 30, 0.24); transition: 0.3s ease background-color; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); }
+section#header div.header {min-height: 8vh; background: #29323C; box-shadow: none; transition: 0.6s ease; }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
@@ -35,8 +35,6 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0px; }
 /* End Main Header Menu */
 /* Hero Section */
-section#hero { background-image: url(./images/security_guard_scanning_right.jpeg); background-size: cover; background-position: top center; position: relative; z-index: 1; }
-section#hero::after { content: ''; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; background-color: black; opacity: 0.7; z-index: -1; }
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
 section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(1) { animation-delay: 1s; }
@@ -315,12 +313,15 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list ul { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.7rem; }
-    section#header div.header div.nav_bar div.nav_list ul li { font-size: 2rem; }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 2.3rem; transition: 0.3s ease; }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 2.3rem; }
+    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; }
+    section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.7rem; transition: 0.3s ease; }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.7rem; }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
+    /* Section Home */
+    section#hero div.hero div.page_fold { height: 690px; width: 690px; position: absolute; top: 73px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%;}
+    /* End Section Home */
     /* Services Section */
     section#services div.services div.service_top p { font-size: 1.8rem; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 22%; margin: 1.5%; min-height: 440px; max-height: auto; }
