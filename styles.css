@@ -8,8 +8,8 @@ img { height: 100%; width: 100%; object-fit: cover; }
 p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: 0.05rem; text-align: justify; padding: 0px 20px; }
 .section_title { font-size: 4rem; font-weight: 400; color: #464146; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
 .section_title span.section_title_span { color: #496D96; }
-.call_to_action { display: inline-block; padding: 10px 30px; color: #FFFFFF; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; text-transform: uppercase; letter-spacing: 0.1rem; margin-top: 30px; border-radius: 7px; transition: 0.3s ease; transition-property: background-color, color; }
-.call_to_action:hover { color: #FFFFFF; background-color: #496D96; }
+.call_to_action { display: inline-block; padding: 10px 30px; color: #B1BECD; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; text-transform: uppercase; letter-spacing: 0.1rem; margin-top: 120px; border-radius: 7px; transition: 0.3s ease; transition-property: background-color, color; }
+.call_to_action:hover { color: #EFEFEB; background-color: #496D96; }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
 /* End Global CSS Parameters */
@@ -36,7 +36,8 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
-section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
+section#hero div.hero div.page_fold { height: 200px; width: 200px; position: absolute; top: 60px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%;}
+section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 100px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(1) { animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(2) { animation-delay: 2s; }
 section#hero div.hero div h1:nth-child(3) { animation: text_reveal_name 0.5s ease forwards; animation-delay: 3s; }
@@ -178,7 +179,7 @@ section#projects div.projects div.all_projects div.project_item:hover div.projec
 
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
-section#contact div.contact { flex-direction: column; max-width: 1500px; margin: 0px auto; border: 1px solid black; }
+section#contact div.contact { flex-direction: column; max-width: 1500px; margin: 0px auto; }
 section#contact div.contact div p { max-width: 1300px; padding: 0px 30px; font-weight: 400; }
 section#contact div.contact div.contact_items { min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition: 0.3s ease; transition-property: box-shadow, transform; }
@@ -219,6 +220,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 12px; }
     /* End Main Header Menu */
     /* Hero Section */
+    section#hero div.hero div.page_fold { height: 350px; width: 350px; position: absolute; top: 90px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%;}
     .call_to_action { font-size: 2.5rem; padding: 20px 60px; }
     section#hero div.hero div h1 { font-size: 7rem; }
     /* End Hero Section */
@@ -325,7 +327,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     /* Services Section */
     section#services div.services div.service_top p { font-size: 1.8rem; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 22%; margin: 1.5%; min-height: 440px; max-height: auto; }
-    section#services div.services div.service_bottom div.service_item div.item_icon { margin-bottom: auto; border: 1px solid black; }
+    section#services div.services div.service_bottom div.service_item div.item_icon { margin-bottom: auto; }
     /* End Services Section */
     /* Projects Section */
     section#projects div.projects div.projects_header p { font-size: 1.8rem; }
