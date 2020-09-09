@@ -14,7 +14,7 @@ div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: 
 div.brand h1.brand_title span.brand_span { color: #496D96; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
-section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; }
+section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.2s ease; transition-delay: 0.1s; }
 section#header div.header {min-height: 8vh; background: #29323C; box-shadow: none; transition: 0.6s ease; }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; overflow-x: hidden; transition: 0.3s ease; transition-property: left; }
