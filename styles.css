@@ -8,14 +8,14 @@ img { height: 100%; width: 100%; object-fit: cover; }
 p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: 0.05rem; text-align: justify; padding: 0px 20px; }
 .section_title { font-size: 4rem; font-weight: 400; color: #464146; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
 .section_title span.section_title_span { color: #496D96; }
-.call_to_action { display: inline-block; padding: 10px 30px; color: #B1BECD; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1rem; margin-top: 120px; border-radius: 7px; transition: 0.3s ease; transition-property: background-color, color; }
+.call_to_action { display: inline-block; padding: 10px 30px; color: #B1BECD; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1rem; margin-top: 170px; border-radius: 7px; transition: 0.3s ease; transition-property: background-color, color; }
 .call_to_action:hover { color: #EFEFEB; background-color: #496D96; }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
-section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.2s ease; transition-delay: 0.3s; }
-section#header div.header {min-height: 8vh; background: #29323C; box-shadow: none; transition: 0.6s ease; }
+section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
+section#header div.header { min-height: 60px; background-color: #29323C; transition: 0.6s ease; }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
@@ -36,8 +36,8 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
-section#hero div.hero div.page_fold { height: 200px; width: 200px; position: absolute; top: 60px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
-section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 100px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
+section#hero div.hero div.page_fold { height: 230px; width: 230px; position: absolute; top: 59px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
+section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 150px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(1) { animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(2) { animation-delay: 2s; }
 section#hero div.hero div h1:nth-child(3) { animation: text_reveal_name 0.5s ease forwards; animation-delay: 3s; }
@@ -220,7 +220,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 12px; }
     /* End Main Header Menu */
     /* Hero Section */
-    section#hero div.hero div.page_fold { height: 350px; width: 350px; position: absolute; top: 90px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
+    section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 90px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
     .call_to_action { font-size: 2.5rem; padding: 20px 60px; }
     section#hero div.hero div h1 { font-size: 7rem; }
     /* End Hero Section */
