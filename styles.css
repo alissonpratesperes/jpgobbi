@@ -12,6 +12,7 @@ p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-
 .call_to_action:hover { color: #EFEFEB; background-color: #496D96; }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
+.dontScroll { overflow-y: hidden; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
