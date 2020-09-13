@@ -79,104 +79,15 @@ section#projects div.projects div.all_projects div.project_item div.project_imag
 section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); }
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
 /* End Projects Section */
-
 /* About Section */
-
-#about .about {
-
-    flex-direction: column-reverse;
-
-    text-align: center;
-
-    max-width: 1200px;
-
-    margin: 0 auto;
-
-    padding: 100px 20px;
-
-}
-
-#about .col-left {
-
-    width: 250px;
-
-    height: 360px;
-
-
-}
-
-#about .col-right {
-
-    width: 100%;
-
-}
-
-#about .col-right h2 {
-
-    font-size: 1.8rem;
-
-    font-weight: 500;
-
-    letter-spacing: .2rem;
-
-    margin-bottom: 10px;
-
-}
-
-#about .col-right p {
-
-    margin-bottom: 20px;
-
-    padding: 0px;
-
-}
-
-#about .col-right .cta {
-
-    color: black;
-
-    margin-bottom: 50px;
-
-    padding: 10px 20px;
-
-    font-size: 2rem;
-
-}
-
-#about .col-left .about-img {
-
-    height: 100%;
-
-    width: 100%;
-
-    position: relative;
-
-    border: 10px solid white;
-
-}
-
-#about .col-left .about-img::after {
-
-    content: '';
-
-    position: absolute;
-
-    left: -33px;
-
-    top: 19px;
-
-    height: 98%;
-
-    width: 98%;
-
-    border: 7px solid crimson;
-
-    z-index: -1;
-
-}
-
+section#about div.about { flex-direction: column-reverse; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; }
+section#about div.about div.col_left { width: 300px; height: auto; margin-top: 50px;}
+section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
+section#about div.about div.col_right { width: 100%; }
+section#about div.about div.col_right h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#about div.about div.col_right p.col_right_description { padding: 0px 30px; font-weight: 400; }
+section#about div.about div.col_right p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
 /* End About Section */
-
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
 section#contact div.contact { flex-direction: column; max-width: 1500px; margin: 0px auto; }
@@ -250,55 +161,12 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.75); }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
     /* End Projects Section */
-
     /* About Section */
-
-    #about .about {
-
-        flex-direction: row;
-
-    }
-
-    #about .col-left {
-
-        width: 600px;
-
-        height: 400px;
-
-        padding-left: 60px;
-
-    }
-
-    #about .about .col-left .about-img::after {
-
-        left: -45px;
-
-        top: 34px;
-
-        height: 98%;
-
-        width: 98%;
-
-        border: 10px solid crimson;
-
-    }
-
-    #about .col-right {
-
-        text-align: left;
-
-        padding: 30px;
-
-    }
-
-    #about .col-right h1 {
-
-        text-align: left;
-
-    }
-
+    section#about div.about div.col_left { width: 600px; height: 400px; }
+    section#about div.about div.col_left { width: 400px; height: auto; margin-top: 50px; }
+    section#about div.about div.col_right h1.section_title { font-size: 4rem; }
+    section#about div.about div.col_right p.col_right_description { font-size: 1.6rem; padding: 0px 40px; }
     /* End About Section */
-
     /* Contact Section */
     section#contact div.contact div h1.section_title { font-size: 4rem; }
     section#contact div.contact div p { font-size: 1.6rem; padding: 0px 40px; }
@@ -315,10 +183,10 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list ul { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 10px;  transition: 0.2s ease-in-out; transition-property: color, background-color;}
+    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 10px;  transition: 0.15s ease-in-out; transition-property: color, background-color;}
     section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem;  background-color: #B1BECD; border-radius: 10px; }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; background-color: #B1BECD; border-radius: 10px; }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
     /* Section Home */
@@ -336,6 +204,11 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#projects div.projects div.all_projects div.project_item div.project_image img { transform: scale(0.6) }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.75); }
     /* End Projects Section */
+    /* About Section */
+    section#about div.about { flex-direction: row; }
+    section#about div.about div.col_left { width: 500px; }
+    section#about div.about div.col_right p.col_right_description { font-size: 2rem; }
+    /* End About Section */
     /* Contact Section */
     section#contact div.contact div p { font-size: 2rem; padding: 0px 40px; }
     section#contact div.contact { max-width: 1300px; flex-direction: column; padding: 100px 0px; align-items: center; justify-content: center; min-width: 20vh; }
