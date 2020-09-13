@@ -110,6 +110,7 @@ section#footer div.footer h2 { color: #B1BECD; font-weight: 500; text-transform:
 section#footer div.footer div.social_icon { display: flex; margin-bottom: 20px; }
 section#footer div.footer div.social_icon div.social_item { height: 50px; width: 50px; margin: 0px 5px; }
 section#footer div.footer p { color: #B1BECD; font-size: 0.75rem; font-weight: 400; }
+section#footer div.footer p span.footer_span { color: #496D96; }
 /* End Footer Section */
 /* General Keyframes */
     @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.4); } }
@@ -215,8 +216,8 @@ section#footer div.footer p { color: #B1BECD; font-size: 0.75rem; font-weight: 4
     section#contact div.contact div.contact_items { width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; margin: 50px; }
     /* End Contact Section */
     /* Footer Section */
-    section#footer div.footer div.social_icon div.social_item img { transition: 0.2s ease; transition-property: transform; }
-    section#footer div.footer div.social_icon div.social_item:hover img { transform: scale(1.2); }
+    section#footer div.footer div.social_icon div.social_item img { filter: grayscale(1); transition: 0.2s ease-in-out; }
+    section#footer div.footer div.social_icon div.social_item:hover img { filter: grayscale(0); transition-property: filter, transform; }
     /* End Footer Section */
 }
 /* End Media Query For Desktop */
