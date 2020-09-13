@@ -8,21 +8,20 @@ img { height: 100%; width: 100%; object-fit: cover; }
 p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: 0.05rem; text-align: justify; padding: 0px 20px; }
 .section_title { font-size: 4rem; font-weight: 400; color: #464146; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
 .section_title span.section_title_span { color: #496D96; }
-.call_to_action { display: inline-block; padding: 10px 30px; color: #B1BECD; background-color: transparent; border: 2px solid #496D96; font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1rem; margin-top: 170px; border-radius: 7px; transition: 0.3s ease; transition-property: background-color, color; }
-.call_to_action:hover { color: #EFEFEB; background-color: #496D96; }
+.call_to_action { display: inline-block; padding: 15px 30px; color: #496D96; background-color: #B1BECD; box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2); font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.2rem; margin-top: 170px; border-radius: 7px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
+.call_to_action:hover { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
-.dontScroll { position: fixed; transform: 5s ease; transition-property: position; }
+//.dontScroll { position: fixed; transform: 5s ease; transition-property: position; }
 /* End Global CSS Parameters */
 /* Main Header Menu */
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
 section#header div.header { min-height: 60px; background-color: #29323C; transition: 0.6s ease; }
-section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 5px 10px; }
+section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 10px 10px; }
 section#header div.header div.nav_bar div.nav_list ul { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.active { left: 0%; }
 section#header div.header div.nav_bar div.nav_list ul a { font-size: 3rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
-section#header div.header div.nav_bar div.nav_list ul a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: rgba(240, 248, 255, 0.021); font-size: 6rem; letter-spacing: 50px; z-index: -1; transition: 0.3s ease; transition-property: letter-spacing; }
-section#header div.header div.nav_bar div.nav_list ul li:hover a::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
+section#header div.header div.nav_bar div.nav_list ul a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: rgba(240, 248, 255, 0.040); font-size: 6rem; letter-spacing: 50px; z-index: -1;}
 section#header div.header div.nav_bar div.nav_list ul li:hover a { color: #496D96; font-size: 5rem; }
 section#header div.header div.nav_bar div.nav_list ul li a.active { color: #496D96; font-size: 5rem; }
 section#header div.header div.nav_bar div.nav_list ul li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
@@ -183,12 +182,12 @@ section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weigh
 section#contact div.contact { flex-direction: column; max-width: 1500px; margin: 0px auto; }
 section#contact div.contact div p { max-width: 1300px; padding: 0px 30px; font-weight: 400; }
 section#contact div.contact div.contact_items { min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition: 0.3s ease; transition-property: box-shadow, transform; }
+section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 10px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition-property: box-shadow, transform; }
 section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: -20px; height: 100%; width: 100%; clip-path: circle(180px at center 0); background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); opacity: 0.8; z-index: -1;  }
 section#contact div.contact div.contact_items a:hover div.contact_item { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
 section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
 section#contact div.contact div.contact_items a:hover div.contact_item div.icon { transform: scale(1.25); }
-section#contact div.contact div.contact_items div.contact_item div.contact_info h1 { font-size: 2rem; font-weight: 500; color: #354B6C; margin-bottom: 20px; text-transform: uppercase; }
+section#contact div.contact div.contact_items div.contact_item div.contact_info h1 { font-size: 2rem; font-weight: 500; color: #354B6C; margin-bottom: 40px; text-transform: uppercase; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h2 { font-size: 1.5rem; line-height: 2rem; text-transform: uppercase; font-weight: 500; color: #464146; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h3 { font-size: 1.5rem; color:#496D96; margin-top: 10px; }
 /* End Contact Section */
@@ -222,7 +221,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     /* End Main Header Menu */
     /* Hero Section */
     section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 90px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
-    .call_to_action { font-size: 2.5rem; padding: 20px 60px; }
+    .call_to_action { font-size: 2.5rem; padding: 20px 40px; }
     section#hero div.hero div h1 { font-size: 7rem; }
     /* End Hero Section */
     /* Services Section */
@@ -316,10 +315,10 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list ul { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; }
+    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 10px;  transition: 0.2s ease-in-out; transition-property: color, background-color;}
     section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.7rem; transition: 0.3s ease; }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.7rem; }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem;  background-color: #B1BECD; border-radius: 10px; }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; background-color: #B1BECD; border-radius: 10px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
     /* Section Home */
