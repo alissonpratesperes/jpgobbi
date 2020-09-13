@@ -36,7 +36,7 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
-section#hero div.hero div.page_fold { height: 230px; width: 230px; position: absolute; top: 59px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
+section#hero div.hero div.page_fold { height: 230px; width: 230px; position: absolute; top: 70px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
 section#hero div.hero div h1 { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 150px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(1) { animation-delay: 1s; }
 section#hero div.hero div h1:nth-child(2) { animation-delay: 2s; }
@@ -220,7 +220,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 12px; }
     /* End Main Header Menu */
     /* Hero Section */
-    section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 90px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
+    section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 100px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
     .call_to_action { font-size: 2.5rem; padding: 20px 40px; }
     section#hero div.hero div h1 { font-size: 7rem; }
     /* End Hero Section */
@@ -322,7 +322,7 @@ section#footer div.footer p { color: #B1BECD; font-size: 1rem; font-weight: 400;
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
     /* Section Home */
-    section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 73px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
+    section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1;}
     /* End Section Home */
     /* Services Section */
     section#services div.services div.service_top p { font-size: 2rem; }
