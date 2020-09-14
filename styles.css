@@ -80,13 +80,13 @@ section#projects div.projects div.all_projects div.project_item div.project_imag
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
 /* End Projects Section */
 /* About Section */
-section#about div.about { flex-direction: column-reverse; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; }
-section#about div.about div.col_left { width: 300px; height: auto; margin-top: 50px; }
+section#about div.about { flex-direction: column; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; border: 1px solid black; }
+section#about div.about h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#about div.about p.col_right_description { padding: 0px 30px; font-weight: 400; }
+section#about div.about p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
+section#about div.about div.col_right { width: 100%; margin-top: 50px; border: 1px solid blue; }
+section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; border: 1px solid red; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
-section#about div.about div.col_right { width: 100%; }
-section#about div.about div.col_right h1.section_title { font-size: 2.6rem; font-weight: 500; }
-section#about div.about div.col_right p.col_right_description { padding: 0px 30px; font-weight: 400; }
-section#about div.about div.col_right p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
