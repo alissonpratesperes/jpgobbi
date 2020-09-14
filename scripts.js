@@ -11,24 +11,24 @@ function checkScroll() {
         
         document.getElementsByTagName('html')[0].classList.add('dontScroll');
 
-        console.log("MENU IS OPEN!", InitScrollPosit);
+        console.log("MENU IS OPEN, BABY!", InitScrollPosit);
     
     } else {
     
-        const scrollRestoration = history.scrollRestoration;
+        //const scrollRestoration = history.scrollRestoration;
 
-        if (scrollRestoration === 'auto') {
-            console.log('The location on the page is not restored, user will need to scroll manually.');
-          }
 
-        console.log(currScrollPosit, "MENU IS CLOSED!");
+        //if (scrollRestoration === 'auto') {console.log("MENU IS CLOSED, BITCH!", );}
+
+        var currScrollPosit = window.pageYOffset;
         
         document.getElementsByTagName('html')[0].classList.remove('dontScroll');
-        document.getElementsByTagName('html')[0].scrollTo = currScrollPosit;
     
+        console.log("MENU IS CLOSED, BITCH!", currScrollPosit);
+
     }
 
-    currScrollPosit = InitScrollPosit;
+    
     
     } checkScroll(); });
 
