@@ -76,8 +76,8 @@ section#projects div.projects div.all_projects div.project_item div.project_info
 section#projects div.projects div.all_projects div.project_item div.project_info p {font-weight: 500; font-size: 1.3rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #496D96; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #B1BECD; padding: 20px; display: flex; justify-content: center; align-items: center; }
-section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); }
-section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(1); }
+section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(1.1); }
+section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
 /* End Projects Section */
 /* About Section */
 section#about div.about { flex-direction: column-reverse; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; }
@@ -159,8 +159,8 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info.right p { text-align: right; }
     section#projects div.projects div.all_projects div.project_item div.project_image { height: 400px; display: flex; justify-content: center; align-items: center; }
-    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.75); }
-    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
+    section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.90); }
+    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.70); }
     /* End Projects Section */
     /* About Section */
     section#about div.about div.col_left { width: 600px; height: 400px; }
@@ -184,10 +184,10 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#header div.header div.nav_bar div.nav_list ul { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 10px;  transition: 0.2s ease-in-out; transition-property: color, background-color, transform; }
+    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 10px;  transition: 0.3s ease-in-out; transition-property: color, background-color, transform; }
     section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; transform: scale(1); }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.90); }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.90); }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
     /* Section Home */
@@ -202,8 +202,8 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#projects div.projects div.projects_header p { font-size: 2rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 2.5rem; } 
     section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.7rem; line-height: 2.5rem; }
-    section#projects div.projects div.all_projects div.project_item div.project_image img { transform: scale(0.6) }
-    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.75); }
+    section#projects div.projects div.all_projects div.project_item div.project_image img { transform: scale(0.75); }
+    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.65); }
     /* End Projects Section */
     /* About Section */
     section#about div.about { flex-direction: row; }
