@@ -15,7 +15,11 @@ function checkScroll() {
     
     } else {
     
-        var currScrollPosit = window.pageYOffset;
+        const scrollRestoration = history.scrollRestoration;
+
+        if (scrollRestoration === 'auto') {
+            console.log('The location on the page is not restored, user will need to scroll manually.');
+          }
 
         console.log(currScrollPosit, "MENU IS CLOSED!");
         
