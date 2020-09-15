@@ -88,9 +88,15 @@ section#about div.about { flex-direction: column; text-align: center; max-width:
 section#about div.about h1.section_title { font-size: 2.6rem; font-weight: 500; }
 section#about div.about p.col_right_description { padding: 0px 30px; font-weight: 400; }
 section#about div.about p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
-section#about div.about div.col_right { width: 100%; margin-top: 50px; border: 1px solid blue; }
 section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; border: 1px solid red; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
+section#about div.about div.col_right { width: 300px; height: 400px; margin-top: 50px; border-radius: 15px; position: relative; border: 1px solid blue; }
+section#about div.about div.col_right form.contact_form { width: 280px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: left; border: 1px solid limegreen; }
+section#about div.about div.col_right form.contact_form h3.form_title { text-align: center; text-transform: uppercase;  margin-bottom: 40px; font-size: 1.9rem; font-weight: 500; color: #354B6C; }
+section#about div.about div.col_right form.contact_form label { text-transform: uppercase; font-size: 1.4rem; margin-left: 20px; color: #29323C; font-weight: 700; }
+section#about div.about div.col_right form.contact_form input.contact_input { width: 100%; padding: 10px 20px; border: 2px solid #B1BECD; border-radius: 10px; outline: none; background-color: transparent; margin-top: 5px; margin-bottom: 10px; font-size: 1.2rem; color: #29323C; font-weight: 700; }
+section#about div.about div.col_right form.contact_form div.button_box { width: 100%; margin: 30px auto; text-align: center; }
+section#about div.about div.col_right form.contact_form div.button_box button.form_interact { width: 110px; height: 35px; margin: 0px 10px; background: linear-gradient(to right, #496D96, #354B6C); border-radius: 30px; border: 0; outline: none; color: #FFFFFF; cursor: pointer; }
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
