@@ -33,6 +33,7 @@ section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after 
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 8px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::before { bottom: 0px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0px; }
+section#header div.header div.progress_bar { background-color: #29323C; height: 10px; width: 0; position: fixed; left: 0px; bottom: 0px; }
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
