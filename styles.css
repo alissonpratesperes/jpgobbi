@@ -45,9 +45,9 @@ section#hero div.hero div h1 span { position: absolute; top: 0px; left: 0px; hei
 section#hero div.hero div h1:nth-child(1) span { animation-delay: 0.5s; }
 section#hero div.hero div h1:nth-child(2) span { animation-delay: 1.5s; }
 section#hero div.hero div h1:nth-child(3) span { animation-delay: 2.5s; }
-section#hero div.hero div.middle { position: absolute; left: 50%; top: 98%; transform: translate(-50%, -98%); }
-section#hero div.hero div.middle div.mouse { width: 40px; height: 65px; border: 2px solid #B1BECD; border-radius: 40px; }
-section#hero div.hero div.middle div.mouse::before { content: ''; width: 12px; height: 12px; position: absolute; left: 50%; top: 10px; transform: translateX(-50%); background-color: #B1BECD; border-radius: 50%; opacity: 1; animation: mouse_scroll 2s infinite; }
+section#hero div.hero div.middle { position: absolute; left: 50px; top: 120px; }
+section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
+section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; bottom: 0px; transform: translateX(-50%); background-color: #B1BECD; border-radius: 50%; animation: mouse_scroll 2s infinite; }
 /* End Hero Section */
 /* Services Section */
 section#services div.services div.service_top h1.section_title { font-size: 2.6rem; font-weight: 500; }
@@ -120,7 +120,7 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     @keyframes text_reveal_box { 50% { width: 100%; left: 0%; } 100% { width: 0%; left: 100%; } }
     @keyframes text_reveal { 100% { color: #B1BECD; } }
     @keyframes text_reveal_name { 100% { color: #496D96; font-weight: 700; } }
-    @keyframes mouse_scroll { from { opacity: 1; top: 10px; } to { opacity: 0; top: 45px; } }
+    @keyframes mouse_scroll { from { opacity: 1; } to { opacity: 0; bottom: 66px; width: 8px; height: 8px; } }
 /* End General Keyframes */
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
@@ -139,6 +139,7 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 100px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
     .call_to_action { font-size: 2.5rem; padding: 20px 40px; }
     section#hero div.hero div h1 { font-size: 7rem; }
+    section#hero div.hero div.middle { top: 150px; }
     /* End Hero Section */
     /* Services Section */
     section#services div.services div.service_top h1.section_title { font-size: 4rem; }
@@ -196,6 +197,10 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
+    section#hero div.hero div.middle { position: absolute; left: 50%; top: 90%; transform: translate(-50%, -90%); }
+    section#hero div.hero div.middle div.mouse { border: 2px solid #B1BECD; border-radius: 15px; }
+    section#hero div.hero div.middle div.mouse::before { width: 10px; height: 10px; }
+    @keyframes mouse_scroll { from { opacity: 1; top: 10px; } to { opacity: 0; top: 55px; } }
     /* End Section Home */
     /* Services Section */
     section#services div.services div.service_top p { font-size: 2rem; }
