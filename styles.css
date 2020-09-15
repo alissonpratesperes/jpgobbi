@@ -195,6 +195,7 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
+    section#header div.header div.progress_bar { transition: 0.3s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
