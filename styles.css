@@ -48,7 +48,7 @@ section#hero div.hero div h1:nth-child(2) span { animation-delay: 1.5s; }
 section#hero div.hero div h1:nth-child(3) span { animation-delay: 2.5s; }
 section#hero div.hero div.middle { position: absolute; left: 50px; top: 120px; }
 section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
-section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; bottom: 0px; transform: translateX(-50%); background-color: #B1BECD; border-radius: 50%; animation: mouse_scroll 2s infinite; }
+section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 1.7s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
 /* End Hero Section */
 /* Services Section */
 section#services div.services div.service_top h1.section_title { font-size: 2.6rem; font-weight: 500; }
@@ -127,7 +127,7 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     @keyframes text_reveal_box { 50% { width: 100%; left: 0%; } 100% { width: 0%; left: 100%; } }
     @keyframes text_reveal { 100% { color: #B1BECD; } }
     @keyframes text_reveal_name { 100% { color: #496D96; font-weight: 700; } }
-    @keyframes mouse_scroll { from { opacity: 1; } to { opacity: 0; bottom: 66px; width: 8px; height: 8px; } }
+    @keyframes mouse_scroll { 0% { opacity: 0; transform: translateY(0) scale(0.5); } 10% { opacity: 1; transform: translateY(3px) scale(1); } 100% { opacity: 0; transform: translateY(-40px) scale(0.5); } }
 /* End General Keyframes */
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
@@ -201,14 +201,14 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 10px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
-    section#header div.header div.progress_bar { transition: 0.3s ease; transition-delay: 0.1s; }
+    section#header div.header div.progress_bar { height: 5px; transition: 0.3s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
     section#hero div.hero div.middle { position: absolute; left: 50%; top: 90%; transform: translate(-50%, -90%); }
-    section#hero div.hero div.middle div.mouse { border: 2px solid #B1BECD; border-radius: 15px; }
-    section#hero div.hero div.middle div.mouse::before { width: 10px; height: 10px; }
-    @keyframes mouse_scroll { from { opacity: 1; top: 10px; } to { opacity: 0; top: 55px; } }
+    section#hero div.hero div.middle div.mouse { border: 2px solid #29323C; border-radius: 25px; cursor: pointer; }
+    section#hero div.hero div.middle div.mouse::before { width: 10px; height: 10px; left: 25px; }
+        @keyframes mouse_scroll { 0% { opacity: 0; transform: translateY(0) scale(0.5); } 10% { opacity: 1; transform: translateY(-23px) scale(1); } 100% { opacity: 0; transform: translateY(17px) scale(0.5); } }
     /* End Section Home */
     /* Services Section */
     section#services div.services div.service_top p { font-size: 2rem; }
