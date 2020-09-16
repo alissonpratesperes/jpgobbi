@@ -90,13 +90,20 @@ section#about div.about p.col_right_description { padding: 0px 30px; font-weight
 section#about div.about p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
 section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; border: 1px solid red; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
-section#about div.about div.col_right { width: 300px; height: 400px; margin-top: 50px; border-radius: 15px; position: relative; border: 1px solid blue; }
-section#about div.about div.col_right form.contact_form { width: 280px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: left; border: 1px solid limegreen; }
-section#about div.about div.col_right form.contact_form h3.form_title { text-align: center; text-transform: uppercase;  margin-bottom: 40px; font-size: 1.9rem; font-weight: 500; color: #354B6C; }
-section#about div.about div.col_right form.contact_form label { text-transform: uppercase; font-size: 1.4rem; margin-left: 20px; color: #29323C; font-weight: 700; }
-section#about div.about div.col_right form.contact_form input.contact_input { width: 100%; padding: 10px 20px; border: 2px solid #B1BECD; border-radius: 10px; outline: none; background-color: transparent; margin-top: 5px; margin-bottom: 10px; font-size: 1.2rem; color: #29323C; font-weight: 700; }
-section#about div.about div.col_right form.contact_form div.button_box { width: 100%; margin: 30px auto; text-align: center; }
-section#about div.about div.col_right form.contact_form div.button_box button.form_interact { width: 110px; height: 35px; margin: 0px 10px; background: linear-gradient(to right, #496D96, #354B6C); border-radius: 30px; border: 0; outline: none; color: #FFFFFF; cursor: pointer; }
+section#about div.about div.col_right { margin-top: 50px; border: 1px solid blue; }
+section#about div.about div.col_right { display: flex; justify-content: center; align-items: center; height: 100vh; }
+section#about div.about div.col_right form.contact_form { width: 310px; padding: 4rem 2rem; border-radius: 1.5rem; }
+section#about div.about div.col_right form.contact_form h1.form_title { font-weight: 700; margin-bottom: 3rem; text-transform: uppercase; font-size: 1.7rem; color: #B1BECD; letter-spacing: 0.1rem; margin-bottom: 50px;  }
+section#about div.about div.col_right form.contact_form div.form_div { position: relative; height: 50px; margin-bottom: 1.5rem; margin-top: 3rem; }
+section#about div.about div.col_right form.contact_form div.form_div input.form_input { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; font-size: 1.4rem; font-weight: 700; border: 1px solid #B1BECD; border-radius: 1rem; outline: none; padding: 2rem; background: none; z-index: 1; color: #29323C; transition: 0.3s ease; }
+section#about div.about div.col_right form.contact_form div.form_div label.form_label { position: absolute; left: 1.4rem; top: 50%; transform: translateY(-50%); padding: 0rem 0.7rem; background-color: #EFEFEB; font-size: 1.4rem; font-weight: 700; color: #B1BECD; text-transform: uppercase; transition: 0.3s; }
+section#about div.about div.col_right form.contact_form input.form_button { display: block; margin-left: auto; margin-top: 25px; padding: 1rem 2rem; outline: none; border: none; color: #496D96; background-color: #B1BECD; font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2rem; border-radius: 7px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
+section#about div.about div.col_right form.contact_form input.form_button:hover { transform: scale(0.95); }
+section#about div.about div.col_right form.contact_form div.form_div input.form_input:focus + label.form_label { top: 0rem; font-size: 1.1rem; z-index: 10; color: #29323C; }
+section#about div.about div.col_right form.contact_form div.form_div input.form_input:focus { border: 1.5px solid #29323C; }
+section#about div.about div.col_right form.contact_form div.form_div input.form_input:not(:placeholder-shown).form_input:not(:focus) + label.form_label { top: 0rem; font-size: 1rem; z-index: 10; color: #B1BECD; }
+section#about div.about div.col_right form.contact_form div.form_div select.form_select { display: block; font-size: 1.4rem; width: 100%; height: 100%; font-weight: 700; padding: 1.5rem; background: none; border-radius: 1rem; border: 1px solid #B1BECD; color: #29323C; text-transform: uppercase; transition: 0.3s ease; }
+section#about div.about div.col_right form.contact_form div.form_div select.form_select:focus { border: 1.5px solid #29323C; }
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
