@@ -104,6 +104,7 @@ section#about div.about div.col_right form.contact_form div.form_div input.form_
 section#about div.about div.col_right form.contact_form div.form_div input.form_input:not(:placeholder-shown).form_input:not(:focus) + label.form_label { top: 0rem; font-size: 1rem; z-index: 10; color: #B1BECD; }
 section#about div.about div.col_right form.contact_form div.form_div select.form_select { display: block; font-size: 1.4rem; width: 100%; height: 100%; font-weight: 700; padding: 1.5rem; background: none; border-radius: 1rem; border: 1px solid #B1BECD; color: #29323C; text-transform: uppercase; transition: 0.3s ease; }
 section#about div.about div.col_right form.contact_form div.form_div select.form_select:focus { border: 1.5px solid #29323C; }
+section#about div.about div.col_right form.contact_form div.form_div textarea { display: block; resize:none; position: absolute; left: 0px; top: 0px; width: 100%; font-size: 1.4rem; font-weight: 700; border: 1px solid #B1BECD; border-radius: 1rem; outline: none; padding: 2rem; background: none; z-index: 1; color: #29323C; transition: 0.3s ease; }
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
