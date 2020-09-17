@@ -93,7 +93,7 @@ section#about div.about div.col_right div.testimonials_row div.testimonials_col 
 
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial { background-color: #B1BECD; padding: 30px; border-radius: 15px; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); position: relative; z-index: -1; overflow: hidden; }
 
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; background-image: linear-gradient(0deg, #485563 50%, #29323C 100%); z-index: 1;  }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; background-image: linear-gradient(-45deg, #485563 40%, #29323C 140%); z-index: 1; }
 
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_avatar img { width: 100px; height: 100px; border-radius: 50%; position: relative; z-index: 2; }
 
