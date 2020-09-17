@@ -84,14 +84,26 @@ section#projects div.projects div.all_projects div.project_item div.project_imag
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
 /* End Projects Section */
 /* About Section */
-section#about div.about { flex-direction: column; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; border: 1px solid black; }
+section#about div.about { flex-direction: column; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; }
 section#about div.about h1.section_title { font-size: 2.6rem; font-weight: 500; }
-section#about div.about p.col_right_description { padding: 0px 30px; font-weight: 400; }
+section#about div.about p.col_right_description { padding: 0px 30px; font-weight: 400; margin-bottom: 50px; }
 section#about div.about p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
+section#about div.about div.col_right div.testimonials_row { display: flex; flex-wrap: wrap; justify-content: center; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex: 100%; max-width: 100%; padding: 20px; }
+
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial { background-color: #B1BECD; padding: 30px; border-radius: 15px; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); position: relative; z-index: -1; overflow: hidden; }
+
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; background-image: linear-gradient(0deg, #485563 50%, #29323C 100%); z-index: 1;  }
+
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_avatar img { width: 100px; height: 100px; border-radius: 50%; position: relative; z-index: 2; }
+
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.8rem; color: blue; text-transform: uppercase; margin: 20px 0px; position: relative; z-index: 2; }
+
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: limegreen; margin-bottom: 20px; position: relative; z-index: 2; }
+
 section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; border: 1px solid red; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
-section#about div.about div.col_right { margin-top: 50px; border: 1px solid blue; }
-section#about div.about div.col_right { display: flex; justify-content: center; align-items: center; height: 100vh; }
+
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
@@ -172,8 +184,10 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     /* About Section */
     section#about div.about div.col_left { width: 600px; height: 400px; }
     section#about div.about div.col_left { width: 400px; height: auto; margin-top: 50px; }
-    section#about div.about div.col_right h1.section_title { font-size: 4rem; }
-    section#about div.about div.col_right p.col_right_description { font-size: 1.6rem; padding: 0px 40px; }
+    section#about div.about h1.section_title { font-size: 4rem; }
+    section#about div.about p.col_right_description { font-size: 1.6rem; padding: 0px 40px; }
+    section#about div.about div.col_right div.testimonials_row { padding: 0px 5px; }
+    section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex: 100%; max-width: 100%; }
     /* End About Section */
     /* Contact Section */
     section#contact div.contact div h1.section_title { font-size: 4rem; }
@@ -217,11 +231,11 @@ section#footer div.footer p span.footer_span { color: #496D96; }
     section#projects div.projects div.all_projects div.project_item div.project_image img { transform: scale(0.75); }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.65); }
     /* End Projects Section */
+
     /* About Section */
-    section#about div.about { flex-direction: row; }
-    section#about div.about div.col_left { width: 500px; }
-    section#about div.about div.col_right p.col_right_description { font-size: 2rem; }
+
     /* End About Section */
+    
     /* Contact Section */
     section#contact div.contact div p { font-size: 2rem; padding: 0px 40px; }
     section#contact div.contact { max-width: 1300px; flex-direction: column; padding: 100px 0px; align-items: center; justify-content: center; min-width: 20vh; }
