@@ -56,17 +56,16 @@ section#services div.services { flex-direction: column; text-align: center; max-
 section#services div.services div.service_top { max-width: 1400px; margin: 0px auto; border: 1px solid blue; }
 section#services div.services div.service_top p { padding: 0px 30px; font-weight: 400; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; max-width: 1300px; border: 1px solid red; }
-section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 15px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
+section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #B1BECD; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 20px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
-section#services div.services div.service_bottom div.service_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); opacity: 0.8; z-index: -1; }
-section#services div.services div.service_bottom div.service_item::after {width: 120%; height: 200px; background-color: #B1BECD; z-index: 1; left: -25px; top: -35px; }
+section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 280px; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); position: absolute; left: 0px; top: 165px; border-top-right-radius: 20px; z-index: -1; }
 section#services div.services div.service_bottom div.service_item div.item_icon { width: 100px; height: 100px; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; z-index: 2; }
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_third { background-image: url(./vectors/unarmed_guard.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_four { background-image: url(./vectors/recepcionist.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
-section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 10px; text-transform: uppercase; z-index: 2; }
+section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 15px; text-transform: uppercase; z-index: 2; }
 /* End Services Section */
 /* Projects Section */
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
@@ -92,12 +91,12 @@ section#about div.about div.col_right { max-width: 1300px; margin-top: 50px; bor
 section#about div.about div.col_right div.testimonials_row { display: flex; flex-wrap: wrap; justify-content: center; max-width: 1500px; margin: 0px auto; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex: 100%; max-width: 100%; padding: 30px; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial { background-color: #B1BECD; padding: 30px; border-radius: 15px; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); position: relative; z-index: -1; overflow: hidden; }
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; background-image: linear-gradient(-45deg, #485563 40%, #29323C 140%); z-index: 1; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; background-image: linear-gradient(-45deg, #485563 40%, #29323C 140%); box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); z-index: 1; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_avatar { width: 200px; height: 100px; background-size: 100%; background-repeat: no-repeat; background-position: center; position: relative; z-index: 2; margin: auto; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_1 { background-image: url('./images/Logo_Fundo_Transp_png.png'); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_2 { background-image: url('./images/LogoNM.png'); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.5rem; font-weight: 500; color: #B1BECD; text-transform: uppercase; margin: 15px 0px; position: relative; z-index: 2; }
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #496D96; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #29323C; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial p.client_evaluation_testimonial { text-align: justify; margin-top: 40px; padding: 0px; color: #29323C; font-weight: 500; }
 section#about div.about div.col_left { width: 200px; height: auto; margin-top: 80px; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
