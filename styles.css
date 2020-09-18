@@ -6,9 +6,9 @@ a { text-decoration: none; }
 .container { min-height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; }
 img { height: 100%; width: 100%; object-fit: cover; }
 p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: 0.05rem; text-align: justify; padding: 0px 20px; }
-.section_title { font-size: 4rem; font-weight: 400; color: #464146; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
-.section_title span.section_title_span { color: #496D96; }
-.call_to_action { display: inline-block; padding: 15px 30px; color: #496D96; background-color: #B1BECD; box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2); font-size: 2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.2rem; margin-top: 170px; border-radius: 7px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
+.section_title { font-size: 4rem; font-weight: 500; color: #29323C; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
+.section_title span.section_title_span { color: #496D96; font-weight: 700; }
+.call_to_action { display: inline-block; padding: 15px 15px; color: #B1BECD; background-color: #29323C; box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2); font-size: 2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2rem; margin-top: 170px; border-radius: 12px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
 .call_to_action:hover { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
@@ -51,7 +51,7 @@ section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
 section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 1.7s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
 /* End Hero Section */
 /* Services Section */
-section#services div.services div.service_top h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#services div.services div.service_top h1.section_title { font-size: 2.6rem; }
 section#services div.services { flex-direction: column; text-align: center; max-width: 1500px; margin: 0px auto; padding: 100px 0px; }
 section#services div.services div.service_top { max-width: 1300px; margin: 0px auto; }
 section#services div.services div.service_top p { padding: 0px 30px; font-weight: 400; }
@@ -69,7 +69,7 @@ section#services div.services div.service_bottom div.service_item div.icon_four 
 section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #496D96; margin-bottom: 10px; text-transform: uppercase; z-index: 2; }
 /* End Services Section */
 /* Projects Section */
-section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
 section#projects div.projects div.projects_header { max-width: 1300px; margin: 0px auto; }
 section#projects div.projects div.projects_header p { padding: 0px 30px; font-weight: 400; }
 section#projects div.projects { flex-direction: column; max-width: 1400px; margin: 0px auto; padding: 100px 0px; }
@@ -84,29 +84,25 @@ section#projects div.projects div.all_projects div.project_item div.project_imag
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
 /* End Projects Section */
 /* About Section */
-section#about div.about { flex-direction: column; text-align: center; max-width: 1200px; margin: 0 auto; padding: 100px 0px; }
-section#about div.about h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#about div.about { flex-direction: column; text-align: center; max-width: 1300px; margin: 0 auto; padding: 100px 0px; }
+section#about div.about h1.section_title { font-size: 2.6rem; }
 section#about div.about p.col_right_description { padding: 0px 30px; font-weight: 400; margin-bottom: 50px; }
 section#about div.about p.col_right_description span.description_span { color: #29323C; font-weight: 700; }
 section#about div.about div.col_right div.testimonials_row { display: flex; flex-wrap: wrap; justify-content: center; }
-section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex: 100%; max-width: 100%; padding: 20px; }
-
+section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex: 100%; max-width: 100%; padding: 30px; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial { background-color: #B1BECD; padding: 30px; border-radius: 15px; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); position: relative; z-index: -1; overflow: hidden; }
-
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial::after { content: ''; position: absolute; left: 0px; top: 0px; width: 100%; height: 225px; background-image: linear-gradient(-45deg, #485563 40%, #29323C 140%); z-index: 1; }
-
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_avatar img { width: 100px; height: 100px; border-radius: 50%; position: relative; z-index: 2; }
-
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.8rem; color: blue; text-transform: uppercase; margin: 20px 0px; position: relative; z-index: 2; }
-
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: limegreen; margin-bottom: 20px; position: relative; z-index: 2; }
-
-section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; border: 1px solid red; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_avatar { width: 200px; height: 100px; background-size: 100%; background-repeat: no-repeat; background-position: center; position: relative; z-index: 2; margin: auto; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_1 { background-image: url('./images/Logo_Fundo_Transp_png.png'); }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_2 { background-image: url('./images/LogoNM.png'); }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.5rem; font-weight: 500; color: #B1BECD; text-transform: uppercase; margin: 15px 0px; position: relative; z-index: 2; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #496D96; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial p.client_evaluation_testimonial { text-align: justify; margin-top: 40px; padding: 0px; color: #29323C; font-weight: 500; }
+section#about div.about div.col_left { width: 200px; height: auto; margin-top: 50px; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
-
 /* End About Section */
 /* Contact Section */
-section#contact div.contact div h1.section_title { font-size: 2.6rem; font-weight: 500; }
+section#contact div.contact div h1.section_title { font-size: 2.6rem; }
 section#contact div.contact { flex-direction: column; max-width: 1500px; margin: 0px auto; }
 section#contact div.contact div p { max-width: 1300px; padding: 0px 30px; font-weight: 400; }
 section#contact div.contact div.contact_items { min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
@@ -116,7 +112,7 @@ section#contact div.contact div.contact_items a:hover div.contact_item { box-sha
 section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
 section#contact div.contact div.contact_items a:hover div.contact_item div.icon { transform: scale(1.25); }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h1 { font-size: 2rem; font-weight: 500; color: #354B6C; margin-bottom: 40px; text-transform: uppercase; }
-section#contact div.contact div.contact_items div.contact_item div.contact_info h2 { font-size: 1.5rem; line-height: 2rem; text-transform: uppercase; font-weight: 500; color: #464146; }
+section#contact div.contact div.contact_items div.contact_item div.contact_info h2 { font-size: 1.5rem; line-height: 2rem; text-transform: uppercase; font-weight: 500; color: #29323C; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h3 { font-size: 1.5rem; color:#496D96; margin-top: 10px; }
 /* End Contact Section */
 /* Footer Section */
