@@ -199,8 +199,11 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#contact div.contact div.contact_items { margin-top: 70px; flex-direction: row; flex-wrap: wrap; }
     /* End Contact Section */
     /* Footer Section */
-    section#footer div.footer { min-height: 320px; }
-    section#footer div.footer::after { height: 35%; }
+    section#footer div.footer { min-height: 200px; }
+    section#footer div.footer div.brand h2.brand_subtitle { font-size: 1.2rem; }
+    section#footer div.footer div.brand h3.company_address { font-size: 1.2rem; }
+    section#footer div.footer div.brand h4.copyright { font-size: 1.2rem; }
+    section#footer div.footer a.social_media_icon i { font-size: 7rem; }
     /* End Footer Section */
 }
 /* End Media Query For Tablet */
