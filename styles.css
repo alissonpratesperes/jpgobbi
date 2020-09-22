@@ -122,14 +122,14 @@ section#contact div.contact div.contact_items div.contact_item div.contact_info 
 /* Footer Section */
 section#footer {background-color: #29323C; display: flex; flex-direction: column; }
 section#footer div.emblem { width: 150px; height: 150px; background-image: url('./images/jpgobbi_logo_withoutbg_cropped.png'); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; left: auto; top: -80px; margin: auto; z-index: 3; }
-section#footer div.footer { min-height: 160px; flex-direction: column; justify-content: center; align-items: center; position: relative; z-index: 1;}
+section#footer div.footer { min-height: 170px; flex-direction: column; justify-content: center; align-items: center; position: relative; z-index: 1;}
 section#footer div.footer div.brand { position: absolute; top: 80px; text-align: center; margin: auto; }
 section#footer div.footer div.brand h1.brand_title { color: #496D96; margin-bottom: 10px; font-weight: 700; }
 section#footer div.footer div.brand h1.brand_title span.brand_span { color: #B1BECD; }
 section#footer div.footer div.brand h2.brand_subtitle { font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: #B1BECD; margin-bottom: 10px; }
 section#footer div.footer div.brand h2.brand_subtitle span.brand_span { color: #496D96; font-weight: 700; }
 section#footer div.footer div.brand h3.company_address { font-size: 0.8rem; color: #B1BECD; text-transform: uppercase; margin-bottom: 10px; }
-section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 700; text-transform: uppercase; color: #B1BECD; margin-bottom: 10px; }
+section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 700; text-transform: uppercase; color: #B1BECD; }
 section#footer div.footer div.brand h4.copyright span.copy_company { color: #496D96; }
 section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 20px; right: 20px; color: #3B5998; }
 /* End Footer Section */
