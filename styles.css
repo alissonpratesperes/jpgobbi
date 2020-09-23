@@ -33,7 +33,7 @@ section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after 
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 8px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::before { bottom: 0px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0px; }
-section#header div.header div.progress_bar { background-color: #29323C; height: 10px; width: 0; position: fixed; left: 0px; bottom: 0px; }
+section#header div.header div.progress_bar { background-color: #29323C; height: 10px; width: 0; position: fixed; left: 0px; bottom: 0px; border-top-right-radius: 5px; }
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
@@ -60,7 +60,7 @@ section#services div.services div.service_bottom { display: flex; align-items: c
 section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #B1BECD; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 20px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
 section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
-section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 280px; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); position: absolute; left: 0px; top: 165px; border-top-right-radius: 30px; z-index: -1; }
+section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 280px; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); position: absolute; left: 0px; top: 165px; border-top-right-radius: 50px; z-index: -1; }
 section#services div.services div.service_bottom div.service_item div.item_icon { width: 120px; height: 120px; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 10px; z-index: 2; }
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
@@ -81,7 +81,7 @@ section#projects div.projects div.all_projects div.project_item div.project_info
 section#projects div.projects div.all_projects div.project_item div.project_info p { font-weight: 500; font-size: 1.3rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #29323C; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #B1BECD; padding: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1; }
-section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 40%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 100px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
+section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 40%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 300px; border-bottom-right-radius: 300px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
 section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(1.1); }
 section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
 /* End Projects Section */
@@ -99,7 +99,7 @@ section#about div.about div.col_right div.testimonials_row div.testimonials_col 
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_1 { background-image: url('./images/Logo_Fundo_Transp_png.png'); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_2 { background-image: url('./images/LogoNM.png'); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.5rem; font-weight: 700; color: #B1BECD; text-transform: uppercase; margin: 15px 0px; position: relative; z-index: 2; }
-section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #29323C; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; }
+section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #29323C; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial p.client_evaluation_testimonial { text-align: justify; margin-top: 40px; padding: 0px; color: #29323C; font-weight: 500; }
 section#about div.about div.col_left { width: 200px; height: auto; margin-top: 80px; }
 section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
@@ -111,7 +111,7 @@ section#contact div.contact div p { max-width: 1400px; padding: 0px 30px; font-w
 section#contact div.contact div p span.contact_span { color: #29323C; font-weight: 700; }
 section#contact div.contact div.contact_items { max-width: 1300px; min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 250px; padding: 20px; text-align: center; border-radius: 20px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition-property: box-shadow, transform; }
-section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 60%; width: 100%; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); border-bottom-right-radius: 100px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); opacity: 0.8; z-index: -1;  }
+section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 60%; width: 100%; background-image: linear-gradient(45deg, #485563 20%, #29323C 80%); border-bottom-left-radius: 90px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); opacity: 0.8; z-index: -1;  }
 section#contact div.contact div.contact_items a:hover div.contact_item { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
 section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
 section#contact div.contact div.contact_items a:hover div.contact_item div.icon { transform: scale(1.25); }
@@ -131,7 +131,8 @@ section#footer div.footer div.brand h2.brand_subtitle span.brand_span { color: #
 section#footer div.footer div.brand h3.company_address { font-size: 0.8rem; color: #B1BECD; text-transform: uppercase; margin-bottom: 10px; }
 section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 700; text-transform: uppercase; color: #B1BECD; }
 section#footer div.footer div.brand h4.copyright span.copy_company { color: #496D96; }
-section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 20px; right: 20px; color: #3B5998; }
+section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 20px; right: 20px; color: #3B5998; text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: all 0.3s; }
+section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
 /* End Footer Section */
 /* General Keyframes */
     @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.4); } }
@@ -213,12 +214,12 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#header div.header div.nav_bar div.nav_list ul { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 15px; transition: 0.3s ease-in-out; transition-property: color, background-color, transform; }
+    section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 15px; transition: 0.15s ease-in-out; transition-property: color, background-color, transform; }
     section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; transform: scale(1); }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
-    section#header div.header div.progress_bar { height: 10px; transition: 0.3s ease; transition-delay: 0.1s; }
+    section#header div.header div.progress_bar { height: 10px; transition: 0.15s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 650px; width: 650px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
@@ -251,8 +252,6 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#contact div.contact div.contact_items { width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; margin: 50px; }
     /* End Contact Section */
     /* Footer Section */
-    section#footer div.footer div.social_icon div.social_item img { filter: grayscale(1); transition: 0.2s ease-in-out; }
-    section#footer div.footer div.social_icon div.social_item:hover img { filter: grayscale(0); transition-property: filter, transform; }
     /* End Footer Section */
 }
 /* End Media Query For Desktop */
