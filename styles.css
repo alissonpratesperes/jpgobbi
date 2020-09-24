@@ -58,15 +58,15 @@ section#services div.services div.service_top p { padding: 0px 30px; font-weight
 section#services div.services div.service_top p span.services_description_span { color: #29323C; font-weight: 700; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; max-width: 1300px; }
 section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #B1BECD; box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 20px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
-section#services div.services div.service_bottom div.service_item p.service_item_text { color: #B1BECD;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
+section#services div.services div.service_bottom div.service_item p.service_item_text { color: #29323C;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
-section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 280px; background-image: linear-gradient(60deg, #485563 50%, #29323C 100%); position: absolute; left: 0px; top: 165px; border-top-right-radius: 50px; z-index: -1; }
+section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 170px; background-image: linear-gradient(-45deg, #485563 40%, #29323C 140%); position: absolute; left: 0px; top: 0px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); z-index: -1; }
 section#services div.services div.service_bottom div.service_item div.item_icon { width: 120px; height: 120px; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 10px; z-index: 2; }
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_third { background-image: url(./vectors/unarmed_guard.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_four { background-image: url(./vectors/recepcionist.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
-section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #29323C; margin-bottom: 15px; text-transform: uppercase; z-index: 2; }
+section#services div.services div.service_bottom div.service_item h2 { font-size: 1.6rem; margin-left: 20px; color: #B1BECD; margin-bottom: 15px; text-transform: uppercase; z-index: 2; }
 /* End Services Section */
 /* Projects Section */
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
@@ -81,9 +81,9 @@ section#projects div.projects div.all_projects div.project_item div.project_info
 section#projects div.projects div.all_projects div.project_item div.project_info p { font-weight: 500; font-size: 1.3rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #29323C; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #B1BECD; padding: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1; }
-section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 40%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 300px; border-bottom-right-radius: 300px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
-section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(1.1); }
-section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.9); }
+section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 10%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
+section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); bottom: 0px;  }
+section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.95); }
 /* End Projects Section */
 /* About Section */
 section#about div.about { flex-direction: column; text-align: center; max-width: 1400px; margin: 0px auto; padding: 100px 0px; }
@@ -101,8 +101,6 @@ section#about div.about div.col_right div.testimonials_row div.testimonials_col 
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_name { font-size: 1.5rem; font-weight: 700; color: #B1BECD; text-transform: uppercase; margin: 15px 0px; position: relative; z-index: 2; }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial div.client_evaluation_note { color: #29323C; margin-top: 0px; margin-bottom: 20px; position: relative; z-index: 2; font-size: 1.7rem; text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4); }
 section#about div.about div.col_right div.testimonials_row div.testimonials_col div.testimonial p.client_evaluation_testimonial { text-align: justify; margin-top: 40px; padding: 0px; color: #29323C; font-weight: 500; }
-section#about div.about div.col_left { width: 200px; height: auto; margin-top: 80px; }
-section#about div.about div.col_left div.company_logo { height: 100%; width: 100%; position: relative; }
 /* End About Section */
 /* Contact Section */
 section#contact div.contact div h1.section_title { font-size: 2.6rem; }
@@ -158,7 +156,10 @@ section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); t
     section#hero div.hero div.page_fold { height: 420px; width: 420px; position: absolute; top: 100px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
     .call_to_action { font-size: 2.5rem; padding: 20px 40px; }
     section#hero div.hero div h1 { font-size: 7rem; }
-    section#hero div.hero div.middle { top: 150px; }
+    section#hero div.hero div.middle { position: absolute; left: 50%; top: 90%; transform: translate(-50%, -90%); }
+    section#hero div.hero div.middle div.mouse { border: none; border-radius: 25px; cursor: pointer; }
+    section#hero div.hero div.middle div.mouse::before { width: 10px; height: 10px; left: 25px; }
+        @keyframes mouse_scroll { 0% { opacity: 0; transform: translateY(0) scale(0.4); } 10% { opacity: 1; transform: translateY(2px) scale(1.2); } 100% { opacity: 0; transform: translateY(-40px) scale(0.4); } }
     /* End Hero Section */
     /* Services Section */
     section#services div.services div.service_top h1.section_title { font-size: 4rem; }
@@ -172,18 +173,20 @@ section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); t
     section#projects div.projects div.projects_header p { font-size: 1.6rem; padding: 0px 40px;}
     section#projects div.projects div.all_projects { padding: 20px; background-color: transparent; }
     section#projects div.projects div.all_projects div.project_item { flex-direction: row; background: transparent; border-radius: 0px; }
-    section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; }
-    section#projects div.projects div.all_projects div.project_item { height: 100%; margin: 0px; width: 100%; }
+    section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; box-shadow: none; }
+    section#projects div.projects div.all_projects div.project_item { height: 100%; margin: 0px; width: 100%; box-shadow: none; }
     section#projects div.projects div.all_projects div.project_item.upleft_border { border-top-left-radius: 15px; }
     section#projects div.projects div.all_projects div.project_item.upright_border { border-top-right-radius: 15px; }
     section#projects div.projects div.all_projects div.project_item.downleft_border { border-bottom-left-radius: 15px; }
     section#projects div.projects div.all_projects div.project_item.downright_border { border-bottom-right-radius: 15px; }
-    section#projects div.projects div.all_projects div.project_item div.project_info { height: 400px; border-radius: 0px; }
-    section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 2.2rem; }  
-    section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; }
+    section#projects div.projects div.all_projects div.project_item div.project_info { height: 400px; border-radius: 0px; background-color: #B1BECD; position: relative; z-index: -1; }
+    section#projects div.projects div.all_projects div.project_item div.project_info::after { content: ''; width: 95%; height: 93%; background-color: #485563; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; border-radius: 20px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); }
+    section#projects div.projects div.all_projects div.project_item div.project_info h1 { font-size: 2.2rem; position: relative; z-index: 2; }  
+    section#projects div.projects div.all_projects div.project_item div.project_info p { font-size: 1.5rem; line-height: 2.5rem; position: relative; z-index: 2; }
+    section#projects div.projects div.all_projects div.project_item div.project_info p span { color: #496D96; }
     section#projects div.projects div.all_projects div.project_item div.project_info.right p { text-align: right; }
     section#projects div.projects div.all_projects div.project_item div.project_image { height: 400px; display: flex; justify-content: center; align-items: center; }
-    section#projects div.projects div.all_projects div.project_item div.project_image::after { display: none; height: 100%; width: 50%; border-radius: 0px; //border-bottom-left-radius: 0px; //border-top-right-radius: 100px; //border-bottom-right-radius: 100px; }
+    section#projects div.projects div.all_projects div.project_item div.project_image::after { display: none; height: 100%; width: 50%; border-radius: 0px; }
     section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.90); }
     section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.70); }
     /* End Projects Section */
@@ -191,8 +194,6 @@ section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); t
     section#about div.about h1.section_title { font-size: 4rem; }
     section#about div.about p.col_right_description { font-size: 1.6rem; padding: 0px 40px; }
     section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex-basis: 45%; min-width: 45%; margin: 2%; }
-    section#about div.about div.col_left { width: 600px; height: 400px; }
-    section#about div.about div.col_left { width: 300px; height: auto; margin-top: 50px; }
     /* End About Section */
     /* Contact Section */
     section#contact div.contact div h1.section_title { font-size: 4rem; }
@@ -216,8 +217,8 @@ section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); t
     section#header div.header div.nav_bar div.nav_list ul li { display: inline-block; }
     section#header div.header div.nav_bar div.nav_list ul li a { font-size: 1.9rem; border-radius: 15px; transition: 0.25s ease-in-out; transition-property: color, background-color, transform; }
     section#header div.header div.nav_bar div.nav_list ul li { font-size: 1.9em; transform: scale(1); }
-    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
-    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
+    section#header div.header div.nav_bar div.nav_list ul li:hover a { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); //box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
+    section#header div.header div.nav_bar div.nav_list ul li a.active { font-size: 1.9rem; color: #29323C; background-color: #B1BECD; border-radius: 15px; transform: scale(0.80); //box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     section#header div.header div.progress_bar { height: 10px; transition: 0.15s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
@@ -244,7 +245,7 @@ section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); t
     section#about div.about p.col_right_description { font-size: 2rem; }
     section#about div.about div.col_right { padding: 17px; }
     section#about div.about div.col_right div.testimonials_row { flex-direction: row; flex-wrap: nowrap; }
-    section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex-basis: 35%; min-width: 35%; margin: 0%; }
+    section#about div.about div.col_right div.testimonials_row div.testimonials_col { flex-basis: 35%; min-width: 35%; margin: 2%; }
     /* End About Section */
     /* Contact Section */
     section#contact div.contact div p { font-size: 2rem; padding: 0px 40px; }
