@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+    <html lang="PT-BR">
+
+        <head>
+
+            <meta charset="UTF-8"/>
+
+                <title> Formulário - Formspree </title>
+
+                    <link rel="stylesheet" type="text/css" href="styled.css"/>
+
+        </head>
+
+        <body>
+            
+            <div id="main_form">
+
+                <form action="https://formspree.io/mlepplkd" method="POST">
+
+                    <label>
+
+                        Seu Nome: <br/>
+
+                            <input name="Solicitante" type="text" placeholder="Digite seu nome completo"/>
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Sua Empresa: <br/>
+
+                            <input name="Empresa" type="text">
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Seu E-mail: <br/>
+
+                            <input name="_replyto" type="email" placeholder="Digite seu e-mail">
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Nos conte sobre o seu problema: <br/>
+
+                            <textarea name="MensagemProblema" rows="5" cols="90"> </textarea>
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Conte como conheceu a gente: <br/>
+
+                            <textarea name="ComoConheceu" cols="90" rows="5"></textarea>
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Gostaria de uma consultoria gratuita? <br/>
+
+                            <label>
+
+                                Sim
+
+                                <input name="Consultoria?" type="radio">
+
+                            </label>
+
+                            <label>
+
+                                Não
+
+                                <input name="Consultoria?" type="radio">
+
+                            </label>
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Selecione o melhor dia para você:
+
+                            <input name="DataConsultoria" type="date">
+
+                    </label> <br/><br/><br/>
+
+                    <label>
+
+                        Escolha a melhor hora:
+
+                            <input name="HoraConsultoria" type="time">
+
+                    </label> <br/><br/><br/>
+
+                        <button type="submit"> Enviar </button>
+
+                </form>
+
+            </div>
+
+        </body>
+
+    </html>
