@@ -59,7 +59,7 @@ Foram implementadas algumas **features novas** que não estavam no escopo inicia
 
 - Implementação do **Smooth Scroll** que **efetua a rolagem automaticamente e suavemente para a section selecionada no menu** nos *dois modos de acesso*, com **código puro** em **Vanilla JS** por causa das *particularidades de alguns navegadores mobile* como **Safari** e **Chrome**, que não processavam algumas *Propriedades em CSS* impossibilitando o *Smooth Scrolling* de funcionar de forma adequada quando desenvolvido apenas com *CSS*;
 
-- Implementação de **Auto Hide** na **Barra de Navegação** através do *evento de scroll* monitorado com **Vanilla JS**, para *melhor aproveitamento de tela* do *dispositivo de acesso* - *recolhendo* e *exibindo* **independente da seção ativa na tela**;
+- Implementação de **Auto Hide** na **Barra de Navegação** que, para *melhor aproveitamento da tela do dispositivo de acesso*, **recolhe e exibe a Barra de Navegação independente da Seção ativa na tela** através do *evento de scroll* monitorado com **Vanilla JS** para os *dois modos de acesso*;
 
 - Corrigido o **Background Scroll** quando o **mobile menu era ativado (onde mesmo aberto, a rolagem da página ainda continuava ativa)**. Através da **tratativa de classe no HTML**, com **Vanilla JS** - por causa do *crossbrowsing* em *Android* e *iOS* (essa falha não acontecia no **DEVTOOLS - Google Chrome**.
 
