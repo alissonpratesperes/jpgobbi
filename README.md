@@ -55,13 +55,13 @@ Foram implementadas algumas **features novas** que não estavam no escopo inicia
 
 - Implementação da **Progress Bar** na parte inferior da página para **exibir o progresso atual da rolagem na tela**, com **Vanilla JS** para os *dois modos de acesso*;
 
-- Implementação do **Scroll Spy** para, de **acordo com a section atual na tela, ativar o link correspondente do menu**, com **Vanilla JS** para os *dois modos de acesso*;
+- Implementação do **Scroll Spy** que, de **acordo com a section atual na tela, ativa o link correspondente do menu**, com **Vanilla JS** para os *dois modos de acesso*;
 
-- Implementação do **Smooth Scroll** com **código puro** em **Vanilla JS** por causa das *particularidades de alguns navegadores mobile* como **Safari** e **Chrome**, que não processavam algumas *Propriedades em CSS* impossibilitando o *Smooth Scrolling* de funcionar de forma adequada quando desenvolvido apenas com *CSS*;
+- Implementação do **Smooth Scroll** que **efetua a rolagem automaticamente e suavemente para a section selecionada no menu** nos *dois modos de acesso*, com **código puro** em **Vanilla JS** por causa das *particularidades de alguns navegadores mobile* como **Safari** e **Chrome**, que não processavam algumas *Propriedades em CSS* impossibilitando o *Smooth Scrolling* de funcionar de forma adequada quando desenvolvido apenas com *CSS*;
 
 - Implementação de **Auto Hide** na **Barra de Navegação** através do *evento de scroll* monitorado com **Vanilla JS**, para *melhor aproveitamento de tela* do *dispositivo de acesso* - *recolhendo* e *exibindo* **independente da seção ativa na tela**;
 
-- Corrigido o **background scroll** quando o **mobile menu era ativado (onde mesmo aberto, a rolagem da página ainda continuava ativa)**. Através da **tratativa de classe no HTML**, com **Vanilla JS** - por causa do *crossbrowsing* em *Android* e *iOS* (essa falha não acontecia no **DEVTOOLS - Google Chrome**.
+- Corrigido o **Background Scroll** quando o **mobile menu era ativado (onde mesmo aberto, a rolagem da página ainda continuava ativa)**. Através da **tratativa de classe no HTML**, com **Vanilla JS** - por causa do *crossbrowsing* em *Android* e *iOS* (essa falha não acontecia no **DEVTOOLS - Google Chrome**.
 
 ## :rocket: Valor:
 
