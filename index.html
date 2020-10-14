@@ -15,7 +15,7 @@
                         <div class="brand"> <a id="brand_hero_link" href="#hero"> <h1 class="brand_title"><span class="brand_span">JPGOBBI</span> Segurança Privada</h1> </a> </div>
                         <div class="nav_list">
                             <div class="hamburger"> <div class="bar"> </div> </div>
-                                <ul>
+                                <ul class="nav_options">
                                     <li class="nav_link"> <a id="hero_link" href="#hero" data-after="Home" class="active"> Home </a> </li>
                                     <li class="nav_link"> <a id="services_link" href="#services" data-after="Serviços"> Serviços </a> </li>
                                     <li class="nav_link"> <a id="projects_link" href="#projects" data-after="Sobre"> Sobre </a> </li>
@@ -31,10 +31,10 @@
             <section id="hero" class="content_section">
                 <div class="hero container">
                     <div class="page_fold"></div>
-                    <div>
-                        <h1> Bem-vindo <span> </span> </h1>
-                        <h1> ao site da <span> </span> </h1>
-                        <h1> JPGOBBI <span> </span> </h1>
+                    <div class="hero_content">
+                        <h1 class="hero_title"> Bem-vindo <span class="hero_title_box"></span> </h1>
+                        <h1 class="hero_title"> ao site da <span class="hero_title_box"></span> </h1>
+                        <h1 class="hero_title"> JPGOBBI <span class="hero_title_box"></span> </h1>
                             <a href="#contact" type="button" class="call_to_action"> Contatar </a>
                     </div>
                     <div class="middle"> <div class="mouse"> </div> </div>
@@ -46,38 +46,38 @@
                 <div class="services container">
                     <div class="service_top">
                         <h1 class="section_title"> Nossos <span class="section_title_span">Serviços</span> </h1>
-                            <p> A prestação de serviços na área de segurança privada, além de tratar da segurança física de bens, 
-                            patrimônios e pessoas, está inevitavelmente relacionada com a portaria/recepção das empresas. </p>
+                            <p> A prestação de serviços na área de segurança privada, além de tratar da segurança física de
+                            bens, patrimônios e pessoas, está inevitavelmente relacionada com a portaria/recepção das empresas. </p>
                             <p> A recepção é o cartão de visitas de uma empresa. É o primeiro ponto de contato de quem está visitando 
                             e, como a primeira impressão é a que fica, quando alguém é mal atendido por uma pessoa a imagem da empresa 
-                            como um todo fica desgastada, por isso <span class="services_description_span">é importante ter pessoas especializadas 
-                            para que a empresa seja bem vista desde o seu portão de entrada</span>. </p>
+                            como um todo fica desgastada, por isso <span class="services_description_span">é importante ter pessoas
+                            especializadas para que a empresa seja bem vista desde o seu portão de entrada</span>. </p>
                     </div>
                     <div class="service_bottom">
                         <div class="service_item">
                             <div class="item_icon icon_first"> </div>
-                                <h2> Profissionalismo </h2>
-                                    <p class="service_item_text"> <span class="service_text_span">Profissionais especializados para fornecer
-                                    esse tipo de atendimento</span>. Assim o contratante não precisa se preocupar com este tipo de serviço 
-                                    secundário e pode se focar na atividade fim (core-business) de sua empresa, que é o que gera lucro para a mesma. </p>
+                                <h2 class="service_title"> Profissionalismo </h2>
+                                    <p class="service_item_text"> <span class="service_text_span">Profissionais especializados para fornecer esse tipo
+                                    de atendimento</span>. Assim o contratante não precisa se preocupar com este tipo de serviço secundário e pode se 
+                                    focar na atividade fim (core-business) de sua empresa, que é o que gera lucro para a mesma. </p>
                         </div>
                         <div class="service_item">
                             <div class="item_icon icon_second"> </div>
-                                <h2> Vigilância Armada </h2>
+                                <h2 class="service_title"> Vigilância Armada </h2>
                                     <p class="service_item_text"> Disponibilização de vigilantes armados formados e com as especializações necessárias 
                                     para o cumprimento das atribuições elencadas para cada um. <span class="service_text_span">Durante o horário 
                                     comercial ou ainda se estender para uma cobertura de 24 horas 7 dias por semana</span>. </p>
                         </div>
                         <div class="service_item">
                             <div class="item_icon icon_third"> </div>
-                                <h2> Portaria Desarmada </h2>
+                                <h2 class="service_title"> Portaria Desarmada </h2>
                                     <p class="service_item_text"> Disponibilização de auxiliares de segurança com especializações para desempenharem papéis 
                                     menos críticos, que não necessitem de vigilantes armados. <span class="service_text_span">Durante o horário comercial 
                                     ou se estende para uma cobertura de 24 horas 7 dias por semana</span>. </p>
                         </div>
                         <div class="service_item">
                             <div class="item_icon icon_four"> </div>
-                                <h2> Recepcionista </h2>
+                                <h2 class="service_title"> Recepcionista </h2>
                                     <p class="service_item_text"> Disponibilização de recepcionistas com especializações para desempenharem papéis relacionados a 
                                     recepção de pessoas e atendimento telefônico durante o horário de funcioanamento da empresa. <span class="service_text_span">
                                     Geralmente durante o horário comercial</span>. </p>
@@ -99,34 +99,36 @@
                     <div class="all_projects">
                         <div class="project_item upleft_border upright_border">
                             <div class="project_info right">
-                                <h1> Vantagem Competitiva </h1>
-                                    <p> A nossa <span>vantagem competitiva</span> é a gestão do negócio, dos recursos e das pessoas feita de forma aprimorada, aplicando diversas
-                                    práticas bem aceitas pelo  mercado, tudo isso sendo realizado com o suporte de <span>pessoas capacitadas</span> para tal. </p>
+                                <h1 class="project_title"> Vantagem Competitiva </h1>
+                                    <p class="project_description"> A nossa <span class="project_detail">vantagem competitiva</span> é a gestão do negócio, dos recursos e das pessoas
+                                    feita de forma aprimorada, aplicando diversas práticas bem aceitas pelo  mercado, tudo isso sendo realizado com o suporte de
+                                    <span class="project_detail">pessoas capacitadas</span> para tal. </p>
                             </div>
                             <div class="project_image"> <img src="./vectors/think.svg"/> </div>
                         </div>
                         <div class="project_item">
                             <div class="project_info">
-                                <h1> Objetivo</h1>
-                                    <p> Nosso principal <span>objetivo</span> é prestar um <span>serviço com excelência</span>, e é por isso que queremos ser lembrados. </p>
+                                <h1 class="project_title"> Objetivo </h1>
+                                    <p class="project_description"> Nosso principal <span class="project_detail">objetivo</span> é prestar um <span class="project_detail">serviço com
+                                    excelência</span>, e é por isso que queremos ser lembrados. </p>
                             </div>
                             <div class="project_image"> <img src="./vectors/graph.svg"/> </div>
                         </div>
                         <div class="project_item">
                             <div class="project_info right">
-                                <h1> Foco </h1>
-                                    <p> Nosso <span>foco</span> está voltado para solucionar os problemas de segurança apresentados pelas empresas contratantes, sendo 
-                                    <span>transparente</span> ao ponto de prestar o  serviço com o <span>máximo de excelência</span> sem prejudicar o bom funcionamento das 
-                                    tarefas cotidianas da empresa contratante. </p>
+                                <h1 class="project_title"> Foco </h1>
+                                    <p class="project_description"> Nosso <span class="project_detail">foco</span> está voltado para solucionar os problemas de segurança apresentados pelas
+                                    empresas contratantes, sendo <span class="project_detail">transparente</span> ao ponto de prestar o  serviço com o <span class="project_detail">máximo de
+                                    excelência</span> sem prejudicar o bom funcionamento das tarefas cotidianas da empresa contratante. </p>
                             </div>
                             <div class="project_image"> <img src="./vectors/target.svg"/> </div>
                         </div>
                         <div class="project_item downleft_border downright_border">
                             <div class="project_info">
-                                <h1> Qualidade </h1>
-                                    <p> Entregamos mais <span>qualidade</span> pois investimos em treinamento e capacitação dos colaboradores, bem como praticamos <span>políticas 
-                                    diferenciadas</span> para retenção de talentos. Contamos com profissionais altamente capacitados que passam periodicamente por cursos de reciclagem 
-                                    para atender as normas existentes nesta área e a mantê-los <span>constantemente atualizados</span>. </p>
+                                <h1 class="project_title"> Qualidade </h1>
+                                    <p class="project_description"> Entregamos mais <span class="project_detail">qualidade</span> pois investimos em treinamento e capacitação dos colaboradores, bem
+                                    como praticamos <span class="project_detail">políticas diferenciadas</span> para retenção de talentos. Contamos com profissionais altamente capacitados que passam
+                                    periodicamente por cursos de reciclagem para atender as normas existentes nesta área e a mantê-los <span class="project_detail">constantemente atualizados</span>. </p>
                             </div>
                             <div class="project_image"> <img src="./vectors/analysis.svg"/> </div>
                         </div>
@@ -137,7 +139,7 @@
             <!-- Contact Section -->
             <section id="contact" class="content_section">
                 <div class="contact container">
-                    <div>
+                    <div class="contact_header">
                         <h1 class="section_title"> Fale <span class="section_title_span">Conosco</span> </h1>
                             <p> <span class="contact_span">Solicite uma consultoria gratuita com nossos consultores de segurança de forma rápida e dinâmica!</span> Clique em um dos cards abaixo e entre 
                              em contato com a gente para que possamos lhe apresentar a melhor solução sob medida para a sua empresa! </p>
@@ -147,9 +149,9 @@
                             <div class="contact_item">
                                 <div class="icon"> <img src="./icons/whatsapp.svg" width="100px"/> </div>
                                 <div class="contact_info">
-                                    <h1> WhatsApp </h1>
-                                    <h2> Paulo Augusto Gobbi </h2>
-                                    <h3> (54) 9.9957-4777 </h2>
+                                    <h1 class="contact_title"> WhatsApp </h1>
+                                    <h2 class="contacter"> Paulo Augusto Gobbi </h2>
+                                    <h3 class="contact_detail"> (54) 9.9957-4777 </h2>
                                 </div>
                             </div>
                         </a>
@@ -157,9 +159,9 @@
                             <div class="contact_item">
                                 <div class="icon"> <img src="./icons/email.svg" width="100px"/> </div>
                                 <div class="contact_info">
-                                    <h1> E-Mail </h1>
-                                    <h2> Paulo Augusto Gobbi </h2>
-                                    <h3> paulo@jpgobbi.com.br </h2>
+                                    <h1 class="contact_title"> E-Mail </h1>
+                                    <h2 class="contacter"> Paulo Augusto Gobbi </h2>
+                                    <h3 class="contact_detail"> paulo@jpgobbi.com.br </h2>
                                 </div>
                             </div>
                         </a>
@@ -167,9 +169,9 @@
                             <div class="contact_item">
                                 <div class="icon"> <img src="./icons/mapmarker.svg" width="100px"/> </div>
                                 <div class="contact_info">
-                                    <h1> Endereço </h1>
-                                    <h2> São Marcos - RS </h2>
-                                    <h3> Rua Maringá, 180 </h2>
+                                    <h1 class="contact_title"> Endereço </h1>
+                                    <h2 class="contacter"> São Marcos - RS </h2>
+                                    <h3 class="contact_detail"> Rua Maringá, 180 </h2>
                                 </div>
                             </div>
                         </a>
