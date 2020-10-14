@@ -202,7 +202,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     /* Services Section */
     section#services div.services div.service_top p  { font-size: 2rem; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 22%; margin: 1.5%; }
-    section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.85rem; }
+    section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.7rem; }
     section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.7rem; line-height: 2.5rem; }
     /* End Services Section */
     /* Projects Section */ 
