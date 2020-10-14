@@ -8,7 +8,7 @@ img { height: 100%; width: 100%; object-fit: cover; }
 p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-weight: 300; letter-spacing: 0.05rem; text-align: justify; padding: 0px 20px; }
 .section_title { font-size: 4rem; font-weight: 500; color: #29323C; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 0.2rem; text-align: center; }
 .section_title span.section_title_span { color: #496D96; font-weight: 700; }
-.call_to_action { display: inline-block; padding: 15px 15px; color: #B1BECD; background-color: #29323C; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); font-size: 2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2rem; margin-top: 170px; border-radius: 15px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
+.call_to_action { display: inline-block; padding: 15px 15px; color: #B1BECD; background-color: #29323C; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); font-size: 2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2rem; margin-top: 200px; border-radius: 15px; transition: 0.2s ease-in-out; transition-property: box-shadow, transform; transform: scale(1); }
 .call_to_action:hover { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
 div.brand h1.brand_title { font-size: 1.3rem; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 div.brand h1.brand_title span.brand_span { color: #496D96; }
@@ -37,7 +37,7 @@ section#header div.header div.progress_bar { background-color: #29323C; height: 
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
 section#hero div.hero div.page_fold { height: 230px; width: 230px; position: absolute; top: 70px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; } /* Background SVG Vector applied developed by SVGBackgrounds.com */
-section#hero div.hero div.hero_content h1.hero_title { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 150px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
+section#hero div.hero div.hero_content h1.hero_title { display: block; width: fit-content; font-size: 3.8rem; position: relative; top: 180px; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div.hero_content h1.hero_title:nth-child(1) { animation-delay: 1s; }
 section#hero div.hero div.hero_content h1.hero_title:nth-child(2) { animation-delay: 2s; }
 section#hero div.hero div.hero_content h1.hero_title:nth-child(3) { animation: text_reveal_name 0.5s ease forwards; animation-delay: 3s; }
