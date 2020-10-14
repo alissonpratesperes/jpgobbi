@@ -17,7 +17,6 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#video_game-curiosidades">Curiosidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
 <a href="#bomb-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>
@@ -73,7 +72,7 @@ Iniciando nessa área de **desenvolvimento** como **eugência**, além de entreg
 
 ## :fuelpump: Autor:
 
-- Gostou do meu trabalho? Siga o meu perfil aqui no **Github**, clicando no **meu nome** ali em baixo e **acompanhe mais alguns dos meus projetos**! 👇🏻
+- *Eu mesmo!* Gostou do meu trabalho? Siga o meu perfil aqui no **Github**, clicando no *meu nome* ali em baixo e **acompanhe mais alguns dos meus projetos**! 👇🏻
 
 ---
 
