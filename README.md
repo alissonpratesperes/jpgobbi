@@ -17,7 +17,7 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#video_game-curiosidades">Curiosidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#lock-importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
 <a href="#bomb-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>
@@ -31,11 +31,11 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 
 ## :dart: Sobre:
 
-**Primeiro projeto desenvolvido como *eugência* para o primeiro cliente**. Através da montagem de um *site institucional* completamente **responsivo**, **moderno** e **acessível por qualquer plataforma**/**dispositivo**.
+**Primeiro projeto desenvolvido como *eugência* para a primeira empresa cliente**. Através do desenvolvimento de um *site institucional* completamente *moderno*, *responsivo* e *acessível por qualquer plataforma*/*dispositivo*.
 
 ## :battery: Tecnologias:
 
-O site da **JPGOBBI Segurança Privada** foi desenvolvido **utilizando códigos puros** (*sem frameworks/plugins* - **evitando possíveis incompatibilidades** e **falta de controle de código**), com as seguintes tecnologias:
+O site da **JPGOBBI Segurança Privada** foi desenvolvido utilizando *códigos puros* (*sem frameworks/plugins* - para evitar possíveis *incompatibilidades* e *falta de controle de código*), utilizando as seguintes *tecnologias*:
 
 - HTML 5
 - CSS 3
@@ -45,41 +45,35 @@ O site da **JPGOBBI Segurança Privada** foi desenvolvido **utilizando códigos 
 
 - Responsivo, acesse pelo **Computador**, **Tablet** ou **Smartphone**;
 
-- **APIs de terceiros** nos *cards de contato*, utilizando **recursos nativos** do **dispositivo de acesso** para **entrar em contato com a empresa**;
+- **APIs** nos *cards de contato*, utiliza **recursos nativos** do **dispositivo de acesso** para **entrar em contato com a empresa**;
 
-- Essa aplicação, dentro do possível de conhecimento até o presente momento foi **devidamente preparada** para a navegação **crossbrowsing**, ou seja, os **códigos-fonte** foram **especificamente preparados** para as plataformas **Android** e **iOS** com suas *particularidades implementadas também em código puro*.
-
-## :lock: Importante:
-
-- **Não é permitida** a **distribuição** ou **cópia** dos códigos contidos nesse repositório, que estão públicos **apenas para o compartilhamento do portfólio**.
+- Aplicação, à princípio, **preparada e testada** com *código puro* para a navegação **crossbrowsing**, ou seja, pronta para rodar em *qualquer plataforma/sistema*;
 
 ## :bomb: Features:
 
-Foram implementadas algumas **features novas** que não estavam no escopo inicial do projeto, mas que serviram como melhoria tanto de *funcionalidade* como *design*.
+Implementadas algumas **features** novas que não estavam no escopo do desenvolvimento, mas se que *encaixaram perfeitamente* como **melhoria** e **design**:
 
-- Implementação da **Progress Bar** na parte inferior da página para **exibir o progresso atual da rolagem na tela**, com **Vanilla JS** para os *dois modos de acesso*;
+- **ProgressBar** na parte inferior da página. Para *exibir o progresso atual da navegação*;
 
-- Implementação do **Scroll Spy** que, de **acordo com a section atual na tela, ativa o link correspondente do menu**, com **Vanilla JS** para os *dois modos de acesso*;
+- **ScrollSpy** no menu de navegação. Para *indicar qual seção ativa em tela durante a rolagem*;
 
-- Implementação do **Smooth Scroll** que **efetua a rolagem automaticamente e suavemente para a section selecionada no menu** nos *dois modos de acesso*, com **código puro** em **Vanilla JS** por causa das *particularidades de alguns navegadores mobile* como **Safari** e **Chrome**, que não processavam algumas *Propriedades em CSS* impossibilitando o *Smooth Scrolling* de funcionar de forma adequada quando desenvolvido apenas com *CSS*;
+- **AutoHide** na barra de navegação. Para *aumentar o aproveitamento de tela no dispositivo;*
 
-- Implementação de **Auto Hide** na **Barra de Navegação** que, para *melhor aproveitamento da tela do dispositivo de acesso*, **recolhe e exibe a Barra de Navegação independente da Seção ativa na tela** através do *evento de scroll* monitorado com **Vanilla JS** para os *dois modos de acesso*;
-
-- Corrigido o **Background Scroll** quando o **mobile menu era ativado (onde mesmo aberto, a rolagem da página ainda continuava ativa)**. Através da **tratativa de classe no HTML**, com **Vanilla JS** - por causa do *crossbrowsing* em *Android* e *iOS* (essa falha não acontecia no **DEVTOOLS - Google Chrome**.
+- **SmoothScroll** em *código puro*. Para *fornecer a rolagem suave independente do navegador/plataforma utilizada*;
 
 ## :rocket: Valor:
 
-Iniciando nessa área de **desenvolvimento** como **eugência**, além de entregar uma **aplicação moderna**, **intuitiva** com as **melhores tecnologias** e totalmente de acordo com as **necessidades do cliente**, o **foco** sempre está em **entregar o maior valor possível**, seja em **resultados** ou na **redução de custos**. Portanto, durante esse projeto conseguimos obter:
+Iniciando nessa área de **desenvolvimento** como **eugência**, além de entregar uma **aplicação moderna**, **intuitiva**, com as **melhores tecnologias** e totalmente de acordo com as **necessidades do cliente**, o **foco** sempre está em **entregar o maior valor possível**, seja em **resultados** ou na **redução de custos**. Portanto, com esse projeto conseguimos obter:
 
 - Uma aplicação **moderna**, **intuitiva**, **enxuta** e com as **melhores tecnologias do mercado** seguindo as principais **boas práticas** de **desenvolvimento**;
 
-- Migração de uma *hospedagem* **engessada** para um serviço de *hospedagem* **flexível** e **moderno**, com **suporte técnico** ágil para a *resolução* de **dúvidas** e **problemas**;
+- Migração de uma *hospedagem* **engessada** para um serviço de *hospedagem* **flexível**, **moderno** e **escalável** com **suporte técnico ágil** para a resolução de **dúvidas** e **problemas**;
 
-- E de quebra, conseguimos reduzir o valor anual de **custos operacionais** para manter a aplicação no ar em **52%**.
+- Redução do valor anual de **custos operacionais** para manter a aplicação no ar em **52%**.
 
 ## :fuelpump: Autor:
 
-- Gostou do meu trabalho? Siga o meu perfil aqui no **Github**, clicando no **meu nome** ali em baixo e acompanhe mais alguns dos meus projetos! 👇🏻
+- Gostou do meu trabalho? Siga o meu perfil aqui no **Github**, clicando no **meu nome** ali em baixo e **acompanhe mais alguns dos meus projetos**! 👇🏻
 
 ---
 
