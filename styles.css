@@ -20,7 +20,7 @@ section#header div.header { min-height: 60px; background-color: #29323C; transit
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 10px 10px; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: transparent; text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.6); font-size: 6rem; letter-spacing: 50px; z-index: -1; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #496D96; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
@@ -45,9 +45,9 @@ section#hero div.hero div.hero_content h1.hero_title span.hero_title_box { posit
 section#hero div.hero div.hero_content h1.hero_title:nth-child(1) span.hero_title_box { animation-delay: 0.5s; }
 section#hero div.hero div.hero_content h1.hero_title:nth-child(2) span.hero_title_box { animation-delay: 1.5s; }
 section#hero div.hero div.hero_content h1.hero_title:nth-child(3) span.hero_title_box { animation-delay: 2.5s; }
-section#hero div.hero div.middle { position: absolute; left: 50px; top: 120px; }
+section#hero div.hero div.middle { position: absolute; right: 0%; bottom: 23px; margin-right: 23px; }
 section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
-section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 1.7s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
+section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 3s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
 /* End Hero Section */
 /* Services Section */
 section#services div.services div.service_top h1.section_title { font-size: 2.6rem; }
@@ -57,9 +57,9 @@ section#services div.services div.service_top p { padding: 0px 30px; font-weight
 section#services div.services div.service_top p span.services_description_span { color: #29323C; font-weight: 700; }
 section#services div.services div.service_bottom { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 50px; max-width: 1300px; }
 section#services div.services div.service_bottom div.service_item { flex-basis: 80%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #B1BECD; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 30px; margin: 10px 5%; position: relative; z-index: 1; overflow: hidden; }
-section#services div.services div.service_bottom div.service_item p.service_item_text { color: #29323C;  font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
+section#services div.services div.service_bottom div.service_item p.service_item_text { color: #29323C; font-size: 1.3rem; line-height: 2rem; font-weight: 500; text-align: left; margin-bottom: 15px; }
 section#services div.services div.service_bottom div.service_item p.service_item_text span.service_text_span { color: #496D96; font-weight: 700; }
-section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 170px; background-image: linear-gradient(45deg, #485563 40%, #29323C 140%); position: absolute; left: 0px; top: 0px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); z-index: -1; }
+section#services div.services div.service_bottom div.service_item::after { content: ''; width: 100%; height: 170px; background-image: linear-gradient(45deg, #485563 40%, #29323C 140%); position: absolute; left: 0px; top: 0px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); z-index: -1; }
 section#services div.services div.service_bottom div.service_item div.item_icon { width: 120px; height: 120px; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 15px; z-index: 2; }
 section#services div.services div.service_bottom div.service_item div.icon_first { background-image: url(./vectors/handshake.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
@@ -76,13 +76,12 @@ section#projects div.projects { flex-direction: column; max-width: 1400px; margi
 section#projects div.projects div.all_projects { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 50px; background: transparent; }
 section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
 section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #485563; }
-section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; text-transform: uppercase; color: #B1BECD; background-color: #29323C; padding: 15px; border-radius: 15px; margin-left: auto; margin-right: auto; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
+section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; text-transform: uppercase; color: #B1BECD; background-color: #29323C; padding: 15px; border-radius: 20px; margin-left: auto; margin-right: auto; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-weight: 500; font-size: 1.3rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description span.project_detail {  color: #496D96; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #B1BECD; padding: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1; }
 section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 10%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
-section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.8); bottom: 0px;  }
-section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.95); }
+section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.9); bottom: 0px;  }
 /* End Projects Section */
 /* Contact Section */
 section#contact div.contact div.contact_header h1.section_title { font-size: 2.6rem; }
@@ -91,10 +90,8 @@ section#contact div.contact div.contact_header p { max-width: 1400px; padding: 0
 section#contact div.contact div.contact_header p span.contact_span { color: #29323C; font-weight: 700; }
 section#contact div.contact div.contact_items { max-width: 1300px; min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 270px; padding: 20px; text-align: center; border-radius: 30px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition-property: box-shadow, transform; }
-section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 55%; width: 100%; background-image: linear-gradient(45deg, #485563 20%, #29323C 80%); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); opacity: 0.8; z-index: -1;  }
-section#contact div.contact div.contact_items a:hover div.contact_item { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.95); }
+section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 55%; width: 100%; background-image: linear-gradient(45deg, #485563 20%, #29323C 80%); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); opacity: 0.8; z-index: -1;  }
 section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
-section#contact div.contact div.contact_items a:hover div.contact_item div.icon { transform: scale(1.3); }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h1.contact_title { font-size: 2rem; font-weight: 700; color: #B1BECD; margin-bottom: 40px; text-transform: uppercase; position: absolute; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 2; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info::after { content: ''; width: 60%; height: 15%; background-color: #29323C; position: absolute; bottom: 0; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 1; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h2.contacter { font-size: 1.5rem; line-height: 2rem; text-transform: uppercase; font-weight: 700; color: #496D96; margin-top: 70px; }
