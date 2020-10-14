@@ -18,15 +18,14 @@ div.brand h1.brand_title span.brand_span { color: #496D96; }
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
 section#header div.header { min-height: 60px; background-color: #29323C; transition: 0.6s ease; }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 10px 10px; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-image: linear-gradient(0deg, #485563 0%, #29323C 100%); width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: rgba(240, 248, 255, 0.040); font-size: 6rem; letter-spacing: 50px; z-index: -1; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options li:hover a { color: #496D96; font-size: 5rem; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #496D96; font-size: 5rem; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: transparent; text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.6); font-size: 6rem; letter-spacing: 50px; z-index: -1; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #496D96; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
 section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); margin-right: 10px; }
-section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 1s ease infinite; }
+section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 2s ease infinite; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { height: 2px; width: 25px; position: relative; background-color: #496D96; z-index: -1; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after, section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { content: ''; position: absolute; height: 100%; width: 100%; left: 0px; background-color: #B1BECD; transition: 0.3s ease; transition-property: top, bottom; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after { top: 8px; }
@@ -117,7 +116,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
 section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
 /* End Footer Section */
 /* General Keyframes */
-    @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.4); } }
+    @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.6); } }
     @keyframes text_reveal_box { 50% { width: 100%; left: 0%; } 100% { width: 0%; left: 100%; } }
     @keyframes text_reveal { 100% { color: #29323C; } }
     @keyframes text_reveal_name { 100% { color: #496D96; font-weight: 700; } }
