@@ -18,12 +18,10 @@ div.brand h1.brand_title span.brand_span { color: #496D96; }
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
 section#header div.header { min-height: 60px; background-color: #29323C; transition: 0.6s ease; }
 section#header div.header div.nav_bar { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; max-width: 1300px; padding: 10px 10px; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; align-self: center; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; text-transform: uppercase; padding: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options a::after { content: attr(data-after); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); color: transparent; text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.6); font-size: 6rem; letter-spacing: 50px; z-index: -1; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #496D96; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active::after { transform: translate(-50%, -50%) scale(1); letter-spacing: initial; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; border-radius: 20px; text-transform: uppercase; padding: 20px; margin-top: 20px; margin-bottom: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #29323C; background-color: #B1BECD; }
 section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); margin-right: 10px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 2s ease infinite; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { height: 2px; width: 25px; position: relative; background-color: #496D96; z-index: -1; }
@@ -65,7 +63,7 @@ section#services div.services div.service_bottom div.service_item div.icon_first
 section#services div.services div.service_bottom div.service_item div.icon_second { background-image: url(./vectors/armed_guard.svg); background-size: contain; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_third { background-image: url(./vectors/unarmed_guard.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 section#services div.services div.service_bottom div.service_item div.icon_four { background-image: url(./vectors/recepcionist.svg); background-size: cover; background-position: center; background-repeat: no-repeat; }
-section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.5rem; margin: auto; color: #B1BECD; margin-bottom: 15px; text-transform: uppercase; z-index: 2; background-color: #29323C; padding: 10px; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
+section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.5rem; margin: auto; color: #B1BECD; margin-bottom: 15px; text-transform: uppercase; z-index: 2; background-color: #29323C; padding: 10px; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: all 0.2s ease-in-out; transition-property: box-shadow; }
 /* End Services Section */
 /* Projects Section */
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
@@ -93,7 +91,7 @@ section#contact div.contact div.contact_items div.contact_item { min-width: 250p
 section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 55%; width: 100%; background-image: linear-gradient(45deg, #485563 20%, #29323C 80%); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); opacity: 0.8; z-index: -1;  }
 section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h1.contact_title { font-size: 1.5rem; font-weight: 700; color: #B1BECD; margin-bottom: 40px; text-transform: uppercase; position: absolute; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 2; }
-section#contact div.contact div.contact_items div.contact_item div.contact_info::after { content: ''; width: 60%; height: 15%; background-color: #29323C; position: absolute; bottom: 0; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 1; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
+section#contact div.contact div.contact_items div.contact_item div.contact_info::after { content: ''; width: 60%; height: 15%; background-color: #29323C; position: absolute; bottom: 0; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 1; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: all 0.2s ease-in-out; transition-property: box-shadow; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h2.contacter { font-size: 1.4rem; line-height: 2rem; text-transform: uppercase; font-weight: 700; color: #496D96; margin-top: 70px; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h3.contact_detail { font-size: 1.4rem; color: #29323C; font-weight: 500; margin-top: 10px; }
 /* End Contact Section */
@@ -152,8 +150,8 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#projects div.projects div.all_projects div.project_item.downleft_border { border-bottom-left-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item.downright_border { border-bottom-right-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item div.project_info { height: 400px; border-radius: 0px; background-color: #B1BECD; position: relative; z-index: -1; }
-    section#projects div.projects div.all_projects div.project_item div.project_info::after { content: ''; width: 95%; height: 95%; background-color: #485563; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; border-radius: 30px; box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3); }
-    section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 2rem; position: relative; top: 5px; z-index: 2; }  
+    section#projects div.projects div.all_projects div.project_item div.project_info::after { content: ''; width: 95%; height: 95%; background-color: #485563; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; border-radius: 30px; }
+    section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 2rem; position: relative; top: 5px; z-index: 2; transition: all 0.2s ease-in-out; transition-property: box-shadow; }  
     section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-size: 1.6rem; line-height: 2.2rem; position: relative; z-index: 2; }
     section#projects div.projects div.all_projects div.project_item div.project_info p.project_description span.project_detail { color: #496D96; }
     section#projects div.projects div.all_projects div.project_item div.project_info.right p.project_description { text-align: right; }
@@ -183,18 +181,17 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     /* Main Header Menu */
     section#header div.header div.nav_bar { max-width: 1200px; }
     section#header div.header div.nav_bar div.nav_list ul.nav_options { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
-    section#header div.header div.nav_bar div.nav_list ul.nav_options a::after { display: none; }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul.nav_options li a { font-size: 2rem; border-radius: 20px; transition: 0.25s ease-in-out; transition-property: color, background-color, transform; }
+    section#header div.header div.nav_bar div.nav_list ul.nav_options li a { font-size: 2rem; border-radius: 20px; margin-top: 0px; margin-bottom: 0px; transition: 0.2s ease-in-out; transition-property: color, background-color, transform; }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li { font-size: 2em; transform: scale(1.1); }
-    section#header div.header div.nav_bar div.nav_list ul.nav_options li:hover a { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.80); }
+    section#header div.header div.nav_bar div.nav_list ul.nav_options li:hover a { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.8); }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     section#header div.header div.progress_bar { height: 10px; transition: 0.15s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 450px; width: 450px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
-    section#hero div.hero div.middle { position: absolute; left: 50%; bottom: 10%; transform: translate(-50%, -10%); }
+    section#hero div.hero div.middle { position: absolute; left: 50%; bottom: 5%; transform: translate(-50%, -10%); }
     section#hero div.hero div.middle div.mouse { border: 2px solid #29323C; position: absolute; left: 50%; top: 90%; transform: translate(-50%, -90%); border-radius: 25px; cursor: pointer; }
     section#hero div.hero div.middle div.mouse::before { width: 10px; height: 10px; left: 23px; animation: mouse_scroll 2s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
         @keyframes mouse_scroll { 0% { opacity: 0; transform: translateY(0) scale(0.5); } 10% { opacity: 1; transform: translateY(-23px) scale(1); } 100% { opacity: 0; transform: translateY(14px) scale(0.5); } }
@@ -203,14 +200,15 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#services div.services div.service_top p  { font-size: 2rem; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 22%; margin: 1.5%; }
     section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.7rem; }
-    section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.7rem; line-height: 2.5rem; }
+    section#services div.services div.service_bottom div.service_item:hover h2.service_title { box-shadow: 0px 0px 0px 4px #496D96; }
+    section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.7rem; }
     /* End Services Section */
     /* Projects Section */ 
     section#projects div.projects div.projects_header p { font-size: 2rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.9rem; } 
     section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-size: 1.7rem; line-height: 3rem; padding: 0px 40px; }
     section#projects div.projects div.all_projects div.project_item div.project_image img { transform: scale(0.75); box-shadow: none; }
-    section#projects div.projects div.all_projects div.project_item:hover div.project_image img { transform: scale(0.65); }
+    section#projects div.projects div.all_projects div.project_item:hover div.project_info h1.project_title { box-shadow: 0px 0px 0px 4px #496D96; }
     /* End Projects Section */
     /* Contact Section */
     section#contact div.contact div.contact_header p { font-size: 2rem; padding: 0px 40px; }
@@ -218,6 +216,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#contact div.contact div.contact_items { width: 100%; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; margin: 50px; }
     section#contact div.contact div.contact_items a:hover div.contact_item { box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); transform: scale(0.9); }
     section#contact div.contact div.contact_items a:hover div.contact_item div.icon { transform: scale(1.4); }
+    section#contact div.contact div.contact_items a:hover div.contact_info::after { box-shadow: 0px 0px 0px 4px #496D96; }
     section#contact div.contact div.contact_items div.contact_item div.contact_info h1.contact_title { font-size: 1.9rem; }
     section#contact div.contact div.contact_items div.contact_item div.contact_info h2.contacter { font-size: 1.7rem; }
     section#contact div.contact div.contact_items div.contact_item div.contact_info h3.contact_detail { font-size: 1.7em; }
