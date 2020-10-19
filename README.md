@@ -30,11 +30,11 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 
 ## :dart: Sobre:
 
-**Primeiro projeto desenvolvido como *eugência* para a primeira empresa cliente**. Através do desenvolvimento de um *site institucional* completamente *moderno*, *responsivo* e *acessível por qualquer plataforma*/*dispositivo*.
+**Primeiro projeto desenvolvido como *eugência* para a primeira empresa cliente**. Através do desenvolvimento de um *site institucional*  *leve*, *moderno*, *responsivo* e *acessível por qualquer plataforma*/*dispositivo*.
 
 ## :battery: Tecnologias:
 
-O site da **JPGOBBI Segurança Privada** foi desenvolvido utilizando *códigos puros* (*sem frameworks/plugins* - para evitar possíveis *incompatibilidades* e *falta de controle de código*), utilizando as seguintes *tecnologias*:
+Foi desenvolvido com **códigos puros**, utilizando as seguintes *tecnologias*:
 
 - HTML 5
 - CSS 3
@@ -44,13 +44,13 @@ O site da **JPGOBBI Segurança Privada** foi desenvolvido utilizando *códigos p
 
 - Responsivo, acesse pelo **Computador**, **Tablet** ou **Smartphone**;
 
-- **APIs** nos *cards de contato*, utiliza **recursos nativos** do **dispositivo de acesso** para **entrar em contato com a empresa**;
+- **APIs** nos *cards de contato*, utiliza os **principais aplicativos atuais** para **entrar em contato com a empresa**;
 
-- Aplicação, à princípio, **preparada e testada** com *código puro* para a navegação **crossbrowsing**, ou seja, pronta para rodar em *qualquer plataforma/sistema*;
+- Aplicação **preparada** para a navegação **crossbrowsing**, pronta para rodar em *qualquer plataforma/sistema*;
 
 ## :bomb: Features:
 
-Implementadas algumas **features** novas que não estavam no escopo do desenvolvimento, mas se que *encaixaram perfeitamente* como **melhoria** e **design**:
+Implementadas **features** que não estavam no escopo do projeto, mas que serviram como **melhoria** e **design**:
 
 - **ProgressBar** na parte inferior da página. Para *exibir o progresso atual da navegação*;
 
@@ -58,21 +58,21 @@ Implementadas algumas **features** novas que não estavam no escopo do desenvolv
 
 - **AutoHide** na barra de navegação. Para *aumentar o aproveitamento de tela no dispositivo;*
 
-- **SmoothScroll** em *código puro*. Para *fornecer a rolagem suave independente do navegador/plataforma utilizada*;
+- **SmoothScroll** em *código puro*. Para *rolagem suave independente do navegador/plataforma utilizada*;
 
 ## :rocket: Valor:
 
-Iniciando nessa área de **desenvolvimento** como **eugência**, além de entregar uma **aplicação moderna**, **intuitiva**, com as **melhores tecnologias** e totalmente de acordo com as **necessidades do cliente**, o **foco** sempre está em **entregar o maior valor possível**, seja em **resultados** ou na **redução de custos**. Portanto, com esse projeto conseguimos obter:
+**Iniciando nessa área de desenvolvimento como eugência**, o objetivo é entregar uma *aplicação* **sob medida e de acordo com as necessidades do cliente**, e o *foco* em **entregar o maior valor possível**, seja em **resultados** ou na **redução de custos**. Com esse projeto conseguimos entregar:
 
-- Uma aplicação **moderna**, **intuitiva**, **enxuta** e com as **melhores tecnologias do mercado** seguindo as principais **boas práticas** de **desenvolvimento**;
+- Uma aplicação **moderna**, **intuitiva**, **enxuta** e com as **melhores tecnologias do mercado**;
 
-- Migração de uma *hospedagem* **engessada** para um serviço de *hospedagem* **flexível**, **moderno** e **escalável** com **suporte técnico ágil** para a resolução de **dúvidas** e **problemas**;
+- Migração de uma *hospedagem* **engessada** para uma *plataforma* **flexível**, **moderna** e **escalável**;
 
-- Redução do valor anual de **custos operacionais** para manter a aplicação no ar em **52%**.
+- Redução do valor anual de **hospedagem** em **52%**.
 
 ## :fuelpump: Autor:
 
-- *Eu mesmo!* Gostou do meu trabalho? Siga o meu perfil aqui no **Github**, clicando no *meu nome* ali em baixo e **acompanhe mais alguns dos meus projetos**! 👇🏻
+- *Eu mesmo!* 🕺🏻 Gostou do meu trabalho? 🤞🏻 Siga o meu perfil aqui no **Github** e **acompanhe mais alguns dos meus projetos**! 👇🏻
 
 ---
 
