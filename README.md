@@ -11,8 +11,6 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
 </a>
 </p>
 
-
-
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,29 +26,29 @@ href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
   <img src="github/dashboard.jpg" width="100%">
 </p>
 
-## :dart: Sobre:
+## :dart: Sobre
 
-**Primeiro projeto desenvolvido como *eugência* para a primeira empresa cliente**. Através do desenvolvimento de um *site institucional*  *leve*, *moderno*, *responsivo* e *acessível por qualquer plataforma*/*dispositivo*.
+Primeiro projeto desenvolvido como eugência para a primeira empresa cliente. Através do desenvolvimento de um site institucional leve, moderno, responsivo e acessível por qualquer plataforma/dispositivo.
 
-## :battery: Tecnologias:
+## :battery: Tecnologias
 
-Foi desenvolvido com **códigos puros**, utilizando as seguintes *tecnologias*:
+Essa aplicação foi desenvolvida do zero, utilizando as seguintes tecnologias:
 
 - HTML 5
 - CSS 3
 - JAVASCRIPT
 
-## :video_game: Curiosidades:
+## :video_game: Curiosidades
 
-- Responsivo, acesse pelo **Computador**, **Tablet** ou **Smartphone**;
+- Responsivo, acesse pelo Computador, Tablet ou Smartphone;
 
-- **APIs** nos *cards de contato*, utiliza os **principais aplicativos atuais** para **entrar em contato com a empresa**;
+- APIs nos cards de contato, utiliza os principais aplicativos atuais para entrar em contato com a empresa;
 
-- Aplicação **preparada** para a navegação **crossbrowsing**, pronta para rodar em *qualquer plataforma/sistema*;
+- Aplicação preparada para a navegação crossbrowsing, pronta para rodar em qualquer plataforma/sistema.
 
-## :bomb: Features:
+## :bomb: Features
 
-Implementadas **features** que não estavam no escopo do projeto, mas que serviram como **melhoria** e **design**:
+Implementadas novas features que não estavam no escopo do projeto, mas que serviram como melhoria e design:
 
 - **ProgressBar** na parte inferior da página. Para *exibir o progresso atual da navegação*;
 
@@ -60,19 +58,19 @@ Implementadas **features** que não estavam no escopo do projeto, mas que servir
 
 - **SmoothScroll** em *código puro*. Para *rolagem suave independente do navegador/plataforma utilizada*;
 
-## :rocket: Valor:
+## :rocket: Valor
 
-**Iniciando nessa área de desenvolvimento como eugência**, o objetivo é entregar uma *aplicação* **sob medida e de acordo com as necessidades do cliente**, e o *foco* em **entregar o maior valor possível**, seja em **resultados** ou na **redução de custos**. Com esse projeto conseguimos entregar:
+Iniciando nessa área de desenvolvimento como eugência, o objetivo é entregar o maior valor possível, seja em resultados ou na redução de custos. Através de:
 
-- Uma aplicação **moderna**, **intuitiva**, **enxuta** e com as **melhores tecnologias do mercado**;
+- Uma aplicação moderna, intuitiva, enxuta e com as melhores tecnologias do mercado;
 
-- Migração de uma *hospedagem* **engessada** para uma *plataforma* **flexível**, **moderna** e **escalável**;
+- Migração de uma hospedagem engessada para uma plataforma flexível, moderna e escalável;
 
-- Redução do valor anual de **hospedagem** em **52%**.
+- Redução do valor anual de hospedagem em 52%.
 
-## :fuelpump: Autor:
+## :fuelpump: Autor
 
-- *Eu mesmo!* 🕺🏻 Gostou do meu trabalho? 🤞🏻 Siga o meu perfil aqui no **Github** e **acompanhe mais alguns dos meus projetos**! 👇🏻
+- *Eu mesmo!* 🕺🏻 Gostou do meu trabalho? 🤞🏻 Siga o meu perfil aqui e acompanhe mais alguns dos meus projetos! 👇🏻
 
 ---
 
