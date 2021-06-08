@@ -178,27 +178,16 @@ var contact_link = document.querySelector('section#header div.header div.nav_bar
 
 /* SCROLL WATCHER - Autohide Navigation Bar when scrolling */
 var new_scroll_position = 0;
-
 var last_scroll_position;
-
 var smartNavBarCall = document.querySelector('section#header');
-
-window.addEventListener('scroll', function(e) {
-    
-    last_scroll_position = window.scrollY;
-    
-        if(new_scroll_position < last_scroll_position && last_scroll_position > 80) {
-            
-            smartNavBarCall.style.top = '-105px';
-        
-        } else if ( new_scroll_position > last_scroll_position ) {
-            
-            smartNavBarCall.style.top = '0px';
-        
-        }
-        
-            new_scroll_position = last_scroll_position;
-    
+    window.addEventListener('scroll', function(e) {
+        last_scroll_position = window.scrollY;
+            if(new_scroll_position < last_scroll_position && last_scroll_position > 80) {  
+                smartNavBarCall.style.top = '-130px';
+            } else if ( new_scroll_position > last_scroll_position ) { 
+                smartNavBarCall.style.top = '0px';
+            }
+                new_scroll_position = last_scroll_position;
 });
 /* End SCROLL WATCHER - Autohide Navigation Bar when scrolling */
 
@@ -211,3 +200,14 @@ window.addEventListener('scroll', () => {
             progBar.style.width = userScroll + '%';
 });
 /* End SCROLL WATCHER - Progress Navigation Bar when scrolling */
+
+/* POPUP CLICKER - Pop Up on Services Cards */
+function toggle() {
+    var popup = document.getElementById('popup_info');
+    var more_info_link = document.getElementById('more_info_link');
+    var profissionalism = document.getElementById('profissionalism');
+    popup.classList.toggle('active');
+    more_info_link.classList.toggle('active');
+    profissionalism.classList.toggle('active');
+}
+/* End POPUP CLICKER - Pop Up on Services Cards */
