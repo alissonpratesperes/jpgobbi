@@ -127,10 +127,6 @@ function smoothScroll(target, duration) {
 
 } 
 
-var home_link = document.querySelector('section#header div.header div.nav_bar div.brand a#brand_hero_link');
-
-var call_to_action_link = document.querySelector('section#hero div.hero div a.call_to_action');
-
 var scroll_button = document.querySelector('section#hero div.hero div.middle div.mouse');
 
 var emblem_link = document.querySelector('section#footer div.footer a#emblem_link');
@@ -142,18 +138,6 @@ var services_link = document.querySelector('section#header div.header div.nav_ba
 var projects_link = document.querySelector('section#header div.header div.nav_bar div.nav_list ul li.nav_link a#projects_link');
 
 var contact_link = document.querySelector('section#header div.header div.nav_bar div.nav_list ul li.nav_link a#contact_link');
-
-    home_link.addEventListener('click', function() {
-        
-        smoothScroll('section#hero', 700);
-    
-    });
-    
-    call_to_action_link.addEventListener('click', function() {
-        
-        smoothScroll('section#contact', 700);
-    
-    });
     
     scroll_button.addEventListener('click', function() {
         
@@ -205,7 +189,7 @@ window.addEventListener('scroll', function(e) {
     
         if(new_scroll_position < last_scroll_position && last_scroll_position > 80) {
             
-            smartNavBarCall.style.top = '-100px';
+            smartNavBarCall.style.top = '-105px';
         
         } else if ( new_scroll_position > last_scroll_position ) {
             
