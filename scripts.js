@@ -220,14 +220,10 @@ window.addEventListener('scroll', function(e) {
 
 /* SCROLL WATCHER - Progress Navigation Bar when scrolling */
 window.addEventListener('scroll', () => {
-    
     const progBar = document.querySelector('section#header div.header div.progress_bar');
-    
         var CurrPosition = document.documentElement.scrollTop;
-        
         var calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        
-        var userScroll = CurrPosition * 100 / calcHeight; progBar.style.width = userScroll + '%';
-
+        var userScroll = CurrPosition * 100 / calcHeight;
+            progBar.style.width = userScroll + '%';
 });
 /* End SCROLL WATCHER - Progress Navigation Bar when scrolling */

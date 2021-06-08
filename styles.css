@@ -30,7 +30,7 @@ section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after 
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 8px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::before { bottom: 0px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0px; }
-section#header div.header div.progress_bar { background-color: #29323C; height: 10px; width: 0; position: fixed; left: 0px; bottom: 0px; border-top-right-radius: 5px; }
+section#header div.header div.progress_bar { background-color: #354b6C; height: 10px; width: 0%; position: fixed; left: 0px; bottom: 0px; transition: all 0.3s; }
 /* End Main Header Menu */
 /* Hero Section */
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
@@ -187,7 +187,6 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#header div.header div.nav_bar div.nav_list ul.nav_options li:hover a { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.8); }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.80); }
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
-    section#header div.header div.progress_bar { height: 10px; transition: 0.15s ease; transition-delay: 0.1s; }
     /* End Main Header Menu */
     /* Section Home */
     section#hero div.hero div.page_fold { height: 450px; width: 450px; position: absolute; top: 83px; right: 0px; background-image: url(./vectors/Page-Turner.svg); background-repeat: no-repeat; transform: rotate(90deg); background-size: 100%; z-index: -1; }
