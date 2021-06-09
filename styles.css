@@ -18,7 +18,7 @@ section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: 
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; border-radius: 20px; text-transform: uppercase; padding: 20px; margin-top: 20px; margin-bottom: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #29323C; background-color: #B1BECD; }
-section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); margin-right: 10px; }
+section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); }
 section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 2s ease infinite; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { height: 2px; width: 25px; position: relative; background-color: #496D96; z-index: -1; }
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after, section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { content: ''; position: absolute; height: 100%; width: 100%; left: 0px; background-color: #B1BECD; transition: 0.3s ease; transition-property: top, bottom; }
@@ -29,10 +29,12 @@ section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar:
 section#header div.header div.progress_bar { background-color: #496D96; height: 10px; width: 0%; position: fixed; left: 0px; bottom: 0px; transition: all 0.3s; }
 /* End Main Header Menu */
 /* Hero Section */
-section#hero { background-image: url(./vectors/wave_hero.svg); background-repeat: no-repeat; background-size: 100%; }
+section#hero { background-image: url(./vectors/wave_hero.svg); background-repeat: no-repeat; background-size: 120%; }
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
-section#hero div.hero div.hero_content div.hero_titles { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; }
-section#hero div.hero div.hero_content div.hero_titles h1.hero_title { display: block; width: fit-content; font-size: 60px; position: relative; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
+section#hero div.hero div.hero_content { width: 100%; display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
+section#hero div.hero div.hero_content div.company_logo { width: 250px; height: 250px; background-image: url(./images/jpgobbi_logo_withoutbg_cropped.png); background-repeat: no-repeat; background-size: contain; }
+section#hero div.hero div.hero_content div.hero_titles { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 15px; }
+section#hero div.hero div.hero_content div.hero_titles h1.hero_title { display: block; width: fit-content; font-size: 3.8rem; position: relative; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(1) { animation-delay: 1s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(2) { animation-delay: 2s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(3) { animation: text_reveal_name 0.5s ease forwards; animation-delay: 3s; }
@@ -40,9 +42,9 @@ section#hero div.hero div.hero_content div.hero_titles h1.hero_title span.hero_t
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(1) span.hero_title_box { animation-delay: 0.5s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(2) span.hero_title_box { animation-delay: 1.5s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(3) span.hero_title_box { animation-delay: 2.5s; }
-section#hero div.hero div.middle { position: absolute; right: 0%; bottom: 23px; margin-right: 23px; }
+section#hero div.hero div.middle { position: absolute; left: 50%; transform: translateX(-50%); bottom: 23px; }
 section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
-section#hero div.hero div.middle div.mouse::before { content: ''; width: 15px; height: 15px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 3s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
+section#hero div.hero div.middle div.mouse::before { content: ''; width: 20px; height: 20px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 3s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
 /* End Hero Section */
 /* Services Section */
 section#services { background-image: url(./vectors/wave_services.svg); background-repeat: no-repeat; background-size: 100%; background-position: bottom;}
@@ -189,7 +191,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#header div.header div.nav_bar div.nav_list div.hamburger { display: none; }
     /* End Main Header Menu */
     /* Section Home */
-   
+    section#hero { background-size: 100%; }
     section#hero div.hero { display: flex; flex-direction: column; justify-content: center; align-items: center; }
     section#hero div.hero div.hero_content { width: 100%; display: flex; flex-direction: row; justify-content: space-around; }
     section#hero div.hero div.hero_content div.company_logo { width: 350px; height: 350px; background-image: url(./images/jpgobbi_logo_withoutbg_cropped.png); background-repeat: no-repeat; background-size: contain; }
