@@ -250,3 +250,38 @@ section#footer div.footer a.social_media_icon i { font-size: 2rem; position: abs
     /* End Footer Section */
 }
 /* End Media Query For Desktop */
+
+/* Media Query For General Dark Mode */
+    @media(prefers-color-scheme: dark) {
+            body { background-color: #222222; }
+        /* Hero Section */
+            section#hero { background-color: #222222; }
+            section#hero div.hero div.hero_content div.hero_titles h1.hero_title span.hero_title_box { background-color: #222222; }
+        /* End Hero Section */
+            section#services { background-color: #222222; }
+        /* Services Section */
+            section#services div.services div.service_top h1.section_title { color: #B1BECD; }
+            section#services div.services div.service_top p { color: #B1BECD; }
+            section#services div.services div.service_top p span.services_description_span { color: #496D96; }
+        /* End Services Section */
+        /* Projects Section */
+            section#projects { background-color: #222222; }
+            section#projects div.projects div.projects_header h1.section_title { color: #B1BECD; }
+            section#projects div.projects div.projects_header p { color: #B1BECD; }
+            section#projects div.projects div.projects_header p span.projects_description_span { color: #496D96; }
+        /* End Projects Section */
+        /* Footer Section */
+            section#contact { background-color: #222222; }
+            section#contact div.contact div.contact_header h1.section_title { color: #B1BECD; }
+            section#contact div.contact div.contact_header p { color: #B1BECD; }
+            section#contact div.contact div.contact_header p span.contact_span { color: #496D96; }
+        /* End Footer Section */
+        /* Footer Section */
+            section#footer { background-color: #222222; }
+            section#footer div.footer { }
+        /* End Footer Section */
+        /* General Keyframes */
+            @keyframes text_reveal { 100% { color: #B1BECD; } }
+        /* End General Keyframes */
+    }
+/* End Media Query For General Dark Mode */
