@@ -67,7 +67,7 @@ section#services div.services div.service_bottom div.service_item div.icon_four 
 section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.5rem; margin: auto; color: #29323C; margin-bottom: 15px; text-transform: uppercase; z-index: 2; background-color: #B1BECD; padding: 10px; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: all 0.2s ease-in-out; transition-property: box-shadow; }
 /* End Services Section */
 /* Projects Section */
-section#projects { background-image: url(./vectors/wave_about.svg), url(./vectors/wave_about2.svg); background-repeat: no-repeat; background-size: 350%, 350%; background-position: top, bottom; }
+section#projects { background-image: url(./vectors/wave_about.svg), url(./vectors/wave_about2.svg); background-repeat: no-repeat; background-size: 300%, 350%; background-position: top, bottom; }
 section#projects svg { margin-top: -200px; }
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
 section#projects div.projects div.projects_header { max-width: 1400px; margin: 0px auto; }
@@ -75,9 +75,9 @@ section#projects div.projects div.projects_header p { padding: 0px 30px; font-we
 section#projects div.projects div.projects_header p span.projects_description_span { color: #29323C; font-weight: 700; }
 section#projects div.projects { flex-direction: column; max-width: 1400px; margin: 0px auto; padding: 100px 0px;  }
 section#projects div.projects div.all_projects { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 50px; background: transparent; }
-section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
+section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);}
 section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #29323C; }
-section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 30px; text-transform: uppercase; color: #29323C; background-color: #B1BECD; padding: 20px; border-radius: 20px; margin-left: auto; margin-right: auto; }
+section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 15px; text-transform: uppercase; color: #29323C; background-color: #B1BECD; padding: 20px; border-radius: 20px; margin-left: auto; margin-right: auto; }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-weight: 500; font-size: 1.4rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description span.project_detail {  color: #496D96; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #485563; padding: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1; }
@@ -101,17 +101,17 @@ section#contact div.contact div.contact_items div.contact_item div.contact_info 
 /* End Contact Section */
 /* Footer Section */
 section#footer { background-image: url(./vectors/wave_footer.svg); background-repeat: no-repeat; background-size: 250%; background-position: bottom; }
-section#footer div.footer a#emblem_link div.emblem { width: 150px; height: 150px; background-image: url('./images/jpgobbi_logo_withoutbg_cropped.png'); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; left: 50%; top: -80px; transform: translateX(-50%); z-index: 3; margin: 0px 0px; }
-section#footer div.footer { min-height: 170px; flex-direction: column; justify-content: center; align-items: flex-start; position: relative; z-index: 1; }
-section#footer div.footer div.brand { position: absolute; top: 80px; text-align: left; margin: auto; }
+section#footer div.footer a#emblem_link div.emblem { width: 150px; height: 150px; background-image: url('./images/jpgobbi_logo_withoutbg_cropped.png'); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; left: 50%; top: 50px; transform: translateX(-50%); z-index: 3; margin: 0px 0px; }
+section#footer div.footer { min-height: 300px; flex-direction: column; justify-content: center; align-items: flex-start; position: relative; z-index: 1; }
+section#footer div.footer div.brand { position: absolute; bottom: 0px; text-align: left; margin: auto; }
 section#footer div.footer div.brand h1.brand_title { color: #496D96; margin-bottom: 5px; font-weight: 700; margin-left: 10px; }
 section#footer div.footer div.brand h1.brand_title span.brand_span { color: #B1BECD; }
 section#footer div.footer div.brand h2.brand_subtitle { font-size: 0.8rem; text-transform: uppercase; font-weight: 500; color: #B1BECD; margin-bottom: 5px; margin-left: 10px; }
 section#footer div.footer div.brand h2.brand_subtitle span.brand_span { color: #496D96; font-weight: 700; }
 section#footer div.footer div.brand h3.company_address { font-size: 0.8rem; color: #B1BECD; text-transform: uppercase; margin-bottom: 5px; margin-left: 10px; }
-section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 500; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
+section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 500; text-transform: uppercase; color: #B1BECD; margin-left: 10px; margin-bottom: 15px; }
 section#footer div.footer div.brand h4.copyright span.copy_company { color: #496D96; }
-section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 15px; right: 20px; color: #3B5998; text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: all 0.3s; }
+section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; bottom: 100px; right: 25px; color: #3B5998; text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: all 0.3s; }
 /* End Footer Section */
 /* General Keyframes */
     @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.6); } }
@@ -123,15 +123,19 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
 /* Media Query For Tablet */ 
 @media only screen and (min-width: 768px) {
     /* Main Header Menu */
-    div.brand h1.brand_title { font-size: 2.8rem; }
+    section#header div.header div.nav_bar { margin-top: 20px; }
+    section#header div.header div.nav_bar div.nav_list ul.nav_options a { margin-top: 20px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger { width: 80px; height: 80px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar { width: 45px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after { top: 12px; }
     section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 12px; }
     /* End Main Header Menu */
     /* Hero Section */
-    .call_to_action { font-size: 2.5rem; padding: 20px 40px; }
-    section#hero div.hero div.hero_content h1.hero_title { font-size: 6rem; }
+    section#hero { background-size: 150%; }
+    section#hero div.hero div.hero_content { width: 100%; display: flex; flex-direction: row; justify-content: space-around; }
+    section#hero div.hero div.hero_content div.company_logo { width: 300px; height: 300px; }
+    section#hero div.hero div.hero_content div.hero_titles { align-items: flex-end; }
+    section#hero div.hero div.hero_content div.hero_titles h1.hero_title { font-size: 5rem; }
     section#hero div.hero div.middle { position: absolute; right: 0%; bottom: 23px; margin-right: 37px; }
         /* End Hero Section */
     /* Services Section */
@@ -142,17 +146,18 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.6rem; }
     /* End Services Section */
     /* Projects Section */
+    section#projects { background-size: 125%, 150%; }
     section#projects div.projects div.projects_header h1.section_title { font-size: 4rem; }
     section#projects div.projects div.projects_header p { font-size: 1.8rem; padding: 0px 40px;}
-    section#projects div.projects div.all_projects { margin: 20px; background-color: transparent; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); margin-top: 50px; }
-    section#projects div.projects div.all_projects div.project_item { flex-direction: row; background: transparent; border-radius: 0px; box-shadow: none;}
+    section#projects div.projects div.all_projects { margin: 30px; background-color: transparent; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); margin-top: 50px; }
+    section#projects div.projects div.all_projects div.project_item { flex-direction: row; background: transparent; border-radius: 0px; box-shadow: none; }
     section#projects div.projects div.all_projects div.project_item:nth-child(even) { flex-direction: row-reverse; }
     section#projects div.projects div.all_projects div.project_item { height: 100%; margin: 0px; width: 100%; }
     section#projects div.projects div.all_projects div.project_item.upleft_border { border-top-left-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item.upright_border { border-top-right-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item.downleft_border { border-bottom-left-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item.downright_border { border-bottom-right-radius: 30px; }
-    section#projects div.projects div.all_projects div.project_item div.project_info { height: 400px; border-radius: 0px; position: relative; z-index: 1; }
+    section#projects div.projects div.all_projects div.project_item div.project_info { height: 400px; border-radius: 0px; position: relative; z-index: 1; background-color: #485563; }
     section#projects div.projects div.all_projects div.project_item div.project_info::after { content: ''; width: 95%; height: 95%; background-color: #29323C; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; border-radius: 30px; }
     section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 2rem; position: relative; top: 5px; z-index: 2; transition: all 0.2s ease-in-out; transition-property: box-shadow; }  
     section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-size: 1.6rem; line-height: 2.2rem; position: relative; z-index: 2; }
@@ -163,6 +168,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.90); }
     /* End Projects Section */
     /* Contact Section */
+    section#contact { background-size: 200%, 150%; background-position: top, bottom; }
     section#contact div.contact div.contact_header h1.section_title { font-size: 4rem; }
     section#contact div.contact div.contact_header p { font-size: 1.8rem; padding: 0px 40px; }
     section#contact div.contact div.contact_items { margin-top: 70px; flex-direction: row; flex-wrap: wrap; }
@@ -171,11 +177,13 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#contact div.contact div.contact_items div.contact_item div.contact_info h3.contact_detail { font-size: 1.6em; }
     /* End Contact Section */
     /* Footer Section */
-    section#footer div.footer { min-height: 300px; }
-    section#footer div.footer div.brand h2.brand_subtitle { font-size: 1.2rem; }
-    section#footer div.footer div.brand h3.company_address { font-size: 1.2rem; }
-    section#footer div.footer div.brand h4.copyright { font-size: 1.2rem; }
-    section#footer div.footer a.social_media_icon i { font-size: 7rem; }
+    section#footer { background-size: 150%; }
+    section#footer div.footer a#emblem_link div.emblem { width: 200px; height: 200px; top: 0px; }
+    section#footer div.footer div.brand h1.brand_title { font-size: 1.3rem; }
+    section#footer div.footer div.brand h2.brand_subtitle { font-size: 1.3rem; }
+    section#footer div.footer div.brand h3.company_address { font-size: 1.3rem; }
+    section#footer div.footer div.brand h4.copyright { font-size: 1.3rem; }
+    section#footer div.footer a.social_media_icon i { font-size: 7rem; top: 50px; }
     /* End Footer Section */
 }
 /* End Media Query For Tablet */
@@ -183,9 +191,9 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
 @media only screen and (min-width: 1200px) {
     /* Main Header Menu */
     section#header div.header div.nav_bar { max-width: 1200px; }
-    section#header div.header div.nav_bar div.nav_list ul.nav_options { position: initial; display: block; height: auto; width: fit-content; background-image: none; }
+    section#header div.header div.nav_bar div.nav_list ul.nav_options { position: initial; display: block; min-height: 60px; height: auto; width: fit-content; background-image: none; }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li { display: inline-block; }
-    section#header div.header div.nav_bar div.nav_list ul.nav_options li a { font-size: 2rem; border-radius: 20px; margin-top: 0px; margin-bottom: 0px; transition: 0.2s ease-in-out; transition-property: color, background-color, transform; }
+    section#header div.header div.nav_bar div.nav_list ul.nav_options li a { font-size: 2rem; border-radius: 20px; margin-top: 0px; margin-bottom: 0px; transition: 0.2s ease-in-out; transition-property: color, background-color, transform; flex-direction: row; justify-items: center; align-items: center; }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li { font-size: 2em; transform: scale(1.1); }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li:hover a { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.8); }
     section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { font-size: 2rem; color: #29323C; background-color: #B1BECD; border-radius: 20px; transform: scale(0.80); }
