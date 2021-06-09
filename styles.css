@@ -13,7 +13,7 @@ p { color: black; font-size: 1.5rem; margin-top: 5px; line-height: 2.5rem; font-
 /* Main Header Menu */
 section#header { position: fixed; z-index: 1000; left: 0px; top: 0px; width: 100vw; height: auto; transition: 0.3s ease-out; transition-property: top; transition-delay: 0.15s; }
 section#header div.header { min-height: 60px; transition: 0.6s ease; }
-section#header div.header div.nav_bar { width: auto; height: 100%; max-width: 1300px; padding: 10px 10px; margin-top: 20px; border-radius: 20px; background-color: #29323C; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
+section#header div.header div.nav_bar { width: auto; height: 100%; max-width: 1300px; padding: 10px 10px; margin-top: 20px; border-radius: 50%; background-color: #29323C; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
 section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; align-self: center; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; border-radius: 20px; text-transform: uppercase; padding: 20px; margin-top: 20px; margin-bottom: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
@@ -32,7 +32,7 @@ section#header div.header div.progress_bar { background-color: #496D96; height: 
 section#hero { background-image: url(./vectors/wave_hero.svg); background-repeat: no-repeat; background-size: 120%; }
 section#hero div.hero { max-width: 1200px; margin: 0px auto; padding: 0px 50px; justify-content: flex-start; }
 section#hero div.hero div.hero_content { width: 100%; display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
-section#hero div.hero div.hero_content div.company_logo { width: 250px; height: 250px; background-image: url(./images/jpgobbi_logo_withoutbg_cropped.png); background-repeat: no-repeat; background-size: contain; }
+section#hero div.hero div.hero_content div.company_logo { width: 200px; height: 200px; background-image: url(./images/jpgobbi_logo_withoutbg_cropped.png); background-repeat: no-repeat; background-size: contain; }
 section#hero div.hero div.hero_content div.hero_titles { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 15px; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title { display: block; width: fit-content; font-size: 3.8rem; position: relative; color: transparent; animation: text_reveal 0.5s ease forwards; animation-delay: 1s; }
 section#hero div.hero div.hero_content div.hero_titles h1.hero_title:nth-child(1) { animation-delay: 1s; }
@@ -47,7 +47,7 @@ section#hero div.hero div.middle div.mouse { width: 45px; height: 75px; }
 section#hero div.hero div.middle div.mouse::before { content: ''; width: 20px; height: 20px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 20px; margin-left: -8px; cursor: pointer; background-color: #29323C; border-radius: 50%; animation: mouse_scroll 3s cubic-bezier(0.75, -0.95, 0.25, 0.5) infinite; }
 /* End Hero Section */
 /* Services Section */
-section#services { background-image: url(./vectors/wave_services.svg); background-repeat: no-repeat; background-size: 100%; background-position: bottom;}
+section#services { background-image: url(./vectors/wave_services.svg); background-repeat: no-repeat; background-size: 150%; background-position: bottom; }
 section#services div.services div.service_top h1.section_title { font-size: 2.6rem; }
 section#services div.services { flex-direction: column; text-align: center; max-width: 1400px; margin: 0px auto; padding: 100px 0px; }
 section#services div.services div.service_top { max-width: 1400px; margin: 0px auto; }
@@ -201,6 +201,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
         @keyframes mouse_scroll { 0% { opacity: 0; transform: translateY(0) scale(0.6); } 10% { opacity: 1; transform: translateY(-20px) scale(1.2); } 100% { opacity: 0; transform: translateY(14px) scale(0.3); } }
     /* End Section Home */
     /* Services Section */
+    section#services { background-size: 100%; }
     section#services div.services div.service_top p  { font-size: 2rem; }
     section#services div.services div.service_bottom div.service_item { flex-basis: 22%; margin: 1.5%; transition: 0.3s ease-in-out; transition-property: transform; }
     section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.7rem; }
