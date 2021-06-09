@@ -16,7 +16,8 @@ section#header div.header { min-height: 60px; transition: 0.6s ease; }
 section#header div.header div.nav_bar { width: auto; height: 100%; max-width: 1300px; padding: 10px 10px; margin-top: 10px; border-radius: 50%; background-color: #29323C; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); }
 section#header div.header div.nav_bar div.nav_list ul.nav_options { list-style: none; position: absolute; background-color: #29323C; width: 100vw; height: 100vh; left: 100%; top: 0%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1; transition: 0.3s ease; transition-property: left; align-self: center; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options.active { left: 0%; }
-section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; border-radius: 20px; text-transform: uppercase; padding: 20px; margin-top: 20px; margin-bottom: 20px; display: block; transition: 0.3s ease; transition-property: font-size, color; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options a { font-size: 3.5rem; font-weight: 500; letter-spacing: 0.2rem; text-decoration: none; color: #B1BECD; border-radius: 20px; text-transform: uppercase; padding: 5px 20px; margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; transition: 0.3s ease; transition-property: font-size, color; }
+section#header div.header div.nav_bar div.nav_list ul.nav_options li.nav_link a i { color: #496D96; margin-bottom: 10px; }
 section#header div.header div.nav_bar div.nav_list ul.nav_options li a.active { color: #29323C; background-color: #B1BECD; }
 section#header div.header div.nav_bar div.nav_list div.hamburger { height: 50px; width: 50px; display: inline-block; border: 3px solid #354b6c; border-radius: 50%; position: relative; display: flex; align-items: center; justify-content: center; z-index: 100; cursor: pointer; transform: scale(0.8); }
 section#header div.header div.nav_bar div.nav_list div.hamburger::after { position: absolute; content: ''; height: 100%; width: 100%; border-radius: 50%; border: 3px solid #B1BECD; animation: hamburger_puls 2s ease infinite; }
@@ -26,7 +27,7 @@ section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::after 
 section#header div.header div.nav_bar div.nav_list div.hamburger div.bar::before { bottom: 8px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::before { bottom: 0px; }
 section#header div.header div.nav_bar div.nav_list div.hamburger.active div.bar::after { top: 0px; }
-section#header div.header div.progress_bar { background-color: #496D96; height: 10px; width: 0%; position: fixed; left: 0px; bottom: 0px; transition: all 0.3s; }
+section#header div.header div.progress_bar { background-color: #29323C; height: 10px; width: 0%; position: fixed; left: 0px; bottom: 0px; transition: all 0.3s; }
 /* End Main Header Menu */
 /* Hero Section */
 section#hero { background-image: url(./vectors/wave_hero.svg); background-repeat: no-repeat; background-size: 120%; }
@@ -66,7 +67,7 @@ section#services div.services div.service_bottom div.service_item div.icon_four 
 section#services div.services div.service_bottom div.service_item h2.service_title { font-size: 1.5rem; margin: auto; color: #B1BECD; margin-bottom: 15px; text-transform: uppercase; z-index: 2; background-color: #29323C; padding: 10px; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: all 0.2s ease-in-out; transition-property: box-shadow; }
 /* End Services Section */
 /* Projects Section */
-section#projects { background-image: url(./vectors/wave_about.svg), url(./vectors/wave_about2.svg); background-repeat: no-repeat; background-size: 100%; background-position: top, bottom; }
+section#projects { background-image: url(./vectors/wave_about.svg), url(./vectors/wave_about2.svg); background-repeat: no-repeat; background-size: 350%, 350%; background-position: top, bottom; }
 section#projects svg { margin-top: -200px; }
 section#projects div.projects div.projects_header h1.section_title { font-size: 2.6rem; }
 section#projects div.projects div.projects_header { max-width: 1400px; margin: 0px auto; }
@@ -75,16 +76,16 @@ section#projects div.projects div.projects_header p span.projects_description_sp
 section#projects div.projects { flex-direction: column; max-width: 1400px; margin: 0px auto; padding: 100px 0px;  }
 section#projects div.projects div.all_projects { display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 50px; background: transparent; }
 section#projects div.projects div.all_projects div.project_item { display: flex; align-items: center; justify-content: center; flex-direction: column; width: 80%; margin: 20px auto; overflow: hidden; border-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
-section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #485563; }
-section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 30px; text-transform: uppercase; color: #29323C; background-color: #B1BECD; padding: 30px; border-radius: 30px; margin-left: auto; margin-right: auto; }
+section#projects div.projects div.all_projects div.project_item div.project_info { padding: 10px; flex-basis: 50%; height: 100%; display: flex; align-items: flex-start; justify-content: center; flex-direction: column; background-color: #29323C; }
+section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.5rem; font-weight: 700; margin-left: 15px; margin-top: 15px; margin-bottom: 30px; text-transform: uppercase; color: #29323C; background-color: #B1BECD; padding: 20px; border-radius: 20px; margin-left: auto; margin-right: auto; }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-weight: 500; font-size: 1.4rem; color: #B1BECD; line-height: 2.3rem; text-align: left; margin-bottom: 15px; }
 section#projects div.projects div.all_projects div.project_item div.project_info p.project_description span.project_detail {  color: #496D96; font-weight: 700; }
 section#projects div.projects div.all_projects div.project_item div.project_image { flex-basis: 50%; height: 300px; width: 100%; overflow: hidden; position: relative; background-color: #485563; padding: 20px; display: flex; justify-content: center; align-items: center; position: relative; z-index: 1; }
-section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 10%; background-color: #485563; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
+section#projects div.projects div.all_projects div.project_item div.project_image::after { content: ''; width: 100%; height: 10%; background-color: #29323C; position: absolute; left: 0px; top: 0px; z-index: -1; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); }
 section#projects div.projects div.all_projects div.project_item div.project_image img { transition: 0.3s ease; transition-property: transform; width: 90%; height: auto; transform: scale(0.9); bottom: 0px;  }
 /* End Projects Section */
 /* Contact Section */
-section#contact { background-image: url(./vectors/wave_contact.svg), url(./vectors/world_map_contact.svg); background-repeat: no-repeat; background-size: 100%, 80%; background-position: top, bottom; }
+section#contact { padding: 100px 0px 0px 0px; background-image: url(./vectors/wave_contact.svg), url(./vectors/world_map_contact.svg); background-repeat: no-repeat; background-size: 350%, 300%; background-position: top, center; }
 section#contact div.contact div.contact_header h1.section_title { font-size: 2.6rem; }
 section#contact div.contact { flex-direction: column; max-width: 1400px; margin: 0px auto; margin-bottom: 50px; }
 section#contact div.contact div.contact_header p { max-width: 1400px; padding: 0px 30px; font-weight: 400;  }
@@ -92,25 +93,25 @@ section#contact div.contact div.contact_header p span.contact_span { color: #293
 section#contact div.contact div.contact_items { max-width: 1300px; min-width: 320px; margin: 50px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 1;}
 section#contact div.contact div.contact_items div.contact_item { min-width: 250px; min-height: 270px; padding: 20px; text-align: center; border-radius: 30px; padding: 30px; margin: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: 0.3s ease; transition-property: box-shadow; background-color: #B1BECD; position: relative; z-index: -1; overflow: hidden; transform: scale(1); transition-property: box-shadow, transform; }
 section#contact div.contact div.contact_items div.contact_item::after { content: ''; position: absolute; left: 0px; top: 0px; height: 55%; width: 100%; background-image: linear-gradient(45deg, #485563 20%, #29323C 80%); border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); opacity: 0.8; z-index: -1;  }
-section#contact div.contact div.contact_items div.contact_item div.icon { width: 70px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
+section#contact div.contact div.contact_items div.contact_item div.icon { width: 80px; margin: 0 auto; margin-bottom: 10px; transition: 0.3s ease; transition-property: transform; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h1.contact_title { font-size: 1.5rem; font-weight: 700; color: #B1BECD; margin-bottom: 40px; text-transform: uppercase; position: absolute; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 2; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info::after { content: ''; width: 60%; height: 15%; background-color: #29323C; position: absolute; bottom: 0; left: 50%; top: 55%; transform: translate(-50%, -55%); z-index: 1; border-radius: 12px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); transition: all 0.2s ease-in-out; transition-property: box-shadow; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h2.contacter { font-size: 1.4rem; line-height: 2rem; text-transform: uppercase; font-weight: 700; color: #496D96; margin-top: 70px; }
 section#contact div.contact div.contact_items div.contact_item div.contact_info h3.contact_detail { font-size: 1.4rem; color: #29323C; font-weight: 500; margin-top: 10px; }
 /* End Contact Section */
 /* Footer Section */
-section#footer { background-image: url(./vectors/wave_footer.svg); background-repeat: no-repeat; background-size: 100%; background-position: bottom; }
-section#footer a#emblem_link div.emblem { width: 150px; height: 150px; background-image: url('./images/jpgobbi_logo_withoutbg_cropped.png'); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; left: 50%; top: -80px; transform: translateX(-50%); margin: auto; z-index: 3; }
-section#footer div.footer { min-height: 170px; flex-direction: column; justify-content: center; align-items: center; position: relative; z-index: 1;}
-section#footer div.footer div.brand { position: absolute; top: 80px; text-align: center; margin: auto; }
-section#footer div.footer div.brand h1.brand_title { color: #496D96; margin-bottom: 10px; font-weight: 700; }
+section#footer { background-image: url(./vectors/wave_footer.svg); background-repeat: no-repeat; background-size: 270%; background-position: bottom; }
+section#footer div.footer a#emblem_link div.emblem { width: 150px; height: 150px; background-image: url('./images/jpgobbi_logo_withoutbg_cropped.png'); background-repeat: no-repeat; background-position: center; background-size: 100%; position: absolute; left: 50%; top: -80px; transform: translateX(-50%); z-index: 3; margin: 0px 0px; }
+section#footer div.footer { min-height: 170px; flex-direction: column; justify-content: center; align-items: flex-start; position: relative; z-index: 1; }
+section#footer div.footer div.brand { position: absolute; top: 80px; text-align: left; margin: auto; }
+section#footer div.footer div.brand h1.brand_title { color: #496D96; margin-bottom: 5px; font-weight: 700; margin-left: 10px; }
 section#footer div.footer div.brand h1.brand_title span.brand_span { color: #B1BECD; }
-section#footer div.footer div.brand h2.brand_subtitle { font-size: 0.8rem; text-transform: uppercase; font-weight: 500; color: #B1BECD; margin-bottom: 10px; }
+section#footer div.footer div.brand h2.brand_subtitle { font-size: 0.8rem; text-transform: uppercase; font-weight: 500; color: #B1BECD; margin-bottom: 5px; margin-left: 10px; }
 section#footer div.footer div.brand h2.brand_subtitle span.brand_span { color: #496D96; font-weight: 700; }
-section#footer div.footer div.brand h3.company_address { font-size: 0.8rem; color: #B1BECD; text-transform: uppercase; margin-bottom: 10px; }
-section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 500; text-transform: uppercase; color: #B1BECD; }
+section#footer div.footer div.brand h3.company_address { font-size: 0.8rem; color: #B1BECD; text-transform: uppercase; margin-bottom: 5px; margin-left: 10px; }
+section#footer div.footer div.brand h4.copyright { font-size: 1rem; font-weight: 500; text-transform: uppercase; color: #B1BECD; margin-left: 10px; }
 section#footer div.footer div.brand h4.copyright span.copy_company { color: #496D96; }
-section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 20px; right: 20px; color: #3B5998; text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: all 0.3s; }
+section#footer div.footer a.social_media_icon i { font-size: 5rem; position: absolute; top: 15px; right: 15px; color: #3B5998; text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); transition: all 0.3s; }
 /* End Footer Section */
 /* General Keyframes */
     @keyframes hamburger_puls { 0% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1.6); } }
@@ -208,7 +209,8 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#services div.services div.service_bottom div.service_item:hover { transform: scale(1.1); }
     section#services div.services div.service_bottom div.service_item p.service_item_text { font-size: 1.7rem; }
     /* End Services Section */
-    /* Projects Section */ 
+    /* Projects Section */
+    section#projects { background-size: 100%, 100%; }
     section#projects div.projects div.projects_header p { font-size: 2rem; }
     section#projects div.projects div.all_projects div.project_item div.project_info h1.project_title { font-size: 1.9rem; } 
     section#projects div.projects div.all_projects div.project_item div.project_info p.project_description { font-size: 1.7rem; line-height: 3rem; padding: 0px 40px; }
@@ -225,6 +227,7 @@ section#footer div.footer a.social_media_icon i { font-size: 5rem; position: abs
     section#contact div.contact div.contact_items div.contact_item div.contact_info h3.contact_detail { font-size: 1.7em; }
     /* End Contact Section */
     /* Footer Section */
+    section#footer { background-size: 100%; }
     section#footer a#emblem_link div.emblem { width: 200px; height: 200px; top: -120px; }
     section#footer div.footer a.social_media_icon i:hover { transform: scale(0.8); text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
     /* End Footer Section */

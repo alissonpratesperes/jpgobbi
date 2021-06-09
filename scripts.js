@@ -206,8 +206,8 @@ function toggle() {
     var popup = document.getElementById('popup_info');
     var more_info_link = document.getElementById('more_info_link');
     var profissionalism = document.getElementById('profissionalism');
-    popup.classList.toggle('active');
-    more_info_link.classList.toggle('active');
-    profissionalism.classList.toggle('active');
+        popup.classList.toggle('active');
+        more_info_link.classList.toggle('active');
+        profissionalism.classList.toggle('active');
 }
 /* End POPUP CLICKER - Pop Up on Services Cards */
