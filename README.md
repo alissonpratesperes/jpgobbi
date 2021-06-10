@@ -1,5 +1,5 @@
 ﻿---
-<p align="center"> <img src="github/company.svg" width="30%"> </p>
+<p align="center"> <img src="github/company.png" width="30%"> </p>
 <br/>
 <p align="center">
 <img alt="Event Name" src="https://img.shields.io/badge/project-number%201-496D96"/>
