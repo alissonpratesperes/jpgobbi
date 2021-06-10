@@ -19,12 +19,8 @@
 <a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>
 </p>
-
 <br>
-
-<p align="center">
-  <img src="github/dashboard.jpg" width="100%">
-</p>
+<p align="center"> <img src="github/dashboard.png" width="100%"> </p>
 
 ## :dart: Sobre
 
