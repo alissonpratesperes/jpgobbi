@@ -14,7 +14,6 @@
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#video_game-curiosidades">Curiosidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#bomb-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#rocket-valor">Valor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#fuelpump-autor">Autor</a>
@@ -30,17 +29,9 @@ Primeiro projeto desenvolvido como eugência para a primeira empresa cliente. At
 
 Essa aplicação foi desenvolvida do zero, utilizando as seguintes tecnologias:
 
-- HTML 5
-- CSS 3
-- JAVASCRIPT
-
-## :video_game: Curiosidades
-
-- Responsivo, acesse pelo Computador, Tablet ou Smartphone;
-
-- APIs nos cards de contato, utiliza os principais aplicativos atuais para entrar em contato com a empresa;
-
-- Aplicação preparada para a navegação crossbrowsing, pronta para rodar em qualquer plataforma/sistema.
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML 5</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS 3</a>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JAVASCRIPT</a>
 
 ## :bomb: Features
 
@@ -53,6 +44,7 @@ Implementadas novas features que não estavam no escopo do projeto, mas que serv
 - **AutoHide** na barra de navegação. Para *aumentar o aproveitamento de tela no dispositivo;*
 
 - **SmoothScroll** em *código puro*. Para *rolagem suave independente do navegador/plataforma utilizada*;
+- **DarkMode** em *Media Query* para *aplicação automática* de acordo com as *preferências de cores* do dispositivo de acesso.
 
 ## :rocket: Valor
 
@@ -62,7 +54,9 @@ Iniciando nessa área de desenvolvimento como eugência, o objetivo é entregar 
 
 - Migração de uma hospedagem engessada para uma plataforma flexível, moderna e escalável;
 
-- Redução do valor anual de hospedagem em 52%.
+- Redução do valor anual de hospedagem em 52%;
+
+- Atualização anual da aplicação com a adição de recursos para a melhoria contínua e sem a geração de custos adicionais.
 
 ## :fuelpump: Autor
 
