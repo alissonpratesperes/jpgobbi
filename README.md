@@ -1,16 +1,16 @@
-﻿<p align="center">
-  <img src="github/company.png" width="25%">
-</p>
-
+﻿---
+<p align="center"> <img src="github/company.svg" width="30%"> </p>
+<br/>
 <p align="center">
-<img alt="GitHub language count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi.svg"/>
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/alissonpratesperes/jpgobbi.svg">
-<a
-href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/jpgobbi.svg">
-</a>
+<img alt="Event Name" src="https://img.shields.io/badge/project-number%201-496D96"/>
+<img alt="GitHub Language Count" 		  src="https://img.shields.io/github/languages/count/alissonpratesperes/jpgobbi?color=496D96"/>
+<a href="https://github.com/alissonpratesperes/jpgobbi/search?l=css"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alissonpratesperes/jpgobbi?color=496D96"/></a>
+<img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/alissonpratesperes/jpgobbi?color=496D96">
+<img alt="GitHub Code Size" src="https://img.shields.io/github/languages/code-size/alissonpratesperes/jpgobbi?color=496D96"/>
+<a href="https://github.com/alissonpratesperes/jpgobbi/commits/master">
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/alissonpratesperes/jpgobbi?color=496D96"></a>
 </p>
-
+<br/>
 <p align="center">
 <a href="#dart-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#battery-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
