@@ -23,7 +23,7 @@
 
 ## :dart: Sobre
 
-Primeiro projeto desenvolvido como eugência para a primeira empresa cliente. Através do desenvolvimento de um site institucional leve, moderno, e construído com as tecnologias de desenvolvimento mais modernas disponíveis atualmente.
+Primeiro projeto desenvolvido como eugência para a primeira empresa cliente. Através do desenvolvimento de um site institucional leve, moderno, e construído com as mais modernas tecnologias de desenvolvimento disponíveis atualmente.
 
 ## :battery: Tecnologias
 
